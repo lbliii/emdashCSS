@@ -1,0 +1,148 @@
+/* Flexbox Layout System */
+
+/* Spread things horizontally */
+
+.spread {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.spread-left {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.spread-right {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.spread-center {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.spread-around {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.spread-stretch {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: stretch;
+    margin: 0;
+    padding: 0;
+}
+
+.spread-base {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: baseline;
+    margin: 0;
+    padding: 0;
+}
+
+
+.spread  > * , .spread-left  > * , .spread-right  > * , .spread-around  > * , .spread-center  > * , .spread-stretch > * {
+    flex: 1;
+}
+
+
+/*  Spread Child Sizes */
+
+.is-half {
+    flex-basis: 50%;
+    flex-grow: 0;
+}
+
+.is-one-third {
+    flex-basis: 33.33333%;
+    flex-grow: 0;
+}
+
+
+.is-two-thirds {
+    flex-basis: 66.66667%;
+    flex-grow: 0;
+}
+
+.is-one-fourth {
+    flex-basis: 25%;
+    flex-grow: 0;
+}
+
+.is-three-quarters {
+    flex-basis: 75%;
+    flex-grow: 0;
+}
+
+.is-one-fifth {
+    flex-basis: 20%;
+    flex-grow: 0;
+}
+
+.is-two-fifths {
+    flex-basis: 40%;
+    flex-grow: 0;
+}
+
+.is-three-fifths {
+    flex-basis: 60%;
+    flex-grow: 0;
+}
+
+.is-four-fifths {
+    flex-basis: 80%;
+    flex-grow: 0;
+}
+
+
+/* Stack things vertically */
+
+.stack {
+    display:flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+    
+}
+
+.stack-left {
+    display:flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.stack-center {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stack-right {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.stack > *, .stack-top > *, .stack-center > *, .stack-bottom > *, .stack-stretch > * {
+    flex: 1;
+}
+

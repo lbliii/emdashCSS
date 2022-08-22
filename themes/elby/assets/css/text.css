@@ -1,0 +1,38 @@
+:root {
+    --xsmall-text: 0.75rem;
+    --small-text: 0.8rem;
+    --medium-text: 1rem;
+    --large-text: 1.2rem;
+    --xlarge-text: 1.4rem;
+    --xxlarge-text: 1.6rem;
+    --xxxlarge-text: 1.8rem;
+}
+
+.xs {
+    font-size: var(--xsmall-text);
+}
+
+.s {
+    font-size: var(--small-text);
+}
+
+.m {
+    font-size: var(--medium-text);
+}
+
+.l {
+    font-size: var(--large-text);
+}
+
+.xl {
+    font-size: var(--xlarge-text);
+}
+
+.xxl {
+    font-size: var(--xxlarge-text);
+}
+
+.xxxl {
+    font-size: var(--xxxlarge-text);
+}
+

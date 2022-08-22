@@ -1,0 +1,50 @@
+
+/* breadcrumb */
+
+.breadcrumbs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 1em;
+    align-items: center;
+}
+
+.breadcrumb::after {
+    content: "/";
+    margin: 0 0.5em;
+    color: var(--is-grey);
+}
+
+.breadcrumb:last-child::after {
+    content: "";
+}
+
+/* content-wrapper*/
+
+.content-wrapper{
+    line-height: 1.5;
+    font: 1em sans-serif;
+    color: inherit;
+    height: 100%;
+}
+
+.content-wrapper> * {
+    white-space: pre-wrap;
+}
+
+.content-wrapper a {
+    color: var(--is-red);
+}
+
+/* Headers */
+.content-wrapper> h1, .content-wrapper> h2, .content-wrapper> h3, .content-wrapper> h4, .content-wrapper> h5, .content-wrapper> h6 {
+    color: inherit;
+    margin-top: 30px;
+    margin-bottom: 1em;
+    margin-left: 0em;
+    
+}

@@ -1,0 +1,18 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    {{ $core := resources.Get "css/core.css" }}
+    {{ $layout := resources.Get "css/layout.css" }}
+    {{ $spacing := resources.Get "css/spacing.css"  }}
+    {{ $color := resources.Get "css/color.css"  }}
+    {{ $shift := resources.Get "css/shift.css"  }}
+    {{ $shape := resources.Get "css/shape.css"  }}
+    {{ $text := resources.Get "css/text.css"  }}
+    {{ $behavior := resources.Get "css/behavior.css"  }}
+
+    {{ $css := slice $core $layout $spacing $color $shift $shape $text $behavior| resources.Concat "css/test.css"}}
+    <link rel="stylesheet" href="{{ $css.Permalink }}" media="screen" />
+</head>
