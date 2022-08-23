@@ -1,6 +1,6 @@
 baseURL: '/'
 languageCode: 'en-us'
-title: 'My New Hugo Site'
+title: 'ELBY css'
 
 theme: elby 
 staticDir: "/themes/elby/static"

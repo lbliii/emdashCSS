@@ -38,7 +38,7 @@
 
 .green {
     background-color: var(--is-green);
-    color: var(--is-text-color-inverted) !important;
+    color: var(--is-text-color) !important;
 }
 
 .orange {

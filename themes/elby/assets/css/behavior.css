@@ -59,22 +59,15 @@
     border: 1px solid currentColor;
 }
 
+.is-outlined-black {
+    border: 1px solid #000;
+}
+
+.is-outlined-white {
+    border: 1px solid #fff;
+}
+
 /* Set child item position to start, center, or end of a stack or spread */
-
-.set-start {
-    height: fit-content;
-    align-self: flex-start;
-}
-
-.set-center {
-    height: fit-content;
-    align-self: center;
-}
-
-.set-end {
-    height: fit-content;
-    align-self: flex-end;
-}
 
 .reverse {
     flex-direction: row-reverse;
@@ -85,7 +78,6 @@
 .flexless {
     flex: none;
 }
-
 
 /* Hide */
 

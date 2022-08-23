@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     {{- partial "head.html" . -}}
-    <body class="black">
-        <nav data-about="first-blade" class="black sticky">
+    <body class="stack black">
+        <nav  class="black sticky">
             <section id="buttons" class="spread-center inner-flexless">
                 <img src="/images/logo.svg" class="">
                 <button class="button rounded-7 is-outlined xs  my-3 mx-1 p-2"> one</button>
@@ -11,28 +11,132 @@
                 <button class="button rounded-7 xs purple my-3 mx-1 p-2"> four</button>
             </section>
         </nav>
-        
-        <blade class="spread inner-center purple  p-7 shadow-inner-3">
+<section class="spread">
+    <div class="item is-full green text-center m-1"> item is-full </div>
+</section>
+<section class="spread">
+    <div class="item is-four-fifths yellow text-center m-1"> item is-four-fifths </div>
+    <div class="content white text-center m-1"> auto </div>
+</section>
+<section class="spread">
+    <div class="item is-three-fourths blue text-center m-1"> item is-three-fourths </div>
+    <div class="content white text-center m-1"> auto </div>
+</section>
+<section class="spread">
+    <div class="item is-two-thirds orange text-center m-1"> item is-two-thirds </div>
+    <div class="content white text-center m-1"> auto </div>
+</section>
+<section class="spread">
+    <div class="item is-three-fifths yellow text-center m-1"> item is-three-fifths </div>
+    <div class="content white text-center m-1"> auto </div>
+</section>
+<section class="spread">
+    <div class="item is-half blue text-center m-1"> item is-half </div>
+    <div class="content white text-center m-1"> auto </div>
+</section>
+<section class="spread">
+    <div class="item is-two-fifths yellow text-center m-1"> item is-two-fifths </div>
+    <div class="content white text-center m-1"> auto </div>
+</section>
+<section class="spread">
+    <div class="item is-one-third orange text-center m-1"> item is-one-third </div>
+    <div class="content white text-center m-1"> auto </div>
+</section>
+<section class="spread">
+    <div class="item is-one-fourth blue text-center m-1"> item is-one-fourth </div>
+    <div class="content white text-center m-1"> auto </div>
+</section>
+<section class="spread">
+    <div class="item is-one-fifth yellow text-center m-1"> item is-one-fifth </div>
+    <div class="content white text-center m-1"> auto </div>
+</section>
+<section class="spread display-pattern2 p-5">
+    <div class="item is-one-third is-fullsize-mobile">
+        <div class="content-wrapper text-center white rounded-2 m-3 p-3"> 
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </div> 
+    </div>
+    <div class="item is-one-third is-fullsize-mobile">
+        <div class="content-wrapper text-right white rounded-2  m-3 p-3 "> 
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </div> 
+    </div>
+    <div class="item is-one-third is-fullsize-mobile">
+        <div class="content-wrapper text-center white rounded-2 m-3 p-3 "> 
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </div> 
+    </div>
+</section>
+<section class="spread-center py-6">
+    <section class="item is-one-fourth">
+        <div class="white rounded m-3 p-3">
+            <img src="/images/patty.svg">
+            <img src="/images/patty.svg">
+            <div class="content-wrapper text-center">
+                <div class="l">Patty</div>
+                <p class="subtitle">A simple, responsive, and lightweight CSS framework.</p>
+            </div>
+        </div>
+    </section>
+    <section class="item is-one-fourth text-right">
+        <div class="white rounded m-3 p-3">
+            <img src="/images/patty.svg">
+            <img src="/images/patty.svg">
+            <div class="content-wrapper text-center">
+                <div class="l">Patty</div>
+                <p class="subtitle">A simple, responsive, and lightweight CSS framework.</p>
+            </div>
+        </div>
+    </section>
+    <section class="item is-one-fourth">
+        <div class="white rounded m-3 p-3 text-center">
+            <img src="/images/patty.svg"> 
+            <div class="content-wrapper text-left">
+                <div class="l">Patty</div>
+                <p class="subtitle">A simple, responsive, and lightweight CSS framework.</p>
+            </div>
+        </div>
+    </section>
+    <section class="item is-one-fourth">
+        <div class="white rounded m-3 p-3">
+            <img src="/images/patty.svg">
+            <img src="/images/patty.svg">
+            <img src="/images/patty.svg">
+            <div class="content-wrapper text-justified">
+                <div class="l">Patty</div>
+                <p class="subtitle">A simple, responsive, and lightweight CSS framework.</p>
+            </div>
+        </div>
+    </section>
+</section>
+
+        <section class="spread inner-center purple  p-7 shadow-inner-3">
             <div class="content-wrapper text-center is-fullsize-mobile">
-                    <h1 class=""> Hello, World!</h1>
+                    <h1 class=""> Goodbye, World!</h1>
                     <p> Lorem ipsump </p>
             </div>
             <div class="spread rounded-2 display-pattern py-7 is-fullsize-mobile">
-                <div class="is-one-third is-fullsize-mobile">
-                    <div class="content-wrapper text-center"> 
-                        <p class="white m-3 p-3 rounded shadow-sunrise-3">
+                <div class="item-2 is-one-third is-fullsize-mobile">
+                    <div class="content-wrapper white rounded text-center white m-3 p-3"> 
+                        <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                         </p>
                     </div> 
                 </div>
-                <div class="is-one-third is-fullsize-mobile">
-                    <div class="content-wrapper text-right"> 
-                        <p class="white  m-3 p-3 rounded shadow-noon-3">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                <div class="item-1 is-one-third is-fullsize-mobile">
+                    <div class="content-wrapper text-right white  m-3 p-3 rounded shadow-noon-3"> 
+                        <p class="">
+                            I'm gonna Vom I'm gonna Vom I'm gonna Vom I'm gonna Vom I'm gonna Vom I'm gonna Vom I'm gonna Vom I'm gonna Vom I'm gonna Vom I'm gonna Vom I'm gonna Vom I'm gonna Vom I'm gonna Vom
                         </p>
                     </div> 
                 </div>
-                <div class="is-one-third is-fullsize-mobile">
+                <div class="item-3 is-one-third is-fullsize-mobile">
                     <div class="content-wrapper text-center"> 
                         <p class="white m-3 p-3 rounded shadow-sunset-3">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -40,8 +144,9 @@
                     </div> 
                 </div>
             </div>
-        </blade>
-        <slice  class="spread-left display-pattern2 p-5">
+        </section>
+
+        <section  class="spread-left display-pattern2 p-5">
                 <div class="is-one-third is-fullsize-mobile">
                     <div class="content-wrapper text-right"> 
                         <p class="white rounded-2  m-3 p-3">
@@ -56,8 +161,8 @@
                         </p>
                     </div> 
                 </div>
-        </slice>
-        <blade class="spread inner-center purple p-7 shadow-inner-3">
+        </section>
+        <section class="spread inner-center purple p-7 shadow-inner-3">
             <div class="spread rounded-2 is-fullsize-mobile display-pattern py-7">
                 <div class="is-one-third is-fullsize-mobile">
                     <div class="content-wrapper text-center "> 
@@ -85,8 +190,8 @@
                     <h1 > Hello, World!</h1>
                     <p> Lorem ipsump </p>
             </div>
-        </blade>        
-        <slice class="spread-right display-pattern2 p-5">
+        </section>        
+        <section class="spread-right display-pattern2 p-5">
                 <div class="is-one-third is-fullsize-mobile">
                     <div class="content-wrapper text-right"> 
                         <p class="white rounded-2  m-3 p-3 ">
@@ -101,7 +206,7 @@
                         </p>
                     </div> 
                 </div>
-        </slice>
+        </section>
 
 
         <nav id="breadcrumbs" class="breadcrumbs p-1 m-1" aria-label="breadcrumbs">

@@ -6,65 +6,75 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    margin: 0;
-    padding: 0;
 }
 
 .spread-left {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
-    margin: 0;
-    padding: 0;
 }
 
 .spread-right {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
-    margin: 0;
-    padding: 0;
 }
 
 .spread-center {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin: 0;
-    padding: 0;
 }
 
 .spread-around {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    margin: 0;
-    padding: 0;
 }
-
-.spread-stretch {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: stretch;
-    margin: 0;
-    padding: 0;
-}
-
-.spread-base {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: baseline;
-    margin: 0;
-    padding: 0;
-}
-
 
 .spread  > * , .spread-left  > * , .spread-right  > * , .spread-around  > * , .spread-center  > * , .spread-stretch > * {
     flex: 1;
 }
 
+/* Spread Items Ordering*/
 
-/*  Spread Child Sizes */
+.item {
+    order: 0;
+}
+
+.item-1 {
+    order: 1;
+}
+
+.item-2 {
+    order: 2;
+}
+
+.item-3 {
+    order: 3;
+}
+
+.item-4 {
+    order: 4;
+}
+
+.item-5 {
+    order: 5;
+}
+
+.item-6 {
+    order: 6;
+}
+
+.item-7 {
+    order: 7;
+}
+
+/*  Spread  Sizes */
+
+.is-full {
+    flex-basis: 100%;
+}
 
 .is-half {
     flex-basis: 50%;
@@ -87,7 +97,7 @@
     flex-grow: 0;
 }
 
-.is-three-quarters {
+.is-three-fourths {
     flex-basis: 75%;
     flex-grow: 0;
 }
@@ -145,4 +155,7 @@
 .stack > *, .stack-top > *, .stack-center > *, .stack-bottom > *, .stack-stretch > * {
     flex: 1;
 }
+
+
+
 

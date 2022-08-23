@@ -26,10 +26,8 @@
 /* content-wrapper*/
 
 .content-wrapper{
-    line-height: 1.5;
     font: 1em sans-serif;
     color: inherit;
-    height: 100%;
 }
 
 .content-wrapper> * {
