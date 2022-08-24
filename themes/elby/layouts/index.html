@@ -1,54 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html class="purple inner-darken-7">
     {{- partial "head.html" . -}}
-    <body class="stack black">
-        <nav  class="black sticky">
-            <section class="spread-center inner-pinned-center">
-                <img src="/images/logo.svg" class="is-fit">
-                <section class="is-fit inner-m-1 inner-p-2 inner-rounded-7">
-                    <button class="button is-outlined xs"> one</button>
-                    <button class="button xs purple "> two</button>
-                    <button class="button xs purple "> three</button>
-                    <button class="button xs purple "> four</button>
+    <body class="stack">
+        <nav  class="spread sticky brighten-1">
+                <section class="is-one-third is-shrunk-mobile"> 
+                    <img src="/images/logo.svg" class="is-fit grayscale">
                 </section>
+                <section class="is-one-third is-hidden-mobile">
+                    <div class="spread-center inner-is-fit  inner-m-1 inner-p-3 inner-rounded-1 inner-darken-3">
+                        <button class="button xs"> one</button>
+                        <button class="button xs "> two</button>
+                        <button class="button xs "> three</button>
+                    </div>
+                </section>
+                <section class="is-one-third "> 
+                    <div class="spread-right inner-is-fit  inner-m-1 inner-p-3 inner-rounded-1 ">
+                        <button class="button xs black "> Login</button>
+                    </div>
+                </section>
+        </nav>
+
+        <section class="spread-around red"> 
+            <section class="is-one-third">
+                 <div class="white m-1 p-1"> one </div>
             </section>
-        </nav>
- 
-   
-        <section class="spread-center inner-pinned-top inner-is-fit inner-rounded-1">
-            <div class="content-wrapper white pt-1 pb-2 px-1 m-3"> 
-                <img src="https://via.placeholder.com/100" class="">
-                <p class="l text-center pb-2 px-1 m-3"> 1x1</p>
-            </div>
-            <div class="content-wrapper white pt-1 pb-2 px-1 m-3"> 
-                <img src="https://via.placeholder.com/200x100" class="">
-                <p class="l text-center pb-2 px-1 m-3"> 2x1</p>
-            </div>
-            <div class="content-wrapper white pt-1 pb-2 px-1 m-3"> 
-                <img src="https://via.placeholder.com/150x100" class="">
-                <p class="l text-center pb-2 px-1 m-3"> 3x2</p>
-            </div>
-            <div class="content-wrapper white pt-1 pb-2 px-1 m-3"> 
-                <img src="https://via.placeholder.com/75x100" class="">
-                <p class="l text-center pb-2 px-1 m-3"> 3x4</p>
-            </div>
-            <div class="content-wrapper white pt-1 pb-2 px-1 m-3"> 
-                <img src="https://via.placeholder.com/80x100" class="">
-                <p class="l text-center pb-2 px-1 m-3"> 4x5</p>
-            </div>
-
-
-
+            <section class="is-one-third">
+                 <div class="white m-1 p-1"> two </div>
+            </section>
         </section>
+ 
 
-
-
-        <nav id="breadcrumbs" class="breadcrumbs p-1 m-1" aria-label="breadcrumbs">
-            <div class="is-one-fifth is-hidden-mobile"> </div>
-            <div class="breadcrumb"> <a href="" class=" p-1">one</a> </div>
-            <div class="breadcrumb "> <a href="" class=" p-1">two</a> </div>
-            <div class="breadcrumb "> <a href="" class=" p-1">three</a> </div>
-        </nav>
         <section class="spread">
            <aside id="tree" class="stack inner-flexless is-hidden-mobile pt-0 px-4">
                 <a href="" class=""> link one </a>
@@ -56,7 +37,12 @@
                 <a href="" class=""> link three </a>
             </aside>
             <div class="is-four-fifths fullsize-mobile">
-                <article class="content-wrapper white p-7">
+                <article class="content-wrapper white p-4">
+                    <section class="spread-right">
+                        <div class="button red is-fit l px-3 py-2 m-2 rounded-8 ghost-3 "></div>
+                        <div class="button gray is-fit l px-3 py-2 m-2 rounded-8 ghost-3 "></div>
+                        <div class="button green is-fit l px-3 py-2 m-2 rounded-8 ghost-3 "></div>
+                    </section>
                     {{ .Content}}
                 </article>
             </div>

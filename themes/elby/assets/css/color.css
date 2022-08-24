@@ -22,8 +22,159 @@
     --is-light-orange : #ffbf80;
     --is-light-purple : #bf80ff;
     --is-light-pink : #ff80bf;
+    --is-primary: var(--is-purple);
 }
 
+/* Brand */
+
+.is-primary {
+    background-color: var(--is-primary);
+}
+
+/* Photo Filters */
+
+.grayscale {
+    filter: grayscale(100%);
+}
+.contrast {
+    filter: contrast(200%);
+}
+
+.hue-rotate {
+    filter: hue-rotate(90deg);
+}
+
+.dropshadow-1  {
+    filter: drop-shadow(4px 4px 5px var(--is-dark-gray));
+}
+
+.dropshadow-2 {
+    filter: drop-shadow(8px 8px 10px var(--is-dark-gray));
+}
+
+.dropshadow-3 {
+    filter: drop-shadow(16px 16px 20px var(--is-dark-gray));
+}
+
+.blur {
+    filter: blur(5px);
+}
+
+.no-dropshadow * {
+    filter: none !important;
+}
+.brighten-1  {
+    box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.1);
+}
+.brighten-2  {
+    box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.2);
+}
+
+.brighten-3  {
+    box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.3);
+}
+
+.brighten-4  {
+    box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.4);
+}
+
+.brighten-5  {
+    box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.5);
+}
+
+.brighten-6  {
+    box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.6);
+}
+
+.brighten-7  {
+    box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.7);
+}
+
+.inner-brighten-1 > * {
+    box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.1);
+}
+
+.inner-brighten-2 > * {
+    box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.2);
+}
+
+.inner-brighten-3 > * {
+    box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.3);
+}
+
+.inner-brighten-4 > * {
+    box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.4);
+}
+
+.inner-brighten-5 > * {
+    box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.5);
+}
+
+.inner-brighten-6 > * {
+    box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.6);
+}
+
+.inner-brighten-7 > * {
+    box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.7);
+}
+
+.darken-1 {
+    box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.1);
+}
+
+.darken-2 {
+    box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.2);
+}
+
+.darken-3 {
+    box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.3);
+}
+
+.darken-4 {
+    box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.4);
+}
+
+.darken-5 {
+    box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.5);
+}
+
+.darken-6 {
+    box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.6);
+}
+
+.darken-7 {
+    box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.7);
+}
+
+.inner-darken-1 > * {
+    box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.1);
+}
+
+.inner-darken-2 > * {
+    box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.2);
+}
+
+.inner-darken-3 > * {
+    box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.3);
+}
+
+.inner-darken-4 > * {
+    box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.4);
+}
+
+.inner-darken-5 > * {
+    box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.5);
+}
+
+.inner-darken-6 > * {
+    box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.6);
+}
+
+.inner-darken-7 > * {
+    box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.7);
+}
+
+/* Generic */
 
 .red {
     background-color: var(--is-red) !important;

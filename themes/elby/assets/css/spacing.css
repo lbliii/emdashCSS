@@ -17,15 +17,15 @@
 }
 
 .p-5 {
-    padding: 1.25rem;
+    padding: 3rem;
 }
 
 .p-6 {
-    padding: 1.5rem;
+    padding: 6rem;
 }
 
 .p-7 {
-    padding: 1.75rem;
+    padding: 12rem;
 }
 
 /* Top Padding */
@@ -47,15 +47,15 @@
 }
 
 .pt-5 {
-    padding-top: 1.25rem;
+    padding-top: 3rem;
 }
 
 .pt-6 {
-    padding-top: 1.5rem;
+    padding-top: 6rem;
 }
 
 .pt-7 {
-    padding-top: 1.75rem;
+    padding-top: 12rem;
 }
 
 /* Right Padding */
@@ -77,15 +77,15 @@
 }
 
 .pr-5 {
-    padding-right: 1.25rem;
+    padding-right: 3rem;
 }
 
 .pr-6 {
-    padding-right: 1.5rem;
+    padding-right: 6rem;
 }
 
 .pr-7 {
-    padding-right: 1.75rem;
+    padding-right: 12rem;
 }
 
 /* Bottom Padding */
@@ -107,15 +107,15 @@
 }
 
 .pb-5 {
-    padding-bottom: 1.25rem;
+    padding-bottom: 3rem;
 }
 
 .pb-6 {
-    padding-bottom: 1.5rem;
+    padding-bottom: 6rem;
 }
 
 .pb-7 {
-    padding-bottom: 1.75rem;
+    padding-bottom: 12rem;
 }
 
 /* Left Padding */
@@ -137,15 +137,15 @@
 }
 
 .pl-5 {
-    padding-left: 1.25rem;
+    padding-left: 3rem;
 }
 
 .pl-6 {
-    padding-left: 1.5rem;
+    padding-left: 6rem;
 }
 
 .pl-7 {
-    padding-left: 1.75rem;
+    padding-left: 12rem;
 }
 
 /* Horizontal Padding */
@@ -171,18 +171,18 @@
 }
 
 .px-5 {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .px-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
 
 .px-7 {
-    padding-left: 1.75rem;
-    padding-right: 1.75rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
 }
 
 /* Vertical Padding */
@@ -208,18 +208,18 @@
 }
 
 .py-5 {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .py-6 {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 .py-7 {
-    padding-top: 1.75rem;
-    padding-bottom: 1.75rem;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
 }
 
 /* Inner Padding */
@@ -241,15 +241,15 @@
 }
 
 .inner-p-5 > * {
-    padding: 1.25rem;
+    padding: 3rem;
 }
 
 .inner-p-6 > * {
-    padding: 1.5rem;
+    padding: 6rem;
 }
 
 .inner-p-7 > * {
-    padding: 1.75rem;
+    padding: 12rem;
 }
 
 /* Inner Top Padding */
@@ -271,15 +271,15 @@
 }
 
 .inner-pt-5 > * {
-    padding-top: 1.25rem;
+    padding-top: 3rem;
 }
 
 .inner-pt-6 > * {
-    padding-top: 1.5rem;
+    padding-top: 6rem;
 }
 
 .inner-pt-7 > * {
-    padding-top: 1.75rem;
+    padding-top: 12rem;
 }
 
 /* Inner Right Padding */
@@ -301,15 +301,15 @@
 }
 
 .inner-pr-5 > * {
-    padding-right: 1.25rem;
+    padding-right: 3rem;
 }
 
 .inner-pr-6 > * {
-    padding-right: 1.5rem;
+    padding-right: 6rem;
 }
 
 .inner-pr-7 > * {
-    padding-right: 1.75rem;
+    padding-right: 12rem;
 }
 
 /* Inner Bottom Padding */
@@ -331,15 +331,15 @@
 }
 
 .inner-pb-5 > * {
-    padding-bottom: 1.25rem;
+    padding-bottom: 3rem;
 }
 
 .inner-pb-6 > * {
-    padding-bottom: 1.5rem;
+    padding-bottom: 6rem;
 }
 
 .inner-pb-7 > * {
-    padding-bottom: 1.75rem;
+    padding-bottom: 12rem;
 }
 
 /* Inner Left Padding */
@@ -361,15 +361,15 @@
 }
 
 .inner-pl-5 > * {
-    padding-left: 1.25rem;
+    padding-left: 3rem;
 }
 
 .inner-pl-6 > * {
-    padding-left: 1.5rem;
+    padding-left: 6rem;
 }
 
 .inner-pl-7 > * {
-    padding-left: 1.75rem;
+    padding-left: 12rem;
 }
 
 /* Inner Horizontal Padding */
@@ -395,18 +395,18 @@
 }
 
 .inner-px-5 > * {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .inner-px-6 > * {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
 
 .inner-px-7 > * {
-    padding-left: 1.75rem;
-    padding-right: 1.75rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
 }
 
 /* Inner Vertical Padding */
@@ -432,18 +432,18 @@
 }
 
 .inner-py-5 > * {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .inner-py-6 > * {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 .inner-py-7 > * {
-    padding-top: 1.75rem;
-    padding-bottom: 1.75rem;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
 }
 
 
@@ -466,15 +466,15 @@
 }
 
 .m-5 {
-    margin: 1.25rem;
+    margin: 3rem;
 }
 
 .m-6 {
-    margin: 1.5rem;
+    margin: 6rem;
 }
 
 .m-7 {
-    margin: 1.75rem;
+    margin: 12rem;
 }
 
 /* Top Margin */
@@ -496,15 +496,15 @@
 }
 
 .mt-5 {
-    margin-top: 1.25rem;
+    margin-top: 3rem;
 }
 
 .mt-6 {
-    margin-top: 1.5rem;
+    margin-top: 6rem;
 }
 
 .mt-7 {
-    margin-top: 1.75rem;
+    margin-top: 12rem;
 }
 
 /* Right Margin */
@@ -526,15 +526,15 @@
 }
 
 .mr-5 {
-    margin-right: 1.25rem;
+    margin-right: 3rem;
 }
 
 .mr-6 {
-    margin-right: 1.5rem;
+    margin-right: 6rem;
 }
 
 .mr-7 {
-    margin-right: 1.75rem;
+    margin-right: 12rem;
 }
 
 /* Bottom Margin */
@@ -556,15 +556,15 @@
 }
 
 .mb-5 {
-    margin-bottom: 1.25rem;
+    margin-bottom: 3rem;
 }
 
 .mb-6 {
-    margin-bottom: 1.5rem;
+    margin-bottom: 6rem;
 }
 
 .mb-7 {
-    margin-bottom: 1.75rem;
+    margin-bottom: 12rem;
 }
 
 /* Left Margin */
@@ -586,15 +586,15 @@
 }
 
 .ml-5 {
-    margin-left: 1.25rem;
+    margin-left: 3rem;
 }
 
 .ml-6 {
-    margin-left: 1.5rem;
+    margin-left: 6rem;
 }
 
 .ml-7 {
-    margin-left: 1.75rem;
+    margin-left: 12rem;
 }
 
 /* Horizontal Margin */
@@ -620,18 +620,18 @@
 }
 
 .mx-5 {
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .mx-6 {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
 }
 
 .mx-7 {
-    margin-left: 1.75rem;
-    margin-right: 1.75rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
 }
 
 /* Vertical Margin */
@@ -657,18 +657,18 @@
 }
 
 .my-5 {
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .my-6 {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
 }
 
 .my-7 {
-    margin-top: 1.75rem;
-    margin-bottom: 1.75rem;
+    margin-top: 12rem;
+    margin-bottom: 12rem;
 }
 
 /* Inner Margin */ 
@@ -690,15 +690,15 @@
 }
 
 .inner-m-5 > * {
-     margin: 1.25rem;
+     margin: 3rem;
 }
 
 .inner-m-6 > * {
-     margin: 1.5rem;
+     margin: 6rem;
 }
 
 .inner-m-7 > * {
-     margin: 1.75rem;
+     margin: 12rem;
 }
 
 /* Inner Top Margin */
@@ -720,15 +720,15 @@
 }
 
 .inner-mt-5 > * {
-    margin-top: 1.25rem;
+    margin-top: 3rem;
 }
 
 .inner-mt-6 > * {
-    margin-top: 1.5rem;
+    margin-top: 6rem;
 }
 
 .inner-mt-7 > * {
-    margin-top: 1.75rem;
+    margin-top: 12rem;
 }
 
 /* Inner Right Margin */
@@ -750,15 +750,15 @@
 }
 
 .inner-mr-5 > * {
-    margin-right: 1.25rem;
+    margin-right: 3rem;
 }
 
 .inner-mr-6 > * {
-    margin-right: 1.5rem;
+    margin-right: 6rem;
 }
 
 .inner-mr-7 > * {
-    margin-right: 1.75rem;
+    margin-right: 12rem;
 }
 
 /* Inner Bottom Margin */
@@ -780,15 +780,15 @@
 }
 
 .inner-mb-5 > * {
-    margin-bottom: 1.25rem;
+    margin-bottom: 3rem;
 }
 
 .inner-mb-6 > * {
-    margin-bottom: 1.5rem;
+    margin-bottom: 6rem;
 }
 
 .inner-mb-7 > * {
-    margin-bottom: 1.75rem;
+    margin-bottom: 12rem;
 }
 
 /* Inner Left Margin */
@@ -810,15 +810,15 @@
 }
 
 .inner-ml-5 > * {
-    margin-left: 1.25rem;
+    margin-left: 3rem;
 }
 
 .inner-ml-6 > * {
-    margin-left: 1.5rem;
+    margin-left: 6rem;
 }
 
 .inner-ml-7 > * {
-    margin-left: 1.75rem;
+    margin-left: 12rem;
 }
 
 /* Inner Horizontal Margin */
@@ -844,18 +844,18 @@
 }
 
 .inner-mx-5 > * {
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 .inner-mx-6 > * {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
 }
 
 .inner-mx-7 > * {
-    margin-left: 1.75rem;
-    margin-right: 1.75rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
 }
 
 /* Inner Vertical Margin */
@@ -881,18 +881,18 @@
 }
 
 .inner-my-5 > * {
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .inner-my-6 > * {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
 }
 
 .inner-my-7 > * {
-    margin-top: 1.75rem;
-    margin-bottom: 1.75rem;
+    margin-top: 12rem;
+    margin-bottom: 12rem;
 }
 
 /* Padding */

@@ -32,6 +32,11 @@
     flex: 0;
 }
 
+.wrapless {
+    white-space: nowrap;
+}
+
+
 /* Set child item position to start, center, or end of a stack or spread */
 
 .reverse {
@@ -39,10 +44,6 @@
 }
 
 /* Spread and Stack item alignment */
-
-.inner-is-fit > * {
-    max-width: fit-content;
-}
 
 .inner-pinned-center {
     align-items: center;
@@ -92,6 +93,10 @@
 
 .rounded-7 {
     border-radius: 35px;
+}
+
+.rounded-8 {
+    border-radius: 100%;
 }
 
 .inner-rounded-1 > * {
@@ -152,24 +157,38 @@
 
 /* Hide */
 
+/* Mobile */
 
 @media screen and (max-width: 768px) {
     .is-hidden-mobile {
         display: none;
     }
+
+    .is-fullsize-mobile {
+        flex-grow: 1;
+    }
+
+
 }
+
+/* Tablet */
 
 @media screen and (min-width: 769px) {
     .is-hidden-tablet {
         display: none;
     }
+
 }
+
+/* Desktop */
 
 @media screen and (min-width: 1024px) {
     .is-hidden-desktop {
         display: none;
     }
 }
+
+/* Large Desktop */
 
 @media screen and (min-width: 1280px) {
     .is-hidden-widescreen {

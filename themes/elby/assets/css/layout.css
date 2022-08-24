@@ -126,6 +126,59 @@
     flex-grow: 0;
 }
 
+.inner-is-fit > * {
+    max-width: fit-content;
+}
+
+.inner-is-full > * {
+    flex-basis: 100%;
+}
+
+.inner-is-half > * {
+    flex-basis:  50%;
+    flex-grow: 0;;
+}
+
+.inner-is-one-third > * {
+    flex-basis: 33.33333%;
+    flex-grow: 0;
+}
+
+.inner-is-two-thirds > * {
+    flex-basis: 66.66667%;
+    flex-grow: 0;
+}
+
+.inner-is-one-fourth > * {
+    flex-basis: 25%;
+    flex-grow: 0;
+}
+
+.inner-is-three-fourths > * {
+    flex-basis: 75%;
+    flex-grow: 0;
+}
+
+.inner-is-one-fifth > * {
+    flex-basis: 20%;
+    flex-grow: 0;
+}
+
+.inner-is-two-fifths > * {
+    flex-basis: 40%;
+    flex-grow: 0;
+}
+
+.inner-is-three-fifths > * {
+    flex-basis: 60%;
+    flex-grow: 0;
+}
+
+.inner-is-four-fifths > * {
+    flex-basis: 80%;
+    flex-grow: 0;
+}
+
 
 /* Stack things vertically */
 

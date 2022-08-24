@@ -30,10 +30,17 @@
 .button {
     color: inherit;
     border: none;
-    background: none;
+    background-color: inherit;
     cursor: pointer;
 
     
+}
+
+.button-close {
+    font-size: 2em;
+    font-weight: 700;
+    
+    max-width: fit-content;
 }
 
 /* content-wrapper*/
@@ -43,9 +50,7 @@
     color: inherit;
 }
 
-.content-wrapper> * {
-    white-space: pre-wrap;
-}
+
 
 .content-wrapper a {
     color: var(--is-red);
