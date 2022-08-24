@@ -1,0 +1,122 @@
+
+/* breadcrumb */
+
+.breadcrumbs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 1em;
+    align-items: center;
+}
+
+.breadcrumb::after {
+    content: "/";
+    margin: 0 0.5em;
+    color: var(--is-grey);
+}
+
+.breadcrumb:last-child::after {
+    content: "";
+}
+
+/* buttons */
+
+
+
+.button {
+    color: inherit;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+    
+}
+
+/* content-wrapper*/
+
+.content-wrapper{
+    font: 1em sans-serif;
+    color: inherit;
+}
+
+.content-wrapper> * {
+    white-space: pre-wrap;
+}
+
+.content-wrapper a {
+    color: var(--is-red);
+}
+
+/* Headers */
+.content-wrapper> h1, .content-wrapper> h2, .content-wrapper> h3, .content-wrapper> h4, .content-wrapper> h5, .content-wrapper> h6 {
+    color: inherit;
+    margin-top: 30px;
+    margin-bottom: 1em;
+    margin-left: 0em;
+}
+
+/* Labels  */ 
+ 
+.label {
+    flex: 0;
+    width: fit-content;
+    white-space: nowrap;
+}
+
+
+/* Images */
+
+.image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.image-1x1 {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image-2x1 {
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image-3x2 {
+    width: 100%;
+    height: 0;
+    padding-bottom: 66.6666666667%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image-4x3 {
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image-16x9 {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

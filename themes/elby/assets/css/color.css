@@ -26,94 +26,94 @@
 
 
 .red {
-    background-color: var(--is-red);
+    background-color: var(--is-red) !important;
     color: var(--is-text-color-inverted);
 }
 
 .blue {
-    background-color: var(--is-blue);
+    background-color: var(--is-blue) !important;
     color: var(--is-text-color-inverted) !important;
 
 }
 
 .green {
-    background-color: var(--is-green);
+    background-color: var(--is-green) !important;
     color: var(--is-text-color) !important;
 }
 
 .orange {
-    background-color: var(--is-orange);
+    background-color: var(--is-orange) !important;
     color: var(--is-text-color-inverted) !important;
 }
 
 .purple {
-    background-color: var(--is-purple);
+    background-color: var(--is-purple) !important;
     color: var(--is-text-color-inverted) !important;
 }
 
 .black {
-    background-color: var(--is-black);
+    background-color: var(--is-black) !important;
     color: var(--is-text-color-inverted) !important;
 }
 
 .gray {
-    background-color: var(--is-gray);
+    background-color: var(--is-gray) !important;
     color: var(--is-text-color-inverted) !important;
 }
 
 .dark-gray {
-    background-color: var(--is-dark-gray);
+    background-color: var(--is-dark-gray) !important;
     color: var(--is-text-color-inverted) !important;
 }
 
 
 .yellow {
-    background-color: var(--is-yellow);
+    background-color: var(--is-yellow)  !important;
     color: var(--is-text-color) !important;
 }
 
 .white {
-    background-color: var(--is-white);
+    background-color: var(--is-white) !important;
     color: var(--is-text-color) !important;
 }
 
 .light-red {
-    background-color: var(--is-light-red);
+    background-color: var(--is-light-red) !important;
     color: var(--is-text-color) !important;
 }
 
 .light-green {
-    background-color: var(--is-light-green);
+    background-color: var(--is-light-green) !important;
     color: var(--is-text-color) !important;
 }
 
 .light-blue {
-    background-color: var(--is-light-blue);
+    background-color: var(--is-light-blue) !important;
     color: var(--is-text-color) !important;
 }
 
 .light-yellow {
-    background-color: var(--is-light-yellow);
+    background-color: var(--is-light-yellow) !important;
     color: var(--is-text-color) !important;
 }
 
 .light-orange {
-    background-color: var(--is-light-orange);
+    background-color: var(--is-light-orange) !important;
     color: var(--is-text-color) !important;
 }
 
 .light-purple {
-    background-color: var(--is-light-purple);
+    background-color: var(--is-light-purple) !important;
     color: var(--is-text-color) !important;
 }
 
 .light-pink {
-    background-color: var(--is-light-pink);
+    background-color: var(--is-light-pink) !important;
     color: var(--is-text-color) !important;
 }
 
 .light-gray {
-    background-color: var(--is-light-gray);
+    background-color: var(--is-light-gray) !important;
     color: var(--is-text-color) !important;
 }
 

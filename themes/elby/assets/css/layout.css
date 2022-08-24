@@ -70,7 +70,11 @@
     order: 7;
 }
 
-/*  Spread  Sizes */
+/*  Spread  Item Sizes */
+
+.is-fit {
+    max-width: fit-content;
+}
 
 .is-full {
     flex-basis: 100%;
@@ -155,7 +159,4 @@
 .stack > *, .stack-top > *, .stack-center > *, .stack-bottom > *, .stack-stretch > * {
     flex: 1;
 }
-
-
-
 

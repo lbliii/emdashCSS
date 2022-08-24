@@ -1,13 +1,18 @@
+/* Stick to Top  */
+
 .sticky {
     position: sticky;
     top:0;
 }
 
+/* Remove List Style  */
 
 .listless {
     list-style: none;
     margin: 0;
 }
+
+/* Prevent Shrinking on Items  */
 
 .shrinkless {
     flex-shrink: 0;
@@ -17,12 +22,49 @@
     flex-shrink: 0;
 }
 
+/* Prevent Flexibility on Items */
+
+.flexless {
+    flex: none;
+} 
+
 .inner-flexless > * {
     flex: 0;
 }
 
+/* Set child item position to start, center, or end of a stack or spread */
 
-/* Round the shape */
+.reverse {
+    flex-direction: row-reverse;
+}
+
+/* Spread and Stack item alignment */
+
+.inner-is-fit > * {
+    max-width: fit-content;
+}
+
+.inner-pinned-center {
+    align-items: center;
+}
+
+.inner-pinned-top {
+    align-items: flex-start;
+}
+
+.inner-pinned-bottom {
+    align-items: flex-end;
+}
+
+.inner-stretch {
+    align-items: stretch;
+}
+
+.inner-pinned-baseline {
+    align-items: baseline;
+}
+
+/* Round the Object  */
 
 .rounded {
     border-radius: 5px;
@@ -52,8 +94,37 @@
     border-radius: 35px;
 }
 
+.inner-rounded-1 > * {
+    border-radius: 5px;
+}
 
-/* Outlines */
+.inner-rounded-2 > * {
+    border-radius: 10px;
+}
+
+.inner-rounded-3 > * {
+    border-radius: 15px;
+}
+
+.inner-rounded-4 > * {
+    border-radius: 20px;
+}
+
+.inner-rounded-5 > * {
+    border-radius: 25px;
+}
+
+.inner-rounded-6 > * {
+    border-radius: 30px;
+}
+
+.inner-rounded-7 > * {
+    border-radius: 35px;
+}
+
+
+
+/* Outline the Object */
 
 .is-outlined {
     border: 1px solid currentColor;
@@ -67,16 +138,16 @@
     border: 1px solid #fff;
 }
 
-/* Set child item position to start, center, or end of a stack or spread */
-
-.reverse {
-    flex-direction: row-reverse;
+.inner-is-outlined > * {
+    border: 1px solid currentColor;
 }
 
-/* Remove flex from buttons, etc  */
+.inner-is-outlined-black > * {
+    border: 1px solid #000;
+}
 
-.flexless {
-    flex: none;
+.inner-is-outlined-white > * {
+    border: 1px solid #fff;
 }
 
 /* Hide */
@@ -109,25 +180,25 @@
 /* Invisiblitiy */
 
 @media screen and (max-width: 768px) {
-    .is-invisible-mobile {
+    .no-mobile {
         visibility: hidden;
     }
 }
 
 @media screen and (min-width: 769px) {
-    .is-invisible-tablet {
+    .no-tablet {
         visibility: hidden;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .is-invisible-desktop {
+    .no-desktop {
         visibility: hidden;
     }
 }
 
 @media screen and (min-width: 1280px) {
-    .is-invisible-widescreen {
+    .no-widescreen {
         visibility: hidden;
     }
 }
@@ -135,28 +206,35 @@
 /* Size by Device  */
 
 @media screen and (max-width: 768px) {
-    .is-fullsize-mobile {
+    .fullsize-mobile {
+        flex-basis: 100%;
+        flex-grow: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .inner-fullsize-mobile > * {
         flex-basis: 100%;
         flex-grow: 1;
     }
 }
 
 @media screen and (min-width: 769px) {
-    .is-fullsize-tablet {
+    .fullsize-tablet {
         flex-basis: 100%;
         flex-grow: 1;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .is-fullsize-desktop {
+    .fullsize-desktop {
         flex-basis: 100%;
         flex-grow: 1;
     }
 }
 
 @media screen and (min-width: 1280px) {
-    .is-fullsize-widescreen {
+    .fullsize-widescreen {
         flex-basis: 100%;
         flex-grow: 1;
     }
