@@ -161,3 +161,57 @@ EmdashCSS Comes with a default set of color classes that pair backgrounds with t
 ```
 
 {{< docs/colors-hue-rotate >}}
+
+---
+
+## Supernaturals
+
+###  Ghost Types
+
+Ghosts are defined heights with no content. Their intended use is mostly for testing and fun; however, you can probably use them to design colorful dividers and borders. 
+
+|Type| Description|
+|-|-|
+|`ghost-1`| `height: 1px;`|
+|`ghost-2`| `height: 5px;`|
+|`ghost-3`|`height: 50px;`|
+|`ghost-4`|`height: 100px;`|
+
+
+## Ghoul Types 
+
+Ghouls have a set maximum height and width so that you can easily create blocks and circles.
+
+|Type| Description|
+|-|-|
+|`ghouls-1`|`> * { max-width: 10px; max-height: 10px; height: 10px;}`|
+|`ghouls-2`|`> * { max-width: 10px; max-height: 20px; height: 20px;}`|
+|`ghouls-3`|`> * { max-width: 10px; max-height: 30px; height: 30px;}`|
+|`ghouls-4`|`> * { max-width: 10px; max-height: 40px; height: 40px;}`|
+|`ghouls-5`|`> * { max-width: 10px; max-height: 50px; height: 50px;}`|
+|`ghouls-6`|`> * { max-width: 10px; max-height: 100px; height: 100px;}`|
+|`ghouls-7`|`> * { max-width: 200px; max-height: 200px; height: 200px;}`|
+
+#### Circles 
+
+```html
+<section class="spread-center inner-m-1 ghouls-1">
+    <div class="button red rounded-8 "></div>
+    <div class="button gray rounded-8 "></div>
+    <div class="button green rounded-8 "></div>
+</section>
+```
+
+{{< docs/ghoul-circles >}}
+
+#### Squares 
+
+```html
+<section class="spread-center inner-m-1 ghouls-4">
+    <div class="button red"></div>
+    <div class="button gray"></div>
+    <div class="button green"></div>
+</section>
+```
+
+{{< docs/ghoul-squares >}}
