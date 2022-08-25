@@ -439,3 +439,8 @@
 .highlight-sunset-3 {
     box-shadow: inset  -15px 0px 10px currentColor;
 }
+
+
+.rise {
+    z-index: 9999;
+}
