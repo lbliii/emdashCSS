@@ -3,7 +3,7 @@ title: Spreads
 description: The powerhouse of this framework. 
 ---
 
-A spread is basically a container that utilizes **flexbox**. It can be used to quickly create everything from baseline layout structures to top-level components. 
+A spread is basically a container that utilizes **flexbox** to flow horizontally (`flex-flow: row wrap;`). It can be used to quickly create everything from baseline layout structures to top-level components. 
 
 ## Generic Spreads
 
@@ -44,7 +44,7 @@ Directional spreads have child elements with defined sizes that **do not equal**
 ### Spread-Left
 
 ```html
-<section class="spread-right purple"> 
+<section class="spread-left purple"> 
     <section class="is-one-third">
             <div class="white m-1 p-1"> one </div>
     </section>
@@ -59,7 +59,7 @@ Directional spreads have child elements with defined sizes that **do not equal**
 ### Spread-Right
 
 ```html
-<section class="spread-left purple"> 
+<section class="spread-right purple"> 
     <section class="is-one-third">
             <div class="white m-1 p-1"> one </div>
     </section>
@@ -110,16 +110,20 @@ Directional spreads have child elements with defined sizes that **do not equal**
 
 ## Nested Spreads
 
+Notice in each example that you control set the mobile size via `is-fullfsize-mobile`.
+
+
+### With Defined Sizes
+
 ```html
 <section class="spread purple ">
     <div class="is-half is-fullsize-mobile"> 
         <div class="brighten-1 inner-p-3">
-            <h1 class="text-center"> petals on a wet,<br> black bough.
-            </h1>
-            <h2 class="subtitle-2 mt-4 mb-4 text-center"> -Ezra Pound</h2>
-            <section class="spread-left inner-is-fit inner-m-1 inner-p-3 inner-rounded-1">
+            <h1> petals on a wet,<br> black bough.</h1>
+            <h2 class="subtitle-2"> -Ezra Pound</h2>
+            <section class="spread-left inner-fit inner-m-1 inner-p-3 inner-rounded-1">
                     <button class="button l is-outlined "> Get Started </button>
-                    <button class="button l darken-3"> Live Demo</button>
+                    <button class="button l darken-2"> Live Demo</button>
             </section>
         </div>
     </div>
@@ -129,39 +133,66 @@ Directional spreads have child elements with defined sizes that **do not equal**
 
 {{<  docs/spread-nested >}}
 
+### With Automatic Sizes
+
 ```html
 <section class="spread inner-pinned-center purple  p-4">
-    <div class=" text-center fullsize-mobile">
+    <div class=" text-center is-fullsize-mobile">
         <h1 > Mr. Meowgi</h1>
         <h2 class="subtitle-2"> is a russian blue cat.</h2>
     </div>
-    <div class="spread rounded-2 fullsize-mobile display-pattern py-4">
-        <div class=" is-one-third fullsize-mobile">
-            <div class="content-wrapper text-center white m-3 p-3 "> 
-                <p>
-                    Meow.
-                </p>
-            </div> 
-        </div>
-        <div class=" is-one-third fullsize-mobile">
-            <div class="content-wrapper text-right white m-3 p-3"> 
-                <p>
-                   Wow.
-                </p>
-            </div> 
-        </div>
-        <div class=" is-one-third fullsize-mobile">
-            <div class="content-wrapper text-left white m-3 p-3 "> 
-                <p>
-                    Wow.
-                </p>
-            </div> 
-        </div>
+    <div class="spread rounded-2 display-pattern py-4 inner-m-3 inner-p-3 inner-fullsize-mobile">
+        <div class="text-center white"> 
+            <p>Meow.</p>
+        </div> 
+        <div class="text-right white"> 
+            <p> Wow.</p>
+        </div> 
+        <div class=" text-left white"> 
+            <p> Wow.</p>
+        </div> 
     </div>
 </section>
 ```
 
 {{<  docs/spread-nested-more >}}
+
+---
+
+## Using Pins Inside Spreads
+
+### Pinned Types 
+
+|Type|Description|
+|---|----|
+|`inner-pinned-top`| `align-items: flex-start;`|
+|`inner-pinned-bottom`| `align-items: flex-end;`|
+|`inner-pinned-center`| `align-items: center;`|
+|`inner-pinned-stretch`| `align-items: stretch;`|
+|`inner-pinned-baseline`| `align-items: baseline;`|
+
+
+```html
+<section class="spread inner-pinned-bottom purple  p-4">
+    <div class=" text-center is-fullsize-mobile">
+        <h1 > Mr. Meowgi</h1>
+        <h2 class="subtitle-2"> is a russian blue cat.</h2>
+    </div>
+    <div class="spread rounded-2 display-pattern py-4 inner-m-3 inner-p-3 inner-fullsize-mobile">
+        <div class="text-center white"> 
+            <p>Meow.</p>
+        </div> 
+        <div class="text-right white"> 
+            <p> Wow.</p>
+        </div> 
+        <div class=" text-left white"> 
+            <p> Wow.</p>
+        </div> 
+    </div>
+</section>
+```
+
+{{<  docs/spread-inner-pinned>}}
 
 ---
 

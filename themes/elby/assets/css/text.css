@@ -107,3 +107,22 @@
 .text-nowrap {
     white-space: nowrap;
 }
+
+.inner-text-center > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-text-right > * {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.inner-text-left > * {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+

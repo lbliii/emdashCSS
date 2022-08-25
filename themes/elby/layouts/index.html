@@ -1,52 +1,23 @@
 <!DOCTYPE html>
-<html class="purple inner-darken-7">
+<html class="black">
     {{- partial "head.html" . -}}
     <body class="stack">
-        <nav  class="spread sticky brighten-1">
-                <section class="is-one-third is-shrunk-mobile"> 
-                    <img src="/images/logo.svg" class="is-fit grayscale">
-                </section>
-                <section class="is-one-third is-hidden-mobile">
-                    <div class="spread-center inner-is-fit  inner-m-1 inner-p-3 inner-rounded-1 inner-darken-3">
-                        <button class="button xs"> one</button>
-                        <button class="button xs "> two</button>
-                        <button class="button xs "> three</button>
-                    </div>
-                </section>
-                <section class="is-one-third "> 
-                    <div class="spread-right inner-is-fit  inner-m-1 inner-p-3 inner-rounded-1 ">
-                        <button class="button xs black "> Login</button>
-                    </div>
-                </section>
+        <nav  class="spread inner-fit sticky brighten-1">
+                    <a href="/"><img src="/images/logo.svg" class=" grayscale" style="height:40px"></a>
         </nav>
-
-        <section class="spread-around red"> 
-            <section class="is-one-third">
-                 <div class="white m-1 p-1"> one </div>
-            </section>
-            <section class="is-one-third">
-                 <div class="white m-1 p-1"> two </div>
-            </section>
-        </section>
- 
-
         <section class="spread">
-           <aside id="tree" class="stack inner-flexless is-hidden-mobile pt-0 px-4">
-                <a href="" class=""> link one </a>
-                <a href="" class="">  two </a>
-                <a href="" class=""> link three </a>
-            </aside>
-            <div class="is-four-fifths fullsize-mobile">
-                <article class="content-wrapper white p-4">
-                    <section class="spread-right">
-                        <div class="button red is-fit l px-3 py-2 m-2 rounded-8 ghost-3 "></div>
-                        <div class="button gray is-fit l px-3 py-2 m-2 rounded-8 ghost-3 "></div>
-                        <div class="button green is-fit l px-3 py-2 m-2 rounded-8 ghost-3 "></div>
-                    </section>
+           <aside id="tree" class="stack inner-flexless is-hidden-mobile">
+                <div class="sticky stack"> 
+            {{range .Sections}}
+                    <a href="{{ .Permalink }}" class="button brighten-3 s rounded m-1 p-1 is-fit"> {{ .Title }} </a>
+                {{end}}
+                </div>
+           </aside>
+            <div class="is-four-fifths is-fullsize-mobile">
+                <article class="content-wrapper black p-4">
                     {{ .Content}}
                 </article>
             </div>
         </section>
     </body>
 </html>
-

@@ -28,6 +28,9 @@
 
 
 .button {
+    display: inline-flex;
+    align-items: center; 
+    justify-content: center;
     color: inherit;
     border: none;
     background-color: inherit;
@@ -124,4 +127,10 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.anchor {
+    color: var(--is-primary) !important;
+    font-size: .5em;
+    font-weight: 900;
 }
