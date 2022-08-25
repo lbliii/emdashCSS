@@ -32,17 +32,34 @@ EmdashCSS Comes with a default set of color classes that pair backgrounds with t
     --is-light-orange : #ffbf80;
     --is-light-purple : #bf80ff;
     --is-light-pink : #ff80bf;
-    --is-primary: var(--is-purple);
 }
 ```
+
+---
 
 ### Background Colors
 
 {{< docs/colors >}}
 
+
 ### Paired Text Colors 
 
 {{< docs/colors-with-text >}}
+
+### Gradients 
+
+|Option|Description|
+|-|-|
+|`gradient-lr-warm `|`background-image: linear-gradient(to right, #ff0000, #ff4000, #ff8000, #ffbf00, #ffff00);`|
+|`gradient-rl-warm `|`background-image: linear-gradient(to left, #ff0000, #ff4000, #ff8000, #ffbf00, #ffff00);`|
+|`gradient-tb-warm `|`background-image: linear-gradient(to bottom, #ff0000, #ff4000, #ff8000, #ffbf00, #ffff00);`|
+|`gradient-bt-warm `|`background-image: linear-gradient(to top, #ff0000, #ff4000, #ff8000, #ffbf00, #ffff00);`|
+|`gradient-lr-cold `|`background-image: linear-gradient(to right,#0000ff, #4000ff, #8000ff, #bf00ff, #ff2cf4);`|
+|`gradient-rl-cold `|`background-image: linear-gradient(to left, #0000ff, #4000ff, #8000ff, #bf00ff, #ff2cf4);`|
+|`gradient-tb-cold `|`background-image: linear-gradient(to bottom, #0000ff, #4000ff, #8000ff, #bf00ff, #ff2cf4);`|
+|`gradient-bt-cold `|`background-image: linear-gradient(to top, #0000ff, #4000ff, #8000ff, #bf00ff, #ff2cf4);`|
+
+{{< docs/color-gradients >}}
 
 ---
 
@@ -85,6 +102,27 @@ EmdashCSS Comes with a default set of color classes that pair backgrounds with t
 ---
 
 ## Filters 
+
+### Dropshadow 
+
+|Option|Description|
+|-|-|
+|`dropshadow-1`|`filter: drop-shadow(4px 4px 5px var(--is-dark-gray));`|
+|`dropshadow-2`|`filter: drop-shadow(8px 8px 10px var(--is-dark-gray));`|
+|`dropshadow-3`|`filter: drop-shadow(16px 16px 20px var(--is-dark-gray));`|
+|`inner-dropshadow-1`|`> * { filter: drop-shadow(4px 4px 5px var(--is-dark-gray));}`|
+|`inner-dropshadow-2`|`> * { filter: drop-shadow(8px 8px 10px var(--is-dark-gray));}`|
+|`inner-dropshadow-2`|`> * { filter: drop-shadow(16px 16px 20px var(--is-dark-gray));}`|
+|`is-vampire`|`filter: none !important;`|
+
+```html
+<section class="spread purple inner-dropshadow-1">
+    <div class="m-5 p-5 white text-center"> Hello </div>
+    <div class="m-5 p-5 white is-vampire text-center"> Hello </div>
+    <div class="m-5 p-5 white text-center"> Hello </div>
+</section>
+```
+{{< docs/dropshadow >}}
 
 ### Grayscale 
 

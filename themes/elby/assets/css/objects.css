@@ -130,7 +130,7 @@
 }
 
 .anchor {
-    color: var(--is-primary) !important;
+    color: var(--is-purple) !important;
     font-size: .5em;
     font-weight: 900;
 }
