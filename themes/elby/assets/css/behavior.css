@@ -5,150 +5,95 @@
     top:0;
 }
 
-/* Remove List Style  */
-
-.listless {
-    list-style: none;
-    margin: 0;
-}
-
-/* Prevent Shrinking on Items  */
-
-.shrinkless {
-    flex-shrink: 0;
-}
-
-.inner-shrinkless > * {
-    flex-shrink: 0;
-}
-
-/* Prevent Flexibility on Items */
-
-.flexless {
-    flex: none;
-} 
-
-.inner-flexless > * {
-    flex: 0;
-}
+/* Fit */
 
 .is-fit {
     max-width: fit-content !important;
     flex: none !important;
 }
-
 .is-fit-x {
     max-width: fit-content !important;
 }
-
 .is-fit-y {
    flex: none !important;
 }
+
+/*Cascade Fit*/
 
 .inner-fit > * {
     max-width: fit-content !important;
     flex: none !important;
 }
-
 .inner-fit-x > * {
     max-width: fit-content !important;
 }
-
 .inner-fit-y > * {
     flex: none !important;
 }
-
-.wrapless {
-    white-space: nowrap;
-}
-
-
-/* Set child item position to start, center, or end of a stack or spread */
-
-.reverse {
-    flex-direction: row-reverse;
-}
-
 /* Spread and Stack item alignment */
 
 .inner-pinned-center {
     align-items: center;
 }
-
 .inner-pinned-top {
     align-items: flex-start;
 }
-
 .inner-pinned-bottom {
     align-items: flex-end;
 }
-
 .inner-stretch {
     align-items: stretch;
 }
-
 .inner-pinned-baseline {
     align-items: baseline;
 }
 
 /* Round the Object  */
 
-.rounded {
+.rounded-1 {
     border-radius: 5px;
 }
-
 .rounded-2 {
     border-radius: 10px;
 }
-
 .rounded-3 {
     border-radius: 15px;
 }
-
 .rounded-4 {
     border-radius: 20px;
 }
-
 .rounded-5 {
     border-radius: 25px;
 }
-
 .rounded-6 {
     border-radius: 30px;
 }
-
 .rounded-7 {
     border-radius: 35px;
 }
-
 .rounded-8 {
     border-radius: 100%;
 }
 
+/* Cascade Inner Roundness */
 .inner-rounded-1 > * {
     border-radius: 5px;
 }
-
 .inner-rounded-2 > * {
     border-radius: 10px;
 }
-
 .inner-rounded-3 > * {
     border-radius: 15px;
 }
-
 .inner-rounded-4 > * {
     border-radius: 20px;
 }
-
 .inner-rounded-5 > * {
     border-radius: 25px;
 }
-
 .inner-rounded-6 > * {
     border-radius: 30px;
 }
-
 .inner-rounded-7 > * {
     border-radius: 35px;
 }
@@ -159,23 +104,18 @@
 .is-outlined {
     border: 1px solid currentColor;
 }
-
 .is-outlined-black {
     border: 1px solid #000;
 }
-
 .is-outlined-white {
     border: 1px solid #fff;
 }
-
 .inner-outlined > * {
     border: 1px solid currentColor;
 }
-
 .inner-outlined-black > * {
     border: 1px solid #000;
 }
-
 .inner-outlined-white > * {
     border: 1px solid #fff;
 }
@@ -188,16 +128,13 @@
     .is-hidden-mobile {
         display: none;
     }
-
     .is-invisible-mobile {
         visibility: hidden;
     }
-
     .is-fullsize-mobile {
         flex-basis: 100%;
         flex-grow: 1;
     }
-
     .inner-fullsize-mobile > * {
         flex-basis: 100%;
         flex-grow: 1;
@@ -211,15 +148,12 @@
     .is-hidden-tablet {
         display: none;
     }
-    
     .is-invisible-tablet {
         visibility: hidden;
     }
-    
     .is-fullsize-tablet {
         flex-grow: 1;
     }
-    
     .inner-fullsize-tablet > * {
         flex-basis: 100%;
         flex-grow: 1;
@@ -232,15 +166,12 @@
     .is-hidden-desktop {
         display: none;
     }
-    
     .is-invisible-desktop {
         visibility: hidden;
     }
-    
     .is-fullsize-desktop {
         flex-grow: 1;
     }
-    
     .inner-fullsize-desktop > * {
         flex-basis: 100%;
         flex-grow: 1;
@@ -253,20 +184,24 @@
     .is-hidden-large-desktop {
         display: none;
     }
-    
     .is-invisible-large-desktop {
         visibility: hidden;
     }
-    
     .is-fullsize-large-desktop {
         flex-grow: 1;
     }
-    
     .inner-fullsize-large-desktop > * {
         flex-basis: 100%;
         flex-grow: 1;
     }
 }
+
+/* Miscellaneous */
+
+.wrapless {
+    white-space: nowrap;
+}
+
 
 /* Pattern */
 
@@ -274,173 +209,67 @@
     background: url(/images/patty.svg) repeat;
 
 }
-
 .display-pattern2 {
     background: url(/images/patty2.svg);
 
 }
 
-/* Ghost for using spreads and stacks as color blocks*/
+/* Z Index */
+ 
+.level-top {
+    z-index: 9999;
+}
+.level-bottom {
+    z-index: -9999;
+}
 
+/* Ghost & Ghouls for using spreads and stacks as color blocks*/
 
 .ghouls-1 > * {
     max-width: 10px;
     max-height: 10px;
     height: 10px;
-
 }
-
 .ghouls-2 > * {
     max-width: 20px;
     max-height: 20px;
     height: 20px;
-
 }
-
 .ghouls-3 > * {
     max-width: 30px;
     max-height: 30px;
     height: 30px;
-
 }
-
 .ghouls-4 > * {
     max-width: 40px;
     max-height: 40px;
     height: 40px;
-
 }
-
 .ghouls-5 > * {
     max-width: 50px;
     max-height: 50px;
     height: 50px;
-
 }
-
 .ghouls-6 > * {
     max-width: 100px;
     max-height: 100px;
     height: 100px;
-
 }
-
 .ghouls-7 > * {
     max-width: 200px;
     max-height: 200px;
     height: 200px;
 }
 
-
-
 .ghost-1 {
     height: 1px;
 }
-
 .ghost-2 {
     height: 5px;
 }
-
 .ghost-3 {
     height: 50px;
 }
-
 .ghost-4 {
     height: 100px;
-}
-
- 
-
-/* Shadows */
-
-.shadow-sunrise-1 {
-    box-shadow: 10px 5px 5px currentColor;
-}
-
-.shadow-sunrise-2 {
-    box-shadow: 10px 10px 5px currentColor;
-}
-
-.shadow-sunrise-3 {
-    box-shadow: 10px 15px 5px currentColor;
-}
-
-.shadow-sunset-1 {
-    box-shadow: -10px 5px 5px currentColor;
-}
-
-.shadow-sunset-2 {
-    box-shadow: -10px 10px 5px currentColor;
-}
-
-.shadow-sunset-3 {
-    box-shadow: -10px 15px 5px currentColor;
-}
-
-.shadow-noon-1 {
-    box-shadow: 0px 5px 5px currentColor;
-}
-
-.shadow-noon-2 {
-    box-shadow: 0px 10px 5px currentColor;
-}
-
-.shadow-noon-3 {
-    box-shadow: 0px 15px 5px currentColor;
-}
-
-.shadow-inner-1 {
-    box-shadow: inset 0px 0px 5px #000;
-}
-
-.shadow-inner-2 {
-    box-shadow: inset 0px 0px 10px #000;
-}
-
-.shadow-inner-3 {
-    box-shadow: inset 0px 0px 15px #000;
-}
-
-
-
-
-.highlight-sunrise-1 {
-    box-shadow: inset  5px 0px 5px currentColor;
-}
-
-.highlight-sunrise-2 {
-    box-shadow: inset  10px 0px 5px currentColor;
-}
-
-.highlight-sunrise-3 {
-    box-shadow: inset  15px 0px 5px currentColor;
-}
-
-.highlight-noon-1 {
-    box-shadow: inset  0px 0px 5px currentColor;
-}
-
-.highlight-noon-2 {
-    box-shadow: inset  0px 0px 10px currentColor;
-}
-
-.highlight-noon-3 {
-    box-shadow: inset  0px 0px 15px currentColor;
-}
-
-.highlight-sunset-1 {
-    box-shadow: inset  -5px 10px 10px currentColor;
-}
-
-.highlight-sunset-2 {
-    box-shadow: inset  -10px 5px 10px currentColor;
-}
-
-.highlight-sunset-3 {
-    box-shadow: inset  -15px 0px 10px currentColor;
-}
-
-
-.rise {
-    z-index: 9999;
 }
