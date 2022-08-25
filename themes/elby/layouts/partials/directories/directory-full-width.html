@@ -1,5 +1,5 @@
-<aside id="tree" class="stack is-hidden-mobile pt-0 px-4">
-    <a href="" class="flexless"> link one </a>
-    <a href="" class="flexless"> link two </a>
-    <a href="" class="flexless"> link three </a>
+<aside id="tree" class="stack is-hidden-mobile py-3">
+    {{range .Sections}}
+        <a href="{{ .Permalink }}" class="brighten-3 s  m-1 p-1"> {{ .Title }} </a>
+    {{end}}
 </aside>

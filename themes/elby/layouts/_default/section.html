@@ -1,18 +1,3 @@
-
-
-{{define "main" }}
-    <section class="spread">
-        <aside id="tree" class="stack inner-flexless is-hidden-mobile">
-            <div class="sticky stack pt-5 mt-1"> 
-           {{range .Site.Sections}}
-                <a href="{{ .Permalink }}" class="button brighten-3 s rounded m-1 p-1 is-fit"> {{ .Title }} </a>
-            {{end}}
-            </div>
-        </aside>
-        <div class="is-four-fifths is-fullsize-mobile">
-            <article class="content-wrapper black p-4">
-                {{ .Content}}
-            </article>
-        </div>
-    </section>
-{{ end }}
+{{ define "main"}}
+    {{ .Content}}
+{{end}}

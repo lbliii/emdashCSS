@@ -3,13 +3,15 @@
     {{- partial "head.html" . -}}
     <body class="stack">
         {{ partial "header.html" . }}
-        <nav  class="spread inner-fit sticky brighten-1 rise">
-                    <a href="/"><img src="/images/logo.svg" class="grayscale" style="height:40px"></a>
-        </nav>
-
-        {{ block "main" . }}
-        {{ end }}
-   
+        {{ partial "navs/left-clear.html" . }}
+        <section class="spread">
+            {{ partial "directories/directory-left.html" . }}
+            <div class="is-four-fifths fullsize-mobile">
+                <article class="black p-4 mt-5">
+                    {{ block "main" . }}{{ end }}
+                </article>
+            </div>
+        </section>
         {{ partial "footer.html" . }}
     </body>
 </html>
