@@ -4,11 +4,18 @@
     <body class="stack">
         {{ partial "header.html" . }}
         {{ partial "navs/left-clear.html" . }}
+        {{ block "before" . }}{{ end }}
         <section class="spread">
-            {{ partial "directories/directory-left.html" . }}
+            {{if .IsHome }}
+            {{else}}
+                {{ partial "directories/directory-left.html" . }}
+            {{end}}
             <div class="is-four-fifths is-fullsize-mobile">
                 <article class="p-4 mt-5">
+                    {{if .IsHome }}
+                    {{else}}
                     {{ block "main" . }}{{ end }}
+                    {{end}}
                 </article>
             </div>
         </section>

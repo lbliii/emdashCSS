@@ -104,3 +104,10 @@ h6 {
 hr {
     margin: 3em 0;
 }
+
+b {
+    background: linear-gradient(0.25turn, var(--is-blue), var(--is-pink), var(--is-purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
