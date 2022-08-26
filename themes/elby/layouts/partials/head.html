@@ -7,13 +7,13 @@
     {{ $core := resources.Get "css/core.css" }}
     {{ $layout := resources.Get "css/layout.css" }}
     {{ $objects := resources.Get "css/objects.css"  }}
-    {{ $behavior := resources.Get "css/behavior.css"  }}
+    {{ $traits := resources.Get "css/traits.css"  }}
     {{ $spacing := resources.Get "css/spacing.css"  }}
     {{ $text := resources.Get "css/text.css"  }}
     {{ $color := resources.Get "css/color.css"  }}
 
 
-    {{ $css := slice $core $layout $objects $behavior $spacing $text $color | resources.Concat "css/test.css"}}
+    {{ $css := slice $core $layout $objects $traits $spacing $text $color | resources.Concat "css/test.css"}}
     {{ $css := $css | resources.Minify | resources.Fingerprint }}
     
     <link rel="stylesheet" href="{{ $css.Permalink }}" media="screen" />

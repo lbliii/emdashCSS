@@ -3,6 +3,7 @@
   --is-text-color-inverted: #ffffff;
   --is-header-text-color: #000000;
   --is-header-text-color-inverted: #ffffff;
+  --is-shadow-color: var(--is-dark-gray);
   --is-red: #ff0000;
   --is-green: #00ff00;
   --is-blue: #0000ff;
@@ -30,97 +31,78 @@
   background-color: var(--is-red) !important;
   color: var(--is-text-color-inverted);
 }
-
 .blue {
   background-color: var(--is-blue) !important;
   color: var(--is-text-color-inverted) !important;
 }
-
 .green {
   background-color: var(--is-green) !important;
   color: var(--is-text-color) !important;
 }
-
 .orange {
   background-color: var(--is-orange) !important;
   color: var(--is-text-color-inverted) !important;
 }
-
 .purple {
   background-color: var(--is-purple) !important;
   color: var(--is-text-color-inverted) !important;
 }
-
 .pink {
   background-color: var(--is-pink) !important;
   color: var(--is-text-color-inverted) !important;
 }
-
 .black {
   background-color: var(--is-black) !important;
   color: var(--is-text-color-inverted) !important;
 }
-
 .gray {
   background-color: var(--is-gray) !important;
   color: var(--is-text-color-inverted) !important;
 }
-
 .dark-gray {
   background-color: var(--is-dark-gray) !important;
   color: var(--is-text-color-inverted) !important;
 }
-
 .yellow {
   background-color: var(--is-yellow) !important;
   color: var(--is-text-color) !important;
 }
-
 .white {
   background-color: var(--is-white) !important;
   color: var(--is-text-color) !important;
 }
-
 .light-red {
   background-color: var(--is-light-red) !important;
   color: var(--is-text-color) !important;
 }
-
 .light-green {
   background-color: var(--is-light-green) !important;
   color: var(--is-text-color) !important;
 }
-
 .light-blue {
   background-color: var(--is-light-blue) !important;
   color: var(--is-text-color) !important;
 }
-
 .light-yellow {
   background-color: var(--is-light-yellow) !important;
   color: var(--is-text-color) !important;
 }
-
 .light-orange {
   background-color: var(--is-light-orange) !important;
   color: var(--is-text-color) !important;
 }
-
 .light-purple {
   background-color: var(--is-light-purple) !important;
   color: var(--is-text-color) !important;
 }
-
 .light-pink {
   background-color: var(--is-light-pink) !important;
   color: var(--is-text-color) !important;
 }
-
 .light-gray {
   background-color: var(--is-light-gray) !important;
   color: var(--is-text-color) !important;
 }
-
 .light-white {
   background-color: var(--is-light-white) !important;
   color: var(--is-text-color) !important;
@@ -136,7 +118,6 @@
     #ffff00
   );
 }
-
 .gradient-rl-warm {
   background-image: linear-gradient(
     to left,
@@ -147,7 +128,6 @@
     #ffff00
   );
 }
-
 .gradient-tb-warm {
   background-image: linear-gradient(
     to top,
@@ -158,7 +138,6 @@
     #ffff00
   );
 }
-
 .gradient-bt-warm {
   background-image: linear-gradient(
     to bottom,
@@ -180,7 +159,6 @@
     #ff2cf4
   );
 }
-
 .gradient-rl-cold {
   background-image: linear-gradient(
     to left,
@@ -191,7 +169,6 @@
     #ff2cf4
   );
 }
-
 .gradient-tb-cold {
   background-image: linear-gradient(
     to top,
@@ -202,7 +179,6 @@
     #ff2cf4
   );
 }
-
 .gradient-bt-cold {
   background-image: linear-gradient(
     to bottom,
@@ -217,15 +193,12 @@
 .gradient-lr-bw {
   background-image: linear-gradient(to right, #000000, #ffffff);
 }
-
 .gradient-rl-bw {
   background-image: linear-gradient(to left, #000000, #ffffff);
 }
-
 .gradient-tb-bw {
   background-image: linear-gradient(to top, #000000, #ffffff);
 }
-
 .gradient-bt-bw {
   background-image: linear-gradient(to bottom, #000000, #ffffff);
 }
@@ -244,28 +217,8 @@
 .blur {
   filter: blur(5px);
 }
-.dropshadow-1 {
-  filter: drop-shadow(4px 4px 5px var(--is-dark-gray));
-}
-.dropshadow-2 {
-  filter: drop-shadow(8px 8px 10px var(--is-dark-gray));
-}
-.dropshadow-3 {
-  filter: drop-shadow(16px 16px 20px var(--is-dark-gray));
-}
-.inner-dropshadow-1 > * {
-  filter: drop-shadow(4px 4px 5px var(--is-dark-gray));
-}
-.inner-dropshadow-2 > * {
-  filter: drop-shadow(8px 8px 10px var(--is-dark-gray));
-}
-.inner-dropshadow-3 > * {
-  filter: drop-shadow(16px 16px 20px var(--is-dark-gray));
-}
-.is-vampire {
-  filter: none !important;
-}
 
+ 
 /* Brighten Colors */
 
 .brighten-1 {

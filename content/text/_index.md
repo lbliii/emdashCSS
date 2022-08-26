@@ -1,5 +1,6 @@
 ---
 title: Text
+weight: 4
 ---
 
 ## Root 
@@ -64,7 +65,7 @@ title: Text
 |`text-justify`|`text-align: justify;`|
 
 
-## Cascades 
+### Inner Alignments  
 
 |Option|Description|
 |-|-|

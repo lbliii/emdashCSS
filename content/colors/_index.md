@@ -1,5 +1,6 @@
 ---
 title: Colors 
+weight: 5
 ---
 
 
@@ -9,29 +10,30 @@ EmdashCSS Comes with a default set of color classes that pair backgrounds with t
 
 ```css
 :root {
-    --is-text-color: #000000;
-    --is-text-color-inverted: #ffffff;
-    --is-header-text-color: #000000;
-    --is-header-text-color-inverted: #ffffff;
-    --is-red : #ff0000;
-    --is-green : #00ff00;
-    --is-blue : #0000ff;
-    --is-yellow : #ffff00;
-    --is-orange : #ff8000;
-    --is-purple : #8000ff;
-    --is-pink : #ff0080;
-    --is-white : #ffffff;
-    --is-black : #000000;
-    --is-gray : #808080;
-    --is-light-gray : #c0c0c0;
-    --is-dark-gray : #404040;
-    --is-light-red : #ff8080;
-    --is-light-green : #80ff80;
-    --is-light-blue : #8080ff;
-    --is-light-yellow : #ffff80;
-    --is-light-orange : #ffbf80;
-    --is-light-purple : #bf80ff;
-    --is-light-pink : #ff80bf;
+  --is-text-color: #000000;
+  --is-text-color-inverted: #ffffff;
+  --is-header-text-color: #000000;
+  --is-header-text-color-inverted: #ffffff;
+  --is-shadow-color: var(--is-dark-gray);
+  --is-red: #ff0000;
+  --is-green: #00ff00;
+  --is-blue: #0000ff;
+  --is-yellow: #ffff00;
+  --is-orange: #ff8000;
+  --is-purple: #8000ff;
+  --is-pink: #ff0080;
+  --is-white: #ffffff;
+  --is-black: #000000;
+  --is-gray: #808080;
+  --is-light-gray: #c0c0c0;
+  --is-dark-gray: #404040;
+  --is-light-red: #ff8080;
+  --is-light-green: #80ff80;
+  --is-light-blue: #8080ff;
+  --is-light-yellow: #ffff80;
+  --is-light-orange: #ffbf80;
+  --is-light-purple: #bf80ff;
+  --is-light-pink: #ff80bf;
 }
 ```
 
@@ -102,27 +104,6 @@ EmdashCSS Comes with a default set of color classes that pair backgrounds with t
 ---
 
 ## Filters 
-
-### Dropshadow 
-
-|Option|Description|
-|-|-|
-|`dropshadow-1`|`filter: drop-shadow(4px 4px 5px var(--is-dark-gray));`|
-|`dropshadow-2`|`filter: drop-shadow(8px 8px 10px var(--is-dark-gray));`|
-|`dropshadow-3`|`filter: drop-shadow(16px 16px 20px var(--is-dark-gray));`|
-|`inner-dropshadow-1`|`> * { filter: drop-shadow(4px 4px 5px var(--is-dark-gray));}`|
-|`inner-dropshadow-2`|`> * { filter: drop-shadow(8px 8px 10px var(--is-dark-gray));}`|
-|`inner-dropshadow-2`|`> * { filter: drop-shadow(16px 16px 20px var(--is-dark-gray));}`|
-|`is-vampire`|`filter: none !important;`|
-
-```html
-<section class="spread purple inner-dropshadow-1">
-    <div class="m-5 p-5 white text-center"> Hello </div>
-    <div class="m-5 p-5 white is-vampire text-center"> Hello </div>
-    <div class="m-5 p-5 white text-center"> Hello </div>
-</section>
-```
-{{< docs/dropshadow >}}
 
 ### Grayscale 
 

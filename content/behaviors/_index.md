@@ -1,16 +1,17 @@
 ---
-title: Behaviors
+title: Traits
+weight: 6
 ---
 
-## Global Behaviors 
+## Global Traits 
 
 ### Outlined 
 
 |Options|Description|
 |-|-|
-|`is-outlined`|`border: 1px solid currentColor;`|
-|`is-outlined-black`|`border: 1px solid #000;`|
-|`is-outlined-white`|`border: 1px solid #fff;`|
+|`outlined`|`border: 1px solid currentColor;`|
+|`outlined-black`|`border: 1px solid #000;`|
+|`outlined-white`|`border: 1px solid #fff;`|
 
 
 #### Inner Outlined 
@@ -48,14 +49,55 @@ title: Behaviors
 |`inner-rounded-7`|`> * { border-radius: 35px; }`|
 |`inner-rounded-8`|`> * { border-radius: 100%; }`|
 
-### Stuck 
+
+### Shadow
+
+#### Single Direction
+
+|Option|Description|
+|-|-|
+|`shadow-u-1`|`filter: drop-shadow(0px -4px 5px var(--is-shadow-color));`|
+|`shadow-u-2`|`filter: drop-shadow(0px -8px 10px var(--is-shadow-color));`|
+|`shadow-u-3`|`filter: drop-shadow(0px -16px 20px var(--is-shadow-color));`|
+|`shadow-d-1`|`filter: drop-shadow(0px 4px 5px var(--is-shadow-color));`|
+|`shadow-d-2`|`filter: drop-shadow(0px 8px 10px var(--is-shadow-color));`|
+|`shadow-d-3`|`filter: drop-shadow(0px 16px 20px var(--is-shadow-color));`|
+|`shadow-l-1`|`filter: drop-shadow(4px 0px 5px var(--is-shadow-color));`|
+|`shadow-l-2`|`filter: drop-shadow(8px 0px 10px var(--is-shadow-color));`|
+|`shadow-l-3`|`filter: drop-shadow(16px 0px 20px var(--is-shadow-color));`|
+|`shadow-r-1`|`filter: drop-shadow(-4px 0px 5px var(--is-shadow-color));`|
+|`shadow-r-2`|`filter: drop-shadow(-8px 0px 10px var(--is-shadow-color));`|
+|`shadow-r-3`|`filter: drop-shadow(-16px 0px 20px var(--is-shadow-color));`|
+
+{{< docs/shadows-single-direction >}}
+
+#### Diagonal
+
+|Option|Description|
+|-|-|
+|`shadow-ul-1`|`filter: drop-shadow(-4px -4px 5px var(--is-shadow-color));`|
+|`shadow-ul-1`|`filter: drop-shadow(-8px -8px 10px var(--is-shadow-color));`|
+|`shadow-ul-1`|`filter: drop-shadow(-16px -16px 20px var(--is-shadow-color));`|
+|`shadow-ur-1`|`filter: drop-shadow(4px -4px 5px var(--is-shadow-color));`|
+|`shadow-ur-1`|`filter: drop-shadow(8px -8px 10px var(--is-shadow-color));`|
+|`shadow-ur-1`|`filter: drop-shadow(16px -16px 20px var(--is-shadow-color));`|
+|`shadow-dl-1`|`filter: drop-shadow(-4px 4px 5px var(--is-shadow-color));`|
+|`shadow-dl-2`|`filter: drop-shadow(-8px 8px 10px var(--is-shadow-color));`|
+|`shadow-dl-2`|`filter: drop-shadow(-16px 16px 20px var(--is-shadow-color));`|
+|`shadow-dr-1`|`filter: drop-shadow(4px 4px 5px var(--is-shadow-color));`|
+|`shadow-dr-2`|`filter: drop-shadow(8px 8px 10px var(--is-shadow-color));`|
+|`shadow-dr-2`|`filter: drop-shadow(16px 16px 20px var(--is-shadow-color));`|
+
+{{< docs/shadows-diagonal >}}
+
+### Stickiness  
 
 |Options|Description|
 |-|-|
 |`sticky`|` position: sticky; top:0;`|
 
 
-### Z Index 
+### Level
 
 |Options|Description|
 |-|-|
@@ -65,9 +107,9 @@ title: Behaviors
 
 ---
 
-## Spread Behaviors
+## Spread Traits
 
-### Pin
+### Inner Pinned
 
 |Options|Description|
 |---|----|
@@ -77,23 +119,48 @@ title: Behaviors
 |`inner-pinned-stretch`| `align-items: stretch;`|
 |`inner-pinned-baseline`| `align-items: baseline;`|
 
+
+{{<  docs/spread-inner-pinned>}}
+
 ---
 
-## Stack Behaviors 
+## Stack Traits
 
 ### Fit
 
-|Options|Description|
-|-|-|
-|`is-fit`|`max-width: fit-content !important; flex: none !important;`|
-|`is-fit-x`|`max-width: fit-content !important;`|
-|`is-fit-y`|`flex: none !important;`|
+You can use a generic stack and apply **fits**. 
 
+- You can use `inner-fit` on the stack itself to tailor stack items to size to their content. 
+- You can also use `is-fit` directly on child elements individually. This is especially useful for customizing link or button sizes inside your stack (see following example).
 
-#### Inner Fit 
+#### Fit Types
 
-|Options|Description|
-|-|-|
-|`inner-is-fit`|`> * { max-width: fit-content !important; flex: none !important; }`|
-|`inner-is-fit-x`|`> * { max-width: fit-content !important; }`|
-|`inner-is-fit-y`|`> * { flex: none !important; }`|
+|Type |Description |
+|----|-------------|
+|`is-fit` | `max-width: fit content; flex:none;`    |
+| `is-fit-x` | `max-width: fit content;`  |
+|`is-fit-y`| `flex:none;` |
+|`inner-fit`| `> * { max-width: fit content; flex:none; } ` |
+|`inner-fit-x`|`> * { max-width: fit content; } ` |
+|`inner-fit-y`|`> * { flex:none; } ` |
+
+```html
+<section class="spread purple">
+        <div class="stack inner-p-1 inner-m-2 ">
+            <a href="" class="button white s text-center">  Link 1 </a>
+            <a href="" class="button white s is-fit-y">  Link 2 </a>
+            <a href="" class="button white s is-fit-x">  Link 3 </a>
+            <a href="" class="button white s is-fit">  Link 4 </a>
+        </div>
+ 
+    <div class="is-four-fifths white inner-m-1 inner-p-1 text-center">
+        <h1>Hello, world!</h1>
+        <p> Lots of SEO Content here.</p>
+        <p> Lots of SEO Content here.</p>
+        <p> Lots of SEO Content here.</p>
+        <p> Lots of SEO Content here.</p>
+    </div>
+</section>
+```
+
+{{<  docs/stack-in-spread >}}

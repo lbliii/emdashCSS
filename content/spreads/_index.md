@@ -1,6 +1,7 @@
 ---
 title: Spreads
 description: The powerhouse of this framework. 
+weight: 1
 ---
 
 A spread is basically a container that utilizes **flexbox** to flow horizontally (`flex-flow: row wrap;`). It can be used to quickly create everything from baseline layout structures to top-level components. 
@@ -101,7 +102,9 @@ Directional spreads have child elements with defined sizes that **do not equal**
 {{<  docs/spread-around >}}
 
 
-## Sizes
+###  Sizes
+
+Sizes are only used for top-level child elements in a directional spread.
 
 {{<  docs/sizes >}}
 
@@ -113,31 +116,32 @@ Directional spreads have child elements with defined sizes that **do not equal**
 Notice in each example that you control set the mobile size via `is-fullfsize-mobile`.
 
 
-### With Defined Sizes
+### CTA Example 
 
 ```html
 <section class="spread purple ">
-    <div class="is-half is-fullsize-mobile"> 
+    <div class="is-fullsize-mobile"> 
         <div class="brighten-1 inner-p-3">
             <h1> petals on a wet,<br> black bough.</h1>
             <h2 class="subtitle-2"> -Ezra Pound</h2>
             <section class="spread-left inner-fit inner-m-1 inner-p-3 inner-rounded-1">
-                    <button class="button l is-outlined "> Get Started </button>
+                    <button class="button l outlined "> Get Started </button>
                     <button class="button l darken-2"> Live Demo</button>
             </section>
         </div>
     </div>
-    <div class="is-half  is-fullsize-mobile darken-2"></div>
+    <div class="is-fullsize-mobile darken-2"></div>
 </section>
+
 ```
 
 {{<  docs/spread-nested >}}
 
-### With Automatic Sizes
+### Blade Example
 
 ```html
-<section class="spread inner-pinned-center purple  p-4">
-    <div class=" text-center is-fullsize-mobile">
+<section class="spread inner-pinned-center purple p-4">
+    <div class="text-center is-fullsize-mobile">
         <h1 > Mr. Meowgi</h1>
         <h2 class="subtitle-2"> is a russian blue cat.</h2>
     </div>
@@ -156,47 +160,4 @@ Notice in each example that you control set the mobile size via `is-fullfsize-mo
 ```
 
 {{<  docs/spread-nested-more >}}
-
----
-
-## Using Pins Inside Spreads
-
-### Pinned Types 
-
-|Type|Description|
-|---|----|
-|`inner-pinned-top`| `align-items: flex-start;`|
-|`inner-pinned-bottom`| `align-items: flex-end;`|
-|`inner-pinned-center`| `align-items: center;`|
-|`inner-pinned-stretch`| `align-items: stretch;`|
-|`inner-pinned-baseline`| `align-items: baseline;`|
-
-
-```html
-<section class="spread inner-pinned-bottom purple  p-4">
-    <div class=" text-center is-fullsize-mobile">
-        <h1 > Mr. Meowgi</h1>
-        <h2 class="subtitle-2"> is a russian blue cat.</h2>
-    </div>
-    <div class="spread rounded-2 display-pattern py-4 inner-m-3 inner-p-3 inner-fullsize-mobile">
-        <div class="text-center white"> 
-            <p>Meow.</p>
-        </div> 
-        <div class="text-right white"> 
-            <p> Wow.</p>
-        </div> 
-        <div class=" text-left white"> 
-            <p> Wow.</p>
-        </div> 
-    </div>
-</section>
-```
-
-{{<  docs/spread-inner-pinned>}}
-
----
-
-## Best Practices 
-
-- Assign **Spacing** to elements inside your sized spread items (grandchild elements).
 

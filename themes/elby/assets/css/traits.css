@@ -101,13 +101,13 @@
 
 /* Outline the Object */
 
-.is-outlined {
+.outlined {
     border: 1px solid currentColor;
 }
-.is-outlined-black {
+.outlined-black {
     border: 1px solid #000;
 }
-.is-outlined-white {
+.outlined-white {
     border: 1px solid #fff;
 }
 .inner-outlined > * {
@@ -221,6 +221,162 @@
 }
 .level-bottom {
     z-index: -9999;
+}
+
+
+
+/* Cast shade */
+
+.shadow-u-1 {
+  filter: drop-shadow(0px -4px 5px var(--is-shadow-color));
+}
+.shadow-u-2 {
+  filter: drop-shadow(0px -8px 10px var(--is-shadow-color));
+}
+.shadow-u-3 {
+  filter: drop-shadow(0px -16px 20px var(--is-shadow-color));
+}
+.shadow-d-1 {
+  filter: drop-shadow(0px 4px 5px var(--is-shadow-color));
+}
+.shadow-d-2 {
+  filter: drop-shadow(0px 8px 10px var(--is-shadow-color));
+}
+.shadow-d-3 {
+  filter: drop-shadow(0px 16px 20px var(--is-shadow-color));
+}
+.shadow-l-1 {
+  filter: drop-shadow(-4px 0px 5px var(--is-shadow-color));
+}
+.shadow-l-2 {
+  filter: drop-shadow(-8px 0px 10px var(--is-shadow-color));
+}
+.shadow-l-3 {
+  filter: drop-shadow(-16px 0px 20px var(--is-shadow-color));
+}
+.shadow-r-1 {
+  filter: drop-shadow(4px 0px 5px var(--is-shadow-color));
+}
+.shadow-r-2 {
+  filter: drop-shadow(8px 0px 10px var(--is-shadow-color));
+}
+.shadow-r-3 {
+  filter: drop-shadow(16px 0px 20px var(--is-shadow-color));
+}
+.shadow-ul-1 {
+  filter: drop-shadow(-4px -4px 5px var(--is-shadow-color));
+}
+.shadow-ul-2 {
+  filter: drop-shadow(-8px -8px 10px var(--is-shadow-color));
+}
+.shadow-ul-3 {
+  filter: drop-shadow(-16px -16px 20px var(--is-shadow-color));
+}
+.shadow-ur-1 {
+  filter: drop-shadow(4px -4px 5px var(--is-shadow-color));
+}
+.shadow-ur-2 {
+  filter: drop-shadow(8px -8px 10px var(--is-shadow-color));
+}
+.shadow-ur-3 {
+  filter: drop-shadow(16px -16px 20px var(--is-shadow-color));
+}
+.shadow-dr-1 {
+  filter: drop-shadow(4px 4px 5px var(--is-shadow-color));
+}
+.shadow-dr-2 {
+  filter: drop-shadow(8px 8px 10px var(--is-shadow-color));
+}
+.shadow-dr-3 {
+  filter: drop-shadow(16px 16px 20px var(--is-shadow-color));
+}
+.shadow-dl-1 {
+  filter: drop-shadow(-4px 4px 5px var(--is-shadow-color));
+}
+.shadow-dl-2 {
+  filter: drop-shadow(-8px 8px 10px var(--is-shadow-color));
+}
+.shadow-dl-3 {
+  filter: drop-shadow(-16px 16px 20px var(--is-shadow-color));
+}
+
+/* Cascade shadow Casting */
+
+.inner-shadow-u-1 > * { 
+  filter: drop-shadow(0px -4px 5px var(--is-shadow-color));
+} 
+.inner-shadow-u-2 > * { 
+  filter: drop-shadow(0px -8px 10px var(--is-shadow-color));
+}
+.inner-shadow-u-3 > * { 
+  filter: drop-shadow(0px -16px 20px var(--is-shadow-color));
+}
+.inner-shadow-d-1 > * { 
+  filter: drop-shadow(0px 4px 5px var(--is-shadow-color));
+}
+.inner-shadow-d-2 > * { 
+  filter: drop-shadow(0px 8px 10px var(--is-shadow-color));
+}
+.inner-shadow-d-3 > * { 
+  filter: drop-shadow(0px 16px 20px var(--is-shadow-color));
+}
+.inner-shadow-l-1 > * { 
+  filter: drop-shadow(-4px 0px 5px var(--is-shadow-color));
+}
+.inner-shadow-l-2 > * { 
+  filter: drop-shadow(-8px 0px 10px var(--is-shadow-color));
+}
+.inner-shadow-l-3 > * { 
+  filter: drop-shadow(-16px 0px 20px var(--is-shadow-color));
+}
+.inner-shadow-r-1 > * { 
+  filter: drop-shadow(4px 0px 5px var(--is-shadow-color));
+}
+.inner-shadow-r-2 > * { 
+  filter: drop-shadow(8px 0px 10px var(--is-shadow-color));
+}
+.inner-shadow-r-3 > * { 
+  filter: drop-shadow(16px 0px 20px var(--is-shadow-color));
+}
+.inner-shadow-ul-1 > * { 
+  filter: drop-shadow(-4px -4px 5px var(--is-shadow-color));
+}
+.inner-shadow-ul-2 > * { 
+  filter: drop-shadow(-8px -8px 10px var(--is-shadow-color));
+}
+.inner-shadow-ul-3 > * { 
+  filter: drop-shadow(-16px -16px 20px var(--is-shadow-color));
+}
+.inner-shadow-ur-1 > * { 
+  filter: drop-shadow(4px -4px 5px var(--is-shadow-color));
+}
+.inner-shadow-ur-2 > * { 
+  filter: drop-shadow(8px -8px 10px var(--is-shadow-color));
+}
+.inner-shadow-ur-3 > * { 
+  filter: drop-shadow(16px -16px 20px var(--is-shadow-color));
+}
+.inner-shadow-dr-1 > * { 
+  filter: drop-shadow(4px 4px 5px var(--is-shadow-color));
+}
+.inner-shadow-dr-2 > * { 
+  filter: drop-shadow(8px 8px 10px var(--is-shadow-color));
+}
+.inner-shadow-dr-3 > * { 
+  filter: drop-shadow(16px 16px 20px var(--is-shadow-color));
+}
+.inner-shadow-dl-1 > * { 
+  filter: drop-shadow(-4px 4px 5px var(--is-shadow-color));
+}
+.inner-shadow-dl-2 > * { 
+  filter: drop-shadow(-8px 8px 10px var(--is-shadow-color));
+}
+.inner-shadow-dl-3 > * { 
+  filter: drop-shadow(-16px 16px 20px var(--is-shadow-color));
+}
+
+.is-vampire {
+  filter: none !important;
 }
 
 /* Ghost & Ghouls for using spreads and stacks as color blocks*/
