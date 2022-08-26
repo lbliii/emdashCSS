@@ -4,7 +4,7 @@ weight: 5
 ---
 
 
-EmdashCSS Comes with a default set of color classes that pair backgrounds with text.
+**EmdashCSS** Comes with a default set of color classes that pair backgrounds with text.
 
 ## Root 
 

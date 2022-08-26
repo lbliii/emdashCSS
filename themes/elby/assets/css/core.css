@@ -19,7 +19,7 @@ a:hover,button:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover
 code, pre > * {
     white-space: pre-wrap;
 }
-code, pre {
+pre, pre > code {
     padding: .7em;
     margin: .7em;
     letter-spacing: -.07rem;
@@ -56,39 +56,33 @@ table > tbody > tr {
 
 /* Headers */
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 700;
-}
-
 h1 {
-    font-size: 3em;
+    font-size: var(--xxxlarge-text);
 }
 h2 {
-    font-size: 2.5em;
+    font-size: var(--xxlarge-text);
 }
 h3 {
-    font-size: 2em;
+    font-size: var(--xlarge-text);
 }
 h4 {
-    font-size: 1.5em;
+    font-size: var(--large-text);
 }
 h5 {
-    font-size: 1em;
+    font-size: var(--medium-text);
 }
 h6 {
-    font-size: .5em;
+    font-size: var(--small-text);
 }
 
 /* Subtitles */
 
 .subtitle-1 {
-    font-size: 1em;
     font-weight: 100;
     letter-spacing: 0.05em;
 }
 
 .subtitle-2 {
-    font-size: 1.5em;
     font-weight: 200;
     letter-spacing: 0.05em;
 }

@@ -152,41 +152,33 @@
 .gradient-lr-cold {
   background-image: linear-gradient(
     to right,
-    #0000ff,
-    #4000ff,
-    #8000ff,
-    #bf00ff,
-    #ff2cf4
+    var(--is-blue),
+    var(--is-pink),
+    var(--is-purple)
   );
 }
 .gradient-rl-cold {
   background-image: linear-gradient(
     to left,
-    #0000ff,
-    #4000ff,
-    #8000ff,
-    #bf00ff,
-    #ff2cf4
+    var(--is-blue),
+    var(--is-pink),
+    var(--is-purple)
   );
 }
 .gradient-tb-cold {
   background-image: linear-gradient(
     to top,
-    #0000ff,
-    #4000ff,
-    #8000ff,
-    #bf00ff,
-    #ff2cf4
+    var(--is-blue),
+    var(--is-pink),
+    var(--is-purple)
   );
 }
 .gradient-bt-cold {
   background-image: linear-gradient(
     to bottom,
-    #0000ff,
-    #4000ff,
-    #8000ff,
-    #bf00ff,
-    #ff2cf4
+    var(--is-blue),
+    var(--is-pink),
+    var(--is-purple)
   );
 }
 

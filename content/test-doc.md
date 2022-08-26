@@ -30,13 +30,13 @@ Pachyderm has two main audiences:
 
 Pachyderm's voice in documentation should consistently convey a personality that is friendly, knowledgeable, and empathetic.
 
-The tone of voice may vary depending on the type of content-wrapperbeing written. For example, a danger notice may use an urgent and serious tone while a tutorial may use an energetic and instructive tone. Make sure the tone of your documentation aligns with the content. If you aren't sure what tone to convey, ask yourself: "What is the reader likely feeling when presented this content? Why are they here?" and adjust your language to the most appropriate tone.
+The tone of voice may vary depending on the type of being written. For example, a danger notice may use an urgent and serious tone while a tutorial may use an energetic and instructive tone. Make sure the tone of your documentation aligns with the content. If you aren't sure what tone to convey, ask yourself: "What is the reader likely feeling when presented this content? Why are they here?" and adjust your language to the most appropriate tone.
 
 ---
 
 ## Language & Grammar
 
-The following guidelines are to be followed loosely; use your best judgment when approaching content-wrapper-- there are always exceptions.
+The following guidelines are to be followed loosely; use your best judgment when approaching -- there are always exceptions.
 
 ### Use Active Voice
 
@@ -143,7 +143,7 @@ Remember to use all header sizes (h1-h6) to organize information. Each header sh
 
 ### Publish Modular Topics
 
-Avoid mixing objectives or use cases in one article; instead, organize and separate your content-wrapperso that it is task-based. If there are many substasks (such as in a long-form tutorial), organize your content-wrapperso that each major step is itself an article.
+Avoid mixing objectives or use cases in one article; instead, organize and separate your so that it is task-based. If there are many substasks (such as in a long-form tutorial), organize your so that each major step is itself an article.
 
 **Examples:**
 

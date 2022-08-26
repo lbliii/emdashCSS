@@ -1,11 +1,11 @@
 :root {
-    --xsmall-text: 0.6rem;
-    --small-text: 0.8rem;
-    --medium-text: 1rem;
-    --large-text: 1.2rem;
-    --xlarge-text: 1.5rem;
-    --xxlarge-text: 2rem;
-    --xxxlarge-text: 3rem;
+    --xsmall-text: 2vh;
+    --small-text: 3vh;
+    --medium-text: 4vh;
+    --large-text: 5vh;
+    --xlarge-text: 6vh;
+    --xxlarge-text: 7vh;
+    --xxxlarge-text: 8vh;
 }
 
 /* Text Size */
