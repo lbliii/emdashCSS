@@ -32,6 +32,17 @@
     font-size: var(--xxxlarge-text);
 }
 
+/* Subtitles */
+
+.subtitle-1 {
+    font-weight: 100;
+    letter-spacing: 0.05em;
+}
+.subtitle-2 {
+    font-weight: 200;
+    letter-spacing: -0.03em;
+}
+
 /* Text Transformations */
 
 .uppercase {

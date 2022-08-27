@@ -25,15 +25,16 @@ weight: 5
   --is-white: #ffffff;
   --is-black: #000000;
   --is-gray: #808080;
-  --is-light-gray: #c0c0c0;
-  --is-dark-gray: #404040;
-  --is-light-red: #ff8080;
-  --is-light-green: #80ff80;
-  --is-light-blue: #8080ff;
-  --is-light-yellow: #ffff80;
-  --is-light-orange: #ffbf80;
-  --is-light-purple: #bf80ff;
-  --is-light-pink: #ff80bf;
+  --is-graident-warm-pt-1: #ff0000;
+  --is-graident-warm-pt-2: #ff4000;
+  --is-graident-warm-pt-3: #ff8000;
+  --is-graident-warm-pt-4: #ffbf00;
+  --is-graident-warm-pt-5: #ffff00;
+  --is-gradient-cold-pt-1: #0033ff;
+  --is-gradient-cold-pt-2: #2200ff;
+  --is-gradient-cold-pt-3: #5d00ff;
+  --is-gradient-cold-pt-4: #8c00ff;
+  --is-gradient-cold-pt-5: #f700ff;
 }
 ```
 

@@ -4,6 +4,7 @@
   --is-header-text-color: #000000;
   --is-header-text-color-inverted: #ffffff;
   --is-shadow-color: var(--is-dark-gray);
+  --is-highlight-color: var(--is-purple);
   --is-red: #ff0000;
   --is-green: #00ff00;
   --is-blue: #0000ff;
@@ -14,171 +15,192 @@
   --is-white: #ffffff;
   --is-black: #000000;
   --is-gray: #808080;
-  --is-light-gray: #c0c0c0;
   --is-dark-gray: #404040;
-  --is-light-red: #ff8080;
-  --is-light-green: #80ff80;
-  --is-light-blue: #8080ff;
-  --is-light-yellow: #ffff80;
-  --is-light-orange: #ffbf80;
-  --is-light-purple: #bf80ff;
-  --is-light-pink: #ff80bf;
+  --is-graident-warm-pt-1: #ff0000;
+  --is-graident-warm-pt-2: #ff4000;
+  --is-graident-warm-pt-3: #ff8000;
+  --is-graident-warm-pt-4: #ffbf00;
+  --is-graident-warm-pt-5: #ffff00;
+  --is-gradient-cold-pt-1: #0033ff;
+  --is-gradient-cold-pt-2: #2200ff;
+  --is-gradient-cold-pt-3: #5d00ff;
+  --is-gradient-cold-pt-4: #8c00ff;
+  --is-gradient-cold-pt-5: #f700ff;
 }
 
 /* Generic Colors */
 
 .red {
-  background-color: var(--is-red) !important;
+  background-color: var(--is-red);
   color: var(--is-text-color-inverted);
 }
 .blue {
-  background-color: var(--is-blue) !important;
-  color: var(--is-text-color-inverted) !important;
+  background-color: var(--is-blue);
+  color: var(--is-text-color-inverted);
 }
 .green {
-  background-color: var(--is-green) !important;
-  color: var(--is-text-color) !important;
+  background-color: var(--is-green);
+  color: var(--is-text-color);
 }
 .orange {
-  background-color: var(--is-orange) !important;
-  color: var(--is-text-color-inverted) !important;
+  background-color: var(--is-orange);
+  color: var(--is-text-color-inverted);
 }
 .purple {
-  background-color: var(--is-purple) !important;
-  color: var(--is-text-color-inverted) !important;
+  background-color: var(--is-purple);
+  color: var(--is-text-color-inverted);
 }
 .pink {
-  background-color: var(--is-pink) !important;
-  color: var(--is-text-color-inverted) !important;
+  background-color: var(--is-pink);
+  color: var(--is-text-color-inverted);
 }
 .black {
-  background-color: var(--is-black) !important;
-  color: var(--is-text-color-inverted) !important;
+  background-color: var(--is-black) ;
+  color: var(--is-text-color-inverted) ;
 }
 .gray {
-  background-color: var(--is-gray) !important;
-  color: var(--is-text-color-inverted) !important;
+  background-color: var(--is-gray) ;
+  color: var(--is-text-color-inverted) ;
 }
 .dark-gray {
-  background-color: var(--is-dark-gray) !important;
-  color: var(--is-text-color-inverted) !important;
+  background-color: var(--is-dark-gray) ;
+  color: var(--is-text-color-inverted) ;
 }
 .yellow {
-  background-color: var(--is-yellow) !important;
-  color: var(--is-text-color) !important;
+  background-color: var(--is-yellow) ;
+  color: var(--is-text-color) ;
 }
 .white {
-  background-color: var(--is-white) !important;
-  color: var(--is-text-color) !important;
+  background-color: var(--is-white) ;
+  color: var(--is-text-color) ;
 }
-.light-red {
-  background-color: var(--is-light-red) !important;
-  color: var(--is-text-color) !important;
+ 
+
+.inner-blue > * {
+  background-color: var(--is-blue) ;
+  color: var(--is-text-color-inverted) ;
 }
-.light-green {
-  background-color: var(--is-light-green) !important;
-  color: var(--is-text-color) !important;
+.inner-red > * {
+  background-color: var(--is-red) ;
+  color: var(--is-text-color-inverted) ;
 }
-.light-blue {
-  background-color: var(--is-light-blue) !important;
-  color: var(--is-text-color) !important;
+.inner-green > * {
+  background-color: var(--is-green) ;
+  color: var(--is-text-color) ;
 }
-.light-yellow {
-  background-color: var(--is-light-yellow) !important;
-  color: var(--is-text-color) !important;
+.inner-orange > * {
+  background-color: var(--is-orange) ;
+  color: var(--is-text-color-inverted) ;
 }
-.light-orange {
-  background-color: var(--is-light-orange) !important;
-  color: var(--is-text-color) !important;
+.inner-purple > * {
+  background-color: var(--is-purple) ;
+  color: var(--is-text-color-inverted) ;
 }
-.light-purple {
-  background-color: var(--is-light-purple) !important;
-  color: var(--is-text-color) !important;
+.inner-pink > * {
+  background-color: var(--is-pink) ;
+  color: var(--is-text-color-inverted) ;
 }
-.light-pink {
-  background-color: var(--is-light-pink) !important;
-  color: var(--is-text-color) !important;
+.inner-black > * {
+  background-color: var(--is-black) ;
+  color: var(--is-text-color-inverted) ;
 }
-.light-gray {
-  background-color: var(--is-light-gray) !important;
-  color: var(--is-text-color) !important;
+.inner-gray > * {
+  background-color: var(--is-gray) ;
+  color: var(--is-text-color-inverted) ;
 }
-.light-white {
-  background-color: var(--is-light-white) !important;
-  color: var(--is-text-color) !important;
+.inner-dark-gray > * {
+  background-color: var(--is-dark-gray) ;
+  color: var(--is-text-color-inverted) ;
+}
+.inner-yellow > * {
+  background-color: var(--is-yellow) ;
+  color: var(--is-text-color) ;
+}
+.inner-white > * {
+  background-color: var(--is-white) ;
+  color: var(--is-text-color) ;
 }
 
 .gradient-lr-warm {
   background-image: linear-gradient(
     to right,
-    #ff0000,
-    #ff4000,
-    #ff8000,
-    #ffbf00,
-    #ffff00
+    var(--is-graident-warm-pt-1),
+    var(--is-graident-warm-pt-2),
+    var(--is-graident-warm-pt-3),
+    var(--is-graident-warm-pt-4),
+    var(--is-graident-warm-pt-5)
   );
 }
 .gradient-rl-warm {
   background-image: linear-gradient(
     to left,
-    #ff0000,
-    #ff4000,
-    #ff8000,
-    #ffbf00,
-    #ffff00
+    var(--is-graident-warm-pt-1),
+    var(--is-graident-warm-pt-2),
+    var(--is-graident-warm-pt-3),
+    var(--is-graident-warm-pt-4),
+    var(--is-graident-warm-pt-5)
   );
 }
 .gradient-tb-warm {
   background-image: linear-gradient(
     to top,
-    #ff0000,
-    #ff4000,
-    #ff8000,
-    #ffbf00,
-    #ffff00
+    var(--is-graident-warm-pt-1),
+    var(--is-graident-warm-pt-2),
+    var(--is-graident-warm-pt-3),
+    var(--is-graident-warm-pt-4),
+    var(--is-graident-warm-pt-5)
   );
 }
 .gradient-bt-warm {
   background-image: linear-gradient(
     to bottom,
-    #ff0000,
-    #ff4000,
-    #ff8000,
-    #ffbf00,
-    #ffff00
+    var(--is-graident-warm-pt-1),
+    var(--is-graident-warm-pt-2),
+    var(--is-graident-warm-pt-3),
+    var(--is-graident-warm-pt-4),
+    var(--is-graident-warm-pt-5)
   );
 }
 
 .gradient-lr-cold {
   background-image: linear-gradient(
     to right,
-    var(--is-blue),
-    var(--is-pink),
-    var(--is-purple)
+    var(--is-gradient-cold-pt-1),
+    var(--is-gradient-cold-pt-2),
+    var(--is-gradient-cold-pt-3),
+    var(--is-gradient-cold-pt-4),
+    var(--is-gradient-cold-pt-5)
+
   );
 }
 .gradient-rl-cold {
   background-image: linear-gradient(
     to left,
-    var(--is-blue),
-    var(--is-pink),
-    var(--is-purple)
+    var(--is-gradient-cold-pt-1),
+    var(--is-gradient-cold-pt-2),
+    var(--is-gradient-cold-pt-3),
+    var(--is-gradient-cold-pt-4),
+    var(--is-gradient-cold-pt-5)
   );
 }
 .gradient-tb-cold {
   background-image: linear-gradient(
     to top,
-    var(--is-blue),
-    var(--is-pink),
-    var(--is-purple)
+    var(--is-gradient-cold-pt-1),
+    var(--is-gradient-cold-pt-2),
+    var(--is-gradient-cold-pt-3),
+    var(--is-gradient-cold-pt-4),
+    var(--is-gradient-cold-pt-5)
   );
 }
 .gradient-bt-cold {
   background-image: linear-gradient(
     to bottom,
-    var(--is-blue),
-    var(--is-pink),
-    var(--is-purple)
+    var(--is-gradient-cold-pt-1),
+    var(--is-gradient-cold-pt-2),
+    var(--is-gradient-cold-pt-3),
+    var(--is-gradient-cold-pt-4),
+    var(--is-gradient-cold-pt-5)
   );
 }
 
