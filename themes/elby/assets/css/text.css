@@ -9,7 +9,6 @@
 }
 
 /* Text Size */
-
 .xs {
     font-size: var(--xsmall-text);
 }
@@ -33,7 +32,6 @@
 }
 
 /* Subtitles */
-
 .subtitle-1 {
     font-weight: 100;
     letter-spacing: 0.05em;
@@ -44,7 +42,6 @@
 }
 
 /* Text Transformations */
-
 .uppercase {
     text-transform: uppercase;
 }
@@ -56,7 +53,6 @@
 }
 
 /* Text Weights */
-
 .extra-thin {
     font-weight: 100;
 }
@@ -86,7 +82,6 @@
 }
 
 /* Text Alignment */
-
 .text-center {
     text-align: center;
 }
@@ -115,7 +110,6 @@
 }
 
 /* Inner Text Cascades */
-
 .inner-text-center > * {
     display: flex;
     justify-content: center;
@@ -131,4 +125,3 @@
     justify-content: flex-start;
     align-items: center;
 }
-

@@ -39,7 +39,7 @@
   color: var(--is-text-color-inverted);
 }
 .green {
-  background-color: var(--is-green);
+  background-color: var(--is-green) !important;
   color: var(--is-text-color);
 }
 .orange {

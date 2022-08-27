@@ -19,59 +19,20 @@ weight: 4
 
 ---
 
-## Sizes 
+## Standard
 
-|Option|Description|
-|-|-|
-|`xs`|`font-size: var(--xsmall-text);`|
-|`s`|`font-size: var(--small-text);`|
-|`m`|`font-size: var(--medium-text);`|
-|`l`|`font-size: var(--large-text);`|
-|`xl`|`font-size: var(--xlarge-text);`|
-|`xxl`|`font-size: var(--xxlarge-text);`|
-|`xxxl`|`font-size: var(--xxxlarge-text);`|
-
-## Weights 
-
-|Option|Description|
-|-|-|
-|`extra-thin`|`font-weight: 100;`|
-|`thin`|`font-weight: 200;`|
-|`light`|`font-weight: 300;`|
-|`normal`|`font-weight: 400;`|
-|`medium`|`font-weight: 500;`|
-|`semi-bold`|`font-weight: 600;`|
-|`bold`|`font-weight: 700;`|
-|`extra-bold`|`font-weight: 800;`|
-|`hefty`|`font-weight: 900;`|
+|Sizes|Weights|Transforms|Alignments|
+|-|-|-|-|
+|`xs`|`extra-thin`|`upper-case`|`text-right`|
+|`s`|`thin`|`lower-case`|`text-left`|
+|`m`|`light`|`capitalize`|`text-center`|
+|`l`|`normal`||`text-justify`|
+|`xl`|`medium`||`inner-text-left`|
+|`xxl`|`bold`||`inner-text-right`|
+|`xxxl`|`extra-bolt`||`inner-text-center`|
+||`hefty`|||
 
 
-## Transforms 
-
-|Option|Description|
-|-|-|
-|`uppercase`|`text-transform: uppercase;`|
-|`lowercase`|`text-transform: lowercase;`|
-|`capitalize`|`text-transform: capitalize;`|
-
-
-## Alignments 
-
-|Option|Description|
-|-|-|
-|`text-left`|`text-align: left;`|
-|`text-right`|`text-align: right;`|
-|`text-center`|`text-align: center;`|
-|`text-justify`|`text-align: justify;`|
-
-
-### Inner Alignments  
-
-|Option|Description|
-|-|-|
-|`inner-text-left`|`> * {display: flex; justify-content: center; align-items: center; }`|
-|`inner-text-right`|`> * {display: flex; justify-content: flex-end; align-items: center; }`|
-|`inner-text-center`|`> * {display: flex; justify-content: flex-start; align-items: center; }`|
 
 ## Miscellaneous 
 

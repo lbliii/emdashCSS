@@ -33,7 +33,7 @@ weight: 6
 |`rounded-5`|`border-radius: 25px;`|
 |`rounded-6`|`border-radius: 30px;`|
 |`rounded-7`|`border-radius: 35px;`|
-|`rounded-8`|`border-radius: 100%;`|
+|`rounded-7`|`border-radius: 100%;`|
 
 
 #### Inner Rounded 
@@ -47,7 +47,7 @@ weight: 6
 |`inner-rounded-5`|`> * { border-radius: 25px; }`|
 |`inner-rounded-6`|`> * { border-radius: 30px; }`|
 |`inner-rounded-7`|`> * { border-radius: 35px; }`|
-|`inner-rounded-8`|`> * { border-radius: 100%; }`|
+|`inner-rounded-7`|`> * { border-radius: 100%; }`|
 
 
 ### Shadow

@@ -51,16 +51,12 @@ weight: 5
 
 ### Gradients 
 
-|Option|Description|
+|Warm|Cold|
 |-|-|
-|`gradient-lr-warm `|`background-image: linear-gradient(to right, #ff0000, #ff4000, #ff8000, #ffbf00, #ffff00);`|
-|`gradient-rl-warm `|`background-image: linear-gradient(to left, #ff0000, #ff4000, #ff8000, #ffbf00, #ffff00);`|
-|`gradient-tb-warm `|`background-image: linear-gradient(to bottom, #ff0000, #ff4000, #ff8000, #ffbf00, #ffff00);`|
-|`gradient-bt-warm `|`background-image: linear-gradient(to top, #ff0000, #ff4000, #ff8000, #ffbf00, #ffff00);`|
-|`gradient-lr-cold `|`background-image: linear-gradient(to right,#0000ff, #4000ff, #8000ff, #bf00ff, #ff2cf4);`|
-|`gradient-rl-cold `|`background-image: linear-gradient(to left, #0000ff, #4000ff, #8000ff, #bf00ff, #ff2cf4);`|
-|`gradient-tb-cold `|`background-image: linear-gradient(to bottom, #0000ff, #4000ff, #8000ff, #bf00ff, #ff2cf4);`|
-|`gradient-bt-cold `|`background-image: linear-gradient(to top, #0000ff, #4000ff, #8000ff, #bf00ff, #ff2cf4);`|
+|`gradient-lr-warm `|`gradient-lr-cold `|
+|`gradient-rl-warm `|`gradient-rl-cold `|
+|`gradient-tb-warm `|`gradient-tb-cold `|
+|`gradient-bt-warm `|`gradient-bt-cold `|
 
 {{< docs/color-gradients >}}
 
@@ -107,6 +103,8 @@ weight: 5
 ## Filters 
 
 ### Grayscale 
+
+This filter grayscales all child elements as well. 
 
 ```html
 <section class="spread">
@@ -216,9 +214,9 @@ Ghouls have a set maximum height and width so that you can easily create blocks 
 
 ```html
 <section class="spread-center inner-m-1 ghouls-1">
-    <div class="button red rounded-8 "></div>
-    <div class="button gray rounded-8 "></div>
-    <div class="button green rounded-8 "></div>
+    <div class="button red rounded-7 "></div>
+    <div class="button gray rounded-7 "></div>
+    <div class="button green rounded-7 "></div>
 </section>
 ```
 

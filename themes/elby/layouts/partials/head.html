@@ -13,7 +13,7 @@
     {{ $color := resources.Get "css/color.css"  }}
 
 
-    {{ $css := slice $core $layout $objects $traits $spacing $text $color | resources.Concat "css/emdash.css"}}
+    {{ $css := slice $core $layout $objects $traits $spacing $text $color | resources.Concat "css/emdash-v0.1.0.css"}}
     {{$cssPublic := $css}}
     {{ $cssMin := $css | resources.Minify }}
     {{ $secureCSS := $cssMin | resources.Fingerprint "sha512"}}
