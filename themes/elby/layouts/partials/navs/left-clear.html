@@ -1,3 +1,14 @@
-<nav  class="spread inner-fit sticky level-top">
-    <a href="/"><img src="/images/logo.svg" class="grayscale" style="height:40px"></a>
+<nav  class="spread-left sticky level-top inner-pinned-center inner-m-1 inner-p-1 brighten-1">
+    <div class="is-one-fifth">
+        <a href="/"><img src="/images/logo.svg" class="grayscale" style="height:40px"></a>
+    </div>
+
+   
+    <section class="spread-left is-hidden-desktop">
+        <div class="buttons inner-brighten-2 thin inner-m-1 inner-p-1 inner-rounded-1">
+            {{range .Site.Sections}}
+            <a class="button" href="{{.Permalink}}">{{.Title}}</a>
+            {{end}}
+        </div>
+    </section>
 </nav>
