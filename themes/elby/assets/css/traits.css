@@ -1,3 +1,23 @@
+:root{
+  --rounded-1: 5px;
+  --rounded-2: 10px; 
+  --rounded-3: 15px;
+  --rounded-4: 20px;
+  --rounded-5: 25px;
+  --rounded-6: 30px;
+  --rounded-7: 35px;
+  --rounded-8: 100%;
+  --pattern-1: url(/images/patty.svg) repeat;
+  --pattern-2: url(/images/patty.svg2) repeat;
+  --ghoul-1: 10px;
+  --ghoul-2: 20px;
+  --ghoul-3: 30px;
+  --ghoul-4: 40px;
+  --ghoul-5: 50px;
+  --ghoul-6: 100px;
+  --ghoul-7: 200px;
+}
+
 /* Stick to Top  */
 
 .sticky {
@@ -21,14 +41,14 @@
 /*Cascade Fit*/
 
 .inner-fit > * {
-    max-width: fit-content !important;
-    flex: none !important;
+    max-width: fit-content;
+    flex: none;
 }
 .inner-fit-x > * {
-    max-width: fit-content !important;
+    max-width: fit-content;
 }
 .inner-fit-y > * {
-    flex: none !important;
+    flex: none;
 }
 /* Spread and Stack item alignment */
 
@@ -51,51 +71,54 @@
 /* Round the Object  */
 
 .rounded-1 {
-    border-radius: 5px;
+    border-radius: var(--rounded-1) !important;
 }
 .rounded-2 {
-    border-radius: 10px;
+    border-radius: var(--rounded-2) !important;
 }
 .rounded-3 {
-    border-radius: 15px;
+    border-radius: var(--rounded-3) !important;
 }
 .rounded-4 {
-    border-radius: 20px;
+    border-radius: var(--rounded-4) !important;
 }
 .rounded-5 {
-    border-radius: 25px;
+    border-radius: var(--rounded-5) !important;
 }
 .rounded-6 {
-    border-radius: 30px;
+    border-radius: var(--rounded-6) !important;
 }
 .rounded-7 {
-    border-radius: 35px;
+    border-radius: var(--rounded-7) !important;
 }
 .rounded-8 {
-    border-radius: 100%;
+    border-radius: var(--rounded-8) !important;
 }
 
 /* Cascade Inner Roundness */
 .inner-rounded-1 > * {
-    border-radius: 5px;
+    border-radius: var(--rounded-1);
 }
 .inner-rounded-2 > * {
-    border-radius: 10px;
+    border-radius: var(--rounded-2);
 }
 .inner-rounded-3 > * {
-    border-radius: 15px;
+    border-radius: var(--rounded-3);
 }
 .inner-rounded-4 > * {
-    border-radius: 20px;
+    border-radius: var(--rounded-4);
 }
 .inner-rounded-5 > * {
-    border-radius: 25px;
+    border-radius: var(--rounded-5);
 }
 .inner-rounded-6 > * {
-    border-radius: 30px;
+    border-radius: var(--rounded-6);
 }
 .inner-rounded-7 > * {
-    border-radius: 35px;
+    border-radius: var(--rounded-7);
+}
+.inner-rounded-8 > * {
+    border-radius: var(--rounded-8);
 }
 
 
@@ -206,12 +229,10 @@
 /* Pattern */
 
 .display-pattern {
-    background: url(/images/patty.svg) repeat;
-
+    background: var(--pattern-1);
 }
 .display-pattern2 {
-    background: url(/images/patty2.svg);
-
+    background: var(--pattern-2);
 }
 
 /* Z Index */
@@ -222,9 +243,6 @@
 .level-bottom {
     z-index: -9999;
 }
-
-
-
 /* Cast shade */
 
 .shadow-u-1 {
@@ -382,39 +400,39 @@
 /* Ghost & Ghouls for using spreads and stacks as color blocks*/
 
 .ghouls-1 > * {
-    max-width: 10px;
-    max-height: 10px;
-    height: 10px;
+    max-width: var(--ghoul-1);
+    max-height: var(--ghoul-1);
+    height: var(--ghoul-1);
 }
 .ghouls-2 > * {
-    max-width: 20px;
-    max-height: 20px;
-    height: 20px;
+    max-width: var(--ghoul-2);
+    max-height: var(--ghoul-2);
+    height: var(--ghoul-2);
 }
 .ghouls-3 > * {
-    max-width: 30px;
-    max-height: 30px;
-    height: 30px;
+    max-width: var(--ghoul-3);
+    max-height: var(--ghoul-3);
+    height: var(--ghoul-3);
 }
 .ghouls-4 > * {
-    max-width: 40px;
-    max-height: 40px;
-    height: 40px;
+    max-width: var(--ghoul-4);
+    max-height: var(--ghoul-4);
+    height: var(--ghoul-4);
 }
 .ghouls-5 > * {
-    max-width: 50px;
-    max-height: 50px;
-    height: 50px;
+    max-width: var(--ghoul-5);
+    max-height: var(--ghoul-5);
+    height: var(--ghoul-5);
 }
 .ghouls-6 > * {
-    max-width: 100px;
-    max-height: 100px;
-    height: 100px;
+    max-width: var(--ghoul-6);
+    max-height: var(--ghoul-6);
+    height: var(--ghoul-6);
 }
 .ghouls-7 > * {
-    max-width: 200px;
-    max-height: 200px;
-    height: 200px;
+    max-width: var(--ghoul-7);
+    max-height: var(--ghoul-7);
+    height: var(--ghoul-7);
 }
 
 .ghost-1 {

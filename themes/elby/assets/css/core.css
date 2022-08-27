@@ -31,6 +31,7 @@ pre, pre > code {
 
 /* Headers */
 
+
 h1 {
     font-size: var(--xxxlarge-text);
 }
@@ -49,12 +50,10 @@ h5 {
 h6 {
     font-size: var(--small-text);
 }
-
 hr {
     margin-top: var(--large-text);
     margin-bottom: var(--large-text);
 }
-
 p {
     font-size:  var(--xsmall-text);
 }
