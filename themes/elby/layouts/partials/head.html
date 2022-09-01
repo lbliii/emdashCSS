@@ -1,8 +1,13 @@
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="title" content="{{ .Title }}" />
+    <meta name="description" content="{{ .Description }}" />
+    <meta name="keywords" content="{{ .Keywords }}" />
+    <meta name="author" content="{{ .Params.author }}" />
+    <meta name="robots" content="index, follow" />
+    
+    {{ template "_internal/twitter_cards.html" . }}
     
     {{ $core := resources.Get "css/core.css" }}
     {{ $layout := resources.Get "css/layout.css" }}
@@ -11,7 +16,6 @@
     {{ $spacing := resources.Get "css/spacing.css"  }}
     {{ $text := resources.Get "css/text.css"  }}
     {{ $color := resources.Get "css/color.css"  }}
-
 
     {{ $css := slice $core $layout $objects $traits $spacing $text $color | resources.Concat "css/emdash-v0.1.0.css"}}
     {{$cssPublic := $css}}
