@@ -7,6 +7,8 @@ weight: 4
 
 ```css
 :root {
+     --is-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --is-header-line-height: 80%;
     --xsmall-text: 0.6rem;
     --small-text: 0.8rem;
     --medium-text: 1rem;

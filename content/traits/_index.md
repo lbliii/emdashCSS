@@ -122,6 +122,29 @@ weight: 6
 
 {{<  docs/spread-inner-pinned>}}
 
+### Responsive Sizing & Visibility
+
+#### Direct
+
+|Mobile  |Tablet|Touch|Desktop|
+|---|----|---|---|
+|(<768px)|(>768px <1024px)|(<1024px)|(>1024px)|
+|`is-fullsize-mobile`|`is-fullsize-tablet` |`is-fullsize-touch`|`is-fullsize-desktop`|
+|`is-hidden-mobile`|`is-hidden-tablet` |`is-hidden-touch`|`is-hidden-desktop`|
+|`is-invisible-mobile`|`is-invisible-tablet` |`is-invisible-touch`|`is-invisible-desktop`|
+
+#### Inner 
+
+|Mobile|Tablet|Touch|Desktop|
+|---|----|---|---|
+|(<768px)|(>768px <1024px)|(<1024px)|(>1024px)|
+|`inner-fullsize-mobile`|`inner-fullsize-tablet` |`inner-fullsize-touch`|`inner-fullsize-desktop`|
+|`inner-hidden-mobile`|`inner-hidden-tablet` |`inner-hidden-touch`|`inner-hidden-desktop`|
+|`inner-invisible-mobile`|`inner-invisible-tablet` |`inner-invisible-touch`|`inner-invisible-desktop`|
+
+
+
+
 ---
 
 ## Stack Traits

@@ -6,8 +6,8 @@ theme: elby
 staticDir: "/themes/elby/static"
 
 outputs: 
-  home: [ "HTML", "JSON"]
-  page: [ "HTML", "JSON"]
-  section: [ "HTML", "JSON"]
-  list: [ "HTML", "JSON"]
-  taxonomies: [ "HTML", "JSON"]
+  home: [ "HTML"]
+  page: [ "HTML"]
+  section: [ "HTML"]
+  list: [ "HTML"]
+  taxonomies: [ "HTML"]

@@ -237,6 +237,12 @@
         flex-basis: 100%;
         flex-grow: 1;
     }
+    .inner-hidden-mobile > * {
+        display: none;
+    }
+    .inner-invisible-mobile > * {
+        visibility: hidden;
+    }
     .inner-fullsize-mobile > * {
         flex-basis: 100%;
         flex-grow: 1;
@@ -252,9 +258,41 @@
         visibility: hidden;
     }
     .is-fullsize-tablet {
+        flex-basis: 100%;
         flex-grow: 1;
     }
+    .inner-hidden-tablet > * {
+        display: none;
+    }
+    .inner-invisible-tablet > * {
+        visibility: hidden;
+    }
     .inner-fullsize-tablet > * {
+        flex-basis: 100%;
+        flex-grow: 1;
+    }
+}
+
+/* Touch */
+
+@media screen and (max-width: 1024px) {
+    .is-hidden-touch {
+        display: none;
+    }
+    .is-invisible-touch {
+        visibility: hidden;
+    }
+    .is-fullsize-touch {
+        flex-basis: 100%;
+        flex-grow: 1;
+    }
+    .inner-hidden-touch > * {
+        display: none;
+    }
+    .inner-invisible-touch > * {
+        visibility: hidden;
+    }
+    .inner-fullsize-touch > * {
         flex-basis: 100%;
         flex-grow: 1;
     }
@@ -269,7 +307,15 @@
         visibility: hidden;
     }
     .is-fullsize-desktop {
+        flex-basis: 100%;
         flex-grow: 1;
+    }
+
+    .inner-hidden-desktop > * {
+        display: none;
+    }
+    .inner-invisible-desktop > * {
+        visibility: hidden;
     }
     .inner-fullsize-desktop > * {
         flex-basis: 100%;
