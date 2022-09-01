@@ -1,0 +1,25 @@
+{{$direction := .Get "d"}}
+{{$title1 := .Get "t1" }}
+{{$title2 := .Get "t2" }}
+{{$subtitle := .Get "s" }}
+{{$cta1 := .Get "cta-light" }}
+{{$cta2 := .Get "cta-dark" }}
+{{$color := .Get "color" }}
+
+<section class="spread {{if $color }}{{$color}}{{else}}white{{end}}">
+    <div class="is-fullsize-mobile darken-2"></div>
+    <div class="is-four-fifths is-fullsize-mobile"> 
+        <div class="brighten-1 inner-p-2 text-center">
+            <h2> {{$title1}} {{if $title2 }} <br> {{$title2}} {{end}} </h2>
+            {{if $subtitle}} <p class="subtitle-2"> {{$subtitle}} </p> {{end}}
+            <section class="spread-center inner-fit inner-m-1 inner-p-2 inner-rounded-1">
+                    {{if $cta1}}<button class="button xs outlined "> {{$cta1}} </button>{{end}}
+                    {{if $cta2}}<button class="button xs darken-2"> {{$cta2}}</button>{{end}}
+            </section>
+        </div>
+    </div>
+    <div class="is-fullsize-mobile darken-2"></div>
+</section>
+
+
+

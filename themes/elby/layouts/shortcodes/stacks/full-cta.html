@@ -1,0 +1,16 @@
+{{$direction := .Get "d"}}
+{{$title1 := .Get "t1" }}
+{{$title2 := .Get "t2" }}
+{{$subtitle := .Get "s" }}
+{{$cta1 := .Get "cta-light" }}
+{{$cta2 := .Get "cta-dark" }}
+{{$color := .Get "color" }}
+
+<section class="{{if $direction}}{{$direction}}{{else}}stack{{end}} {{if $color }}{{$color}}{{else}}white{{end}} py-7 inner-mx-3">
+    <h2> {{$title1}} {{if $title2 }} <br> {{$title2}} {{end}} </h2>
+    {{if $subtitle}} <p class="subtitle-2 m mt-4 mb-4"> {{$subtitle}}</p> {{end}}
+    <section class="spread-left inner-fit inner-m-1 inner-p-2 inner-rounded-1">
+            {{if $cta1}}<button class="button s outlined "> {{$cta1}} </button>{{end}}
+            {{if $cta2}}<button class="button s black"> {{$cta2}}</button>{{end}}
+    </section>
+</section>

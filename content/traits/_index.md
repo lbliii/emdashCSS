@@ -5,6 +5,13 @@ weight: 6
 
 ## Global Traits 
 
+### Move (Animations)
+
+|Left|Right|Up|Down|
+|-|-|-|-|
+|`move-l`|`move-r`|`move-u`|`move-d`|
+|`inner-move-l`|`inner-move-r`|`inner-move-u`|`inner-move-d`|
+
 ### Outlined 
 
 |Options|Description|
