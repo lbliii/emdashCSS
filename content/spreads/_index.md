@@ -4,7 +4,7 @@ description: The powerhouse of this framework.
 weight: 1
 ---
 
-A spread is basically a container that utilizes **flexbox** to flow horizontally (`flex-flow: row wrap;`). It can be used to quickly create everything from baseline layout structures to top-level components. 
+A spread is basically a container that utilizes **flexbox** to flow horizontally. It can be used to quickly create everything from baseline layout structures to top-level components. 
 
 ## Generic Spreads
 

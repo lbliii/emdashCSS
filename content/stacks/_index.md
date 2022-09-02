@@ -3,7 +3,7 @@ title: Stacks
 weight: 2
 ---
 
-A stack is basically a container that utilizes **flexbox** to flow vertically (`flex-flow: column wrap;`). It can be used to quickly create simple stacked structures like text layouts and link directories. 
+A stack is basically a container that utilizes **flexbox** to flow vertically. It can be used to quickly create simple stacked structures like text layouts and link directories. 
 
 ## Generic Stacks
 
