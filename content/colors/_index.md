@@ -67,15 +67,15 @@ weight: 5
 ### Darken 
 
 ```html
-<section class="spread">
-    <div class="ghost-3 purple"></div>
-    <div class="ghost-3 purple darken-1"></div>
-    <div class="ghost-3 purple darken-2"></div>
-    <div class="ghost-3 purple darken-3"></div>
-    <div class="ghost-3 purple darken-4"></div>
-    <div class="ghost-3 purple darken-5"></div>
-    <div class="ghost-3 purple darken-6"></div>
-    <div class="ghost-3 purple darken-7"></div>
+<section class="spread purple">
+    <div class="ghost-3 "></div>
+    <div class="ghost-3 darken-1"></div>
+    <div class="ghost-3 darken-2"></div>
+    <div class="ghost-3 darken-3"></div>
+    <div class="ghost-3 darken-4"></div>
+    <div class="ghost-3 darken-5"></div>
+    <div class="ghost-3 darken-6"></div>
+    <div class="ghost-3 darken-7"></div>
 </section>
 ```
 
@@ -84,15 +84,15 @@ weight: 5
 ### Brighten 
 
 ```html
-<section class="spread">
-    <div class="ghost-3 purple"></div>
-    <div class="ghost-3 purple brighten-1"></div>
-    <div class="ghost-3 purple brighten-2"></div>
-    <div class="ghost-3 purple brighten-3"></div>
-    <div class="ghost-3 purple brighten-4"></div>
-    <div class="ghost-3 purple brighten-5"></div>
-    <div class="ghost-3 purple brighten-6"></div>
-    <div class="ghost-3 purple brighten-7"></div>
+<section class="spread purple">
+    <div class="ghost-3"></div>
+    <div class="ghost-3 brighten-1"></div>
+    <div class="ghost-3 brighten-2"></div>
+    <div class="ghost-3 brighten-3"></div>
+    <div class="ghost-3 brighten-4"></div>
+    <div class="ghost-3 brighten-5"></div>
+    <div class="ghost-3 brighten-6"></div>
+    <div class="ghost-3 brighten-7"></div>
 </section>
 ```
 
