@@ -48,6 +48,8 @@ button, .button {
     white-space: nowrap;
     display: inline-flex;
     align-items: center; 
+    background-color: inherit;
+    color: inherit;
 }
 
 
