@@ -1,7 +1,9 @@
+{{$currentPage := .Title }}
+
 <aside id="tree" class="stack-left is-hidden-mobile">
     <div class="sticky pt-5 mt-1 ml-1 stack"> 
         {{range .Site.Sections}}
-            <a href="{{ .Permalink }}" class="button brighten-2 xs thin rounded-1  m-1 p-1"> {{ .Title }} </a>
+            <a href="{{ .Permalink }}" class="button brighten-2 {{if eq $currentPage .Title}} purple {{end}} xs thin rounded-1  m-1 p-1"> {{ .Title }} </a>
         {{end}}
     </div>
 </aside>

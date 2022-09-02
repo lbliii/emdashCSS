@@ -30,9 +30,7 @@
 
 /* buttons */
 
-
-
-.button {
+button, .button {
     display: inline-flex;
     align-items: center; 
     justify-content: center;
@@ -42,12 +40,14 @@
     cursor: pointer;
 }
 
+
 /* Labels  */ 
  
 .label {
     flex: 0;
-    width: fit-content;
     white-space: nowrap;
+    display: inline-flex;
+    align-items: center; 
 }
 
 
