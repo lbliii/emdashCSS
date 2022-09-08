@@ -112,17 +112,17 @@
 }
 
 /* Inner Text Cascades */
-.nr-text-center > * {
+.c-text-center > * {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.nr-text-right > * {
+.c-text-right > * {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-.nr-text-left > * {
+.c-text-left > * {
     display: flex;
     justify-content: flex-start;
     align-items: center;

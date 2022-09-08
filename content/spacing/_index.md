@@ -20,7 +20,7 @@ weight: 3
 
 ## Margin 
 
-Use direct margins to set the margin on a specific element.  Direct margins utilize `!important` to override nr-margin settings when necessary.
+Use direct margins to set the margin on a specific element.  Direct margins utilize `!important` to override c-margin settings when necessary.
 
 |Full|Left|Right|Top|Bottom|
 |-|-|-|-|-|
@@ -39,19 +39,19 @@ Use inner  margins to set the margin for all direct child elements.
 
 |Full|Left|Right|Top|Bottom|
 |-|-|-|-|-|
-|`nr-m-1`|`nr-ml-1`|`nr-mr-1`|`nr-mt-1`|`nr-mb-1`|
-|`nr-m-2`|`nr-ml-2`|`nr-mr-2`|`nr-mt-2`|`nr-mb-2`|
-|`nr-m-3`|`nr-ml-3`|`nr-mr-3`|`nr-mt-3`|`nr-mb-3`|
-|`nr-m-4`|`nr-ml-4`|`nr-mr-4`|`nr-mt-4`|`nr-mb-4`|
-|`nr-m-5`|`nr-ml-5`|`nr-mr-5`|`nr-mt-5`|`nr-mb-5`|
-|`nr-m-6`|`nr-ml-6`|`nr-mr-6`|`nr-mt-6`|`nr-mb-6`|
-|`nr-m-7`|`nr-ml-7`|`nr-mr-7`|`nr-mt-7`|`nr-mb-7`|
+|`c-m-1`|`c-ml-1`|`c-mr-1`|`c-mt-1`|`c-mb-1`|
+|`c-m-2`|`c-ml-2`|`c-mr-2`|`c-mt-2`|`c-mb-2`|
+|`c-m-3`|`c-ml-3`|`c-mr-3`|`c-mt-3`|`c-mb-3`|
+|`c-m-4`|`c-ml-4`|`c-mr-4`|`c-mt-4`|`c-mb-4`|
+|`c-m-5`|`c-ml-5`|`c-mr-5`|`c-mt-5`|`c-mb-5`|
+|`c-m-6`|`c-ml-6`|`c-mr-6`|`c-mt-6`|`c-mb-6`|
+|`c-m-7`|`c-ml-7`|`c-mr-7`|`c-mt-7`|`c-mb-7`|
  
 --- 
 
 ## Padding 
 
-Use direct padding to set the padding on a specific element.  Direct padding utilizes `!important` to override nr-padding settings when necessary.
+Use direct padding to set the padding on a specific element.  Direct padding utilizes `!important` to override c-padding settings when necessary.
 
 |Full|Left|Right|Top|Bottom|
 |-|-|-|-|-|
@@ -70,11 +70,11 @@ Use inner padding to set the padding for all direct child elements.
 
 |Full|Left|Right|Top|Bottom|
 |-|-|-|-|-|
-|`nr-p-1`|`nr-pl-1`|`nr-pr-1`|`nr-pt-1`|`nr-pb-1`|
-|`nr-p-2`|`nr-pl-2`|`nr-pr-2`|`nr-pt-2`|`nr-pb-2`|
-|`nr-p-3`|`nr-pl-3`|`nr-pr-3`|`nr-pt-3`|`nr-pb-3`|
-|`nr-p-4`|`nr-pl-4`|`nr-pr-4`|`nr-pt-4`|`nr-pb-4`|
-|`nr-p-5`|`nr-pl-5`|`nr-pr-5`|`nr-pt-5`|`nr-pb-5`|
-|`nr-p-6`|`nr-pl-6`|`nr-pr-6`|`nr-pt-6`|`nr-pb-6`|
-|`nr-p-7`|`nr-pl-7`|`nr-pr-7`|`nr-pt-7`|`nr-pb-7`|
+|`c-p-1`|`c-pl-1`|`c-pr-1`|`c-pt-1`|`c-pb-1`|
+|`c-p-2`|`c-pl-2`|`c-pr-2`|`c-pt-2`|`c-pb-2`|
+|`c-p-3`|`c-pl-3`|`c-pr-3`|`c-pt-3`|`c-pb-3`|
+|`c-p-4`|`c-pl-4`|`c-pr-4`|`c-pt-4`|`c-pb-4`|
+|`c-p-5`|`c-pl-5`|`c-pr-5`|`c-pt-5`|`c-pb-5`|
+|`c-p-6`|`c-pl-6`|`c-pr-6`|`c-pt-6`|`c-pb-6`|
+|`c-p-7`|`c-pl-7`|`c-pr-7`|`c-pt-7`|`c-pb-7`|
  

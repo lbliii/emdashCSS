@@ -75,47 +75,47 @@
   color: var(--is-text-color) ;
 }
  
-.nr-blue > * {
+.c-blue > * {
   background-color: var(--is-blue) ;
   color: var(--is-text-color-inverted) ;
 }
-.nr-red > * {
+.c-red > * {
   background-color: var(--is-red) ;
   color: var(--is-text-color-inverted) ;
 }
-.nr-green > * {
+.c-green > * {
   background-color: var(--is-green) ;
   color: var(--is-text-color) ;
 }
-.nr-orange > * {
+.c-orange > * {
   background-color: var(--is-orange) ;
   color: var(--is-text-color-inverted) ;
 }
-.nr-purple > * {
+.c-purple > * {
   background-color: var(--is-purple) ;
   color: var(--is-text-color-inverted) ;
 }
-.nr-pink > * {
+.c-pink > * {
   background-color: var(--is-pink) ;
   color: var(--is-text-color-inverted) ;
 }
-.nr-black > * {
+.c-black > * {
   background-color: var(--is-black) ;
   color: var(--is-text-color-inverted) ;
 }
-.nr-gray > * {
+.c-gray > * {
   background-color: var(--is-gray) ;
   color: var(--is-text-color-inverted) ;
 }
-.nr-dark-gray > * {
+.c-dark-gray > * {
   background-color: var(--is-dark-gray) ;
   color: var(--is-text-color-inverted) ;
 }
-.nr-yellow > * {
+.c-yellow > * {
   background-color: var(--is-yellow) ;
   color: var(--is-text-color) ;
 }
-.nr-white > * {
+.c-white > * {
   background-color: var(--is-white) ;
   color: var(--is-text-color) ;
 }
@@ -258,25 +258,25 @@
 
 /* Cascade Brightness */
 
-.nr-brighten-1 > * {
+.c-brighten-1 > * {
   box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.1);
 }
-.nr-brighten-2 > * {
+.c-brighten-2 > * {
   box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.2);
 }
-.nr-brighten-3 > * {
+.c-brighten-3 > * {
   box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.3);
 }
-.nr-brighten-4 > * {
+.c-brighten-4 > * {
   box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.4);
 }
-.nr-brighten-5 > * {
+.c-brighten-5 > * {
   box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.5);
 }
-.nr-brighten-6 > * {
+.c-brighten-6 > * {
   box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.6);
 }
-.nr-brighten-7 > * {
+.c-brighten-7 > * {
   box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.7);
 }
 
@@ -306,24 +306,24 @@
 
 /* Cascade Darkeness */
 
-.nr-darken-1 > * {
+.c-darken-1 > * {
   box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.1);
 }
-.nr-darken-2 > * {
+.c-darken-2 > * {
   box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.2);
 }
-.nr-darken-3 > * {
+.c-darken-3 > * {
   box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.3);
 }
-.nr-darken-4 > * {
+.c-darken-4 > * {
   box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.4);
 }
-.nr-darken-5 > * {
+.c-darken-5 > * {
   box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.5);
 }
-.nr-darken-6 > * {
+.c-darken-6 > * {
   box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.6);
 }
-.nr-darken-7 > * {
+.c-darken-7 > * {
   box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.7);
 }

@@ -10,7 +10,7 @@ weight: 6
 |Left|Right|Up|Down|
 |-|-|-|-|
 |`move-l`|`move-r`|`move-u`|`move-d`|
-|`nr-move-l`|`nr-move-r`|`nr-move-u`|`nr-move-d`|
+|`c-move-l`|`c-move-r`|`c-move-u`|`c-move-d`|
 
 ### Outlined 
 
@@ -25,9 +25,9 @@ weight: 6
 
 |Options|Description|
 |-|-|
-|`nr-outlined`|`> * { border: 1px solid currentColor; }`|
-|`nr-outlined-black`|`> * { border: 1px solid #000; }`|
-|`nr-outlined-white`|`> * { border: 1px solid #fff; }`|
+|`c-outlined`|`> * { border: 1px solid currentColor; }`|
+|`c-outlined-black`|`> * { border: 1px solid #000; }`|
+|`c-outlined-white`|`> * { border: 1px solid #fff; }`|
 
 ### Rounded 
 
@@ -47,14 +47,14 @@ weight: 6
 
 |Options|Description|
 |-|-|
-|`nr-rounded-1`|`> * { border-radius: 5px; }`|
-|`nr-rounded-2`|`> * { border-radius: 10px; }`|
-|`nr-rounded-3`|`> * { border-radius: 15px; }`|
-|`nr-rounded-4`|`> * { border-radius: 20px; }`|
-|`nr-rounded-5`|`> * { border-radius: 25px; }`|
-|`nr-rounded-6`|`> * { border-radius: 30px; }`|
-|`nr-rounded-7`|`> * { border-radius: 35px; }`|
-|`nr-rounded-7`|`> * { border-radius: 100%; }`|
+|`c-rounded-1`|`> * { border-radius: 5px; }`|
+|`c-rounded-2`|`> * { border-radius: 10px; }`|
+|`c-rounded-3`|`> * { border-radius: 15px; }`|
+|`c-rounded-4`|`> * { border-radius: 20px; }`|
+|`c-rounded-5`|`> * { border-radius: 25px; }`|
+|`c-rounded-6`|`> * { border-radius: 30px; }`|
+|`c-rounded-7`|`> * { border-radius: 35px; }`|
+|`c-rounded-7`|`> * { border-radius: 100%; }`|
 
 
 ### Shadow
@@ -120,11 +120,11 @@ weight: 6
 
 |Options|Description|
 |---|----|
-|`nr-pinned-top`| `align-items: flex-start;`|
-|`nr-pinned-bottom`| `align-items: flex-end;`|
-|`nr-pinned-center`| `align-items: center;`|
-|`nr-pinned-stretch`| `align-items: stretch;`|
-|`nr-pinned-baseline`| `align-items: baseline;`|
+|`c-pinned-top`| `align-items: flex-start;`|
+|`c-pinned-bottom`| `align-items: flex-end;`|
+|`c-pinned-center`| `align-items: center;`|
+|`c-pinned-stretch`| `align-items: stretch;`|
+|`c-pinned-baseline`| `align-items: baseline;`|
 
 
 {{<  docs/spread-inner-pinned>}}
@@ -145,9 +145,9 @@ weight: 6
 |Mobile|Tablet|Touch|Desktop|
 |---|----|---|---|
 |(<768px)|(>768px <1024px)|(<1024px)|(>1024px)|
-|`nr-fullsize-mobile`|`nr-fullsize-tablet` |`nr-fullsize-touch`|`nr-fullsize-desktop`|
-|`nr-hidden-mobile`|`nr-hidden-tablet` |`nr-hidden-touch`|`nr-hidden-desktop`|
-|`nr-invisible-mobile`|`nr-invisible-tablet` |`nr-invisible-touch`|`nr-invisible-desktop`|
+|`c-fullsize-mobile`|`c-fullsize-tablet` |`c-fullsize-touch`|`c-fullsize-desktop`|
+|`c-hidden-mobile`|`c-hidden-tablet` |`c-hidden-touch`|`c-hidden-desktop`|
+|`c-invisible-mobile`|`c-invisible-tablet` |`c-invisible-touch`|`c-invisible-desktop`|
 
 
 
@@ -160,7 +160,7 @@ weight: 6
 
 You can use a generic stack and apply **fits**. 
 
-- You can use `nr-fit` on the stack itself to tailor stack items to size to their content. 
+- You can use `c-fit` on the stack itself to tailor stack items to size to their content. 
 - You can also use `is-fit` directly on child elements individually. This is especially useful for customizing link or button sizes inside your stack (see following example).
 
 #### Fit Types
@@ -170,20 +170,20 @@ You can use a generic stack and apply **fits**.
 |`is-fit` | `max-width: fit content; flex:none;`    |
 | `is-fit-x` | `max-width: fit content;`  |
 |`is-fit-y`| `flex:none;` |
-|`nr-fit`| `> * { max-width: fit content; flex:none; } ` |
-|`nr-fit-x`|`> * { max-width: fit content; } ` |
-|`nr-fit-y`|`> * { flex:none; } ` |
+|`c-fit`| `> * { max-width: fit content; flex:none; } ` |
+|`c-fit-x`|`> * { max-width: fit content; } ` |
+|`c-fit-y`|`> * { flex:none; } ` |
 
 ```html
 <section class="spread purple">
-        <div class="stack nr-p-1 nr-m-2 ">
+        <div class="stack c-p-1 c-m-2 ">
             <a href="" class="button white s text-center">  Link 1 </a>
             <a href="" class="button white s is-fit-y">  Link 2 </a>
             <a href="" class="button white s is-fit-x">  Link 3 </a>
             <a href="" class="button white s is-fit">  Link 4 </a>
         </div>
  
-    <div class="is-four-fifths white nr-s-1 text-center">
+    <div class="is-four-fifths white c-s-1 text-center">
         <h1>Hello, world!</h1>
         <p> Lots of SEO Content here.</p>
         <p> Lots of SEO Content here.</p>
