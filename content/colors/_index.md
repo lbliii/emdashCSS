@@ -213,7 +213,7 @@ Ghouls have a set maximum height and width so that you can easily create blocks 
 #### Circles 
 
 ```html
-<section class="spread-center inner-m-1 ghouls-1">
+<section class="spread-center nr-m-1 ghouls-1">
     <div class="button red rounded-7 "></div>
     <div class="button gray rounded-7 "></div>
     <div class="button green rounded-7 "></div>
@@ -225,7 +225,7 @@ Ghouls have a set maximum height and width so that you can easily create blocks 
 #### Squares 
 
 ```html
-<section class="spread-center inner-m-1 ghouls-4">
+<section class="spread-center nr-m-1 ghouls-4">
     <div class="button red"></div>
     <div class="button gray"></div>
     <div class="button green"></div>

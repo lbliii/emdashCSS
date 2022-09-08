@@ -27,7 +27,7 @@ A generic spread fills its container's width; if child elements are present, the
 Spreads utilize cascades to push standardized styles to child elements. This makes it quick and easy to whip up a series of buttons or cards.
 
 ```html
-    <section class="spread purple inner-s-1"> 
+    <section class="spread purple nr-s-1"> 
         <div class="white"> one </div>
         <div class="white"> two </div>
         <div class="white"> three </div>
@@ -121,10 +121,10 @@ Notice in each example that you control set the mobile size via `is-fullfsize-mo
 ```html
 <section class="spread purple ">
     <div class="is-fullsize-mobile"> 
-        <div class="brighten-1 inner-p-2">
+        <div class="brighten-1 nr-p-2">
             <h1> petals on a wet,<br> black bough.</h1>
             <h2 class="subtitle-2"> -Ezra Pound</h2>
-            <section class="spread-left inner-fit inner-m-1 inner-p-2 inner-rounded-1">
+            <section class="spread-left nr-fit nr-m-1 nr-p-2 nr-rounded-1">
                     <button class="button s outlined "> Get Started </button>
                     <button class="button s darken-2"> Live Demo</button>
             </section>
@@ -140,12 +140,12 @@ Notice in each example that you control set the mobile size via `is-fullfsize-mo
 ### Blade Example
 
 ```html
-<section class="spread inner-pinned-center purple p-4">
+<section class="spread nr-pinned-center purple p-4">
     <div class="text-center is-fullsize-mobile">
         <h1 > Mr. Meowgi</h1>
         <h2 class="subtitle-2 m"> is a russian blue cat.</h2>
     </div>
-    <div class="spread rounded-2 display-pattern py-2 inner-m-3 inner-p-2 inner-fullsize-mobile">
+    <div class="spread rounded-2 display-pattern py-2 nr-m-3 nr-p-2 nr-fullsize-mobile">
         <div class="text-center white"> 
             <p>Meow.</p>
         </div> 

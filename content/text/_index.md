@@ -29,9 +29,9 @@ weight: 4
 |`s`|`thin`|`lower-case`|`text-left`|
 |`m`|`light`|`capitalize`|`text-center`|
 |`l`|`normal`||`text-justify`|
-|`xl`|`medium`||`inner-text-left`|
-|`xxl`|`bold`||`inner-text-right`|
-|`xxxl`|`extra-bolt`||`inner-text-center`|
+|`xl`|`medium`||`nr-text-left`|
+|`xxl`|`bold`||`nr-text-right`|
+|`xxxl`|`extra-bolt`||`nr-text-center`|
 ||`hefty`|||
 
 

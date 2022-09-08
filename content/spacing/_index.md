@@ -20,7 +20,7 @@ weight: 3
 
 ## Margin 
 
-Use direct margins to set the margin on a specific element.  Direct margins utilize `!important` to override inner-margin settings when necessary.
+Use direct margins to set the margin on a specific element.  Direct margins utilize `!important` to override nr-margin settings when necessary.
 
 |Full|Left|Right|Top|Bottom|
 |-|-|-|-|-|
@@ -39,19 +39,19 @@ Use inner  margins to set the margin for all direct child elements.
 
 |Full|Left|Right|Top|Bottom|
 |-|-|-|-|-|
-|`inner-m-1`|`inner-ml-1`|`inner-mr-1`|`inner-mt-1`|`inner-mb-1`|
-|`inner-m-2`|`inner-ml-2`|`inner-mr-2`|`inner-mt-2`|`inner-mb-2`|
-|`inner-m-3`|`inner-ml-3`|`inner-mr-3`|`inner-mt-3`|`inner-mb-3`|
-|`inner-m-4`|`inner-ml-4`|`inner-mr-4`|`inner-mt-4`|`inner-mb-4`|
-|`inner-m-5`|`inner-ml-5`|`inner-mr-5`|`inner-mt-5`|`inner-mb-5`|
-|`inner-m-6`|`inner-ml-6`|`inner-mr-6`|`inner-mt-6`|`inner-mb-6`|
-|`inner-m-7`|`inner-ml-7`|`inner-mr-7`|`inner-mt-7`|`inner-mb-7`|
+|`nr-m-1`|`nr-ml-1`|`nr-mr-1`|`nr-mt-1`|`nr-mb-1`|
+|`nr-m-2`|`nr-ml-2`|`nr-mr-2`|`nr-mt-2`|`nr-mb-2`|
+|`nr-m-3`|`nr-ml-3`|`nr-mr-3`|`nr-mt-3`|`nr-mb-3`|
+|`nr-m-4`|`nr-ml-4`|`nr-mr-4`|`nr-mt-4`|`nr-mb-4`|
+|`nr-m-5`|`nr-ml-5`|`nr-mr-5`|`nr-mt-5`|`nr-mb-5`|
+|`nr-m-6`|`nr-ml-6`|`nr-mr-6`|`nr-mt-6`|`nr-mb-6`|
+|`nr-m-7`|`nr-ml-7`|`nr-mr-7`|`nr-mt-7`|`nr-mb-7`|
  
 --- 
 
 ## Padding 
 
-Use direct padding to set the padding on a specific element.  Direct padding utilizes `!important` to override inner-padding settings when necessary.
+Use direct padding to set the padding on a specific element.  Direct padding utilizes `!important` to override nr-padding settings when necessary.
 
 |Full|Left|Right|Top|Bottom|
 |-|-|-|-|-|
@@ -70,11 +70,11 @@ Use inner padding to set the padding for all direct child elements.
 
 |Full|Left|Right|Top|Bottom|
 |-|-|-|-|-|
-|`inner-p-1`|`inner-pl-1`|`inner-pr-1`|`inner-pt-1`|`inner-pb-1`|
-|`inner-p-2`|`inner-pl-2`|`inner-pr-2`|`inner-pt-2`|`inner-pb-2`|
-|`inner-p-3`|`inner-pl-3`|`inner-pr-3`|`inner-pt-3`|`inner-pb-3`|
-|`inner-p-4`|`inner-pl-4`|`inner-pr-4`|`inner-pt-4`|`inner-pb-4`|
-|`inner-p-5`|`inner-pl-5`|`inner-pr-5`|`inner-pt-5`|`inner-pb-5`|
-|`inner-p-6`|`inner-pl-6`|`inner-pr-6`|`inner-pt-6`|`inner-pb-6`|
-|`inner-p-7`|`inner-pl-7`|`inner-pr-7`|`inner-pt-7`|`inner-pb-7`|
+|`nr-p-1`|`nr-pl-1`|`nr-pr-1`|`nr-pt-1`|`nr-pb-1`|
+|`nr-p-2`|`nr-pl-2`|`nr-pr-2`|`nr-pt-2`|`nr-pb-2`|
+|`nr-p-3`|`nr-pl-3`|`nr-pr-3`|`nr-pt-3`|`nr-pb-3`|
+|`nr-p-4`|`nr-pl-4`|`nr-pr-4`|`nr-pt-4`|`nr-pb-4`|
+|`nr-p-5`|`nr-pl-5`|`nr-pr-5`|`nr-pt-5`|`nr-pb-5`|
+|`nr-p-6`|`nr-pl-6`|`nr-pr-6`|`nr-pt-6`|`nr-pb-6`|
+|`nr-p-7`|`nr-pl-7`|`nr-pr-7`|`nr-pt-7`|`nr-pb-7`|
  

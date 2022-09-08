@@ -10,7 +10,7 @@ A `button` can be used in a Spread or a Stack. They automatically align text to 
 
 ```html
 <section class="spread"> 
-    <div class="spread-center inner-s-1 inner-rounded-4">
+    <div class="spread-center nr-s-1 nr-rounded-4">
         <button class=" black xs"> Get Started</button>
         <button class=" white xs"> Get Started</button>
         <button class=" red xs"> Get Started</button>
@@ -18,7 +18,7 @@ A `button` can be used in a Spread or a Stack. They automatically align text to 
         <button class=" green xs"> Get Started</button>
         <button class=" yellow xs"> Get Started</button>
     </div>
-    <div class="stack-center inner-s-1 inner-rounded-4">
+    <div class="stack-center nr-s-1 nr-rounded-4">
         <button class=" black xs"> Get Started</button>
         <button class=" white xs"> Get Started</button>
         <button class=" red xs"> Get Started</button>
@@ -38,8 +38,8 @@ A `label` can be used in a Spread or a Stack. They automatically align text to t
 {{< docs/labels-colors >}}
 
 ```html
-<section class="spread inner-pinned-top"> 
-    <div class="spread-left inner-s-1">
+<section class="spread nr-pinned-top"> 
+    <div class="spread-left nr-s-1">
         <div class="label black xs"> Dog</div>
         <div class="label white xs"> Cat</div>
         <div class="label red xs"> Pamplemousse</div>
@@ -47,7 +47,7 @@ A `label` can be used in a Spread or a Stack. They automatically align text to t
         <div class="label green xs"> Wildlding</div>
         <div class="label yellow xs"> Unknown</div>
     </div>
-    <div class="stack-center inner-s-1">
+    <div class="stack-center nr-s-1">
         <div class="label black xs"> Dog</div>
         <div class="label white xs"> Cat</div>
         <div class="label red xs"> Pamplemousse</div>
@@ -63,14 +63,14 @@ A `label` can be used in a Spread or a Stack. They automatically align text to t
 Links can either use their default styling or have their styling overriden by `color`, `label`, and `button` classes.
 
 ```html
-<section class="spread inner-pinned-top"> 
-    <div class="spread-left inner-s-1">
+<section class="spread nr-pinned-top"> 
+    <div class="spread-left nr-s-1">
         <a class="xs" href="google.com"> default link</a>
         <a class="black xs" href="google.com"> colored link</a>
         <a class="white xs text-right" href="google.com"> link right </a>
         <a class="red xs text-center" href="google.com"> link center </a>
     </div>
-    <div class="stack inner-s-1">
+    <div class="stack nr-s-1">
        <a class="black xs" href="google.com"> link</a>
         <a class="white xs text-right" href="google.com"> link</a>
         <a class="red xs text-center" href="google.com"> link</a>

@@ -75,48 +75,47 @@
   color: var(--is-text-color) ;
 }
  
-
-.inner-blue > * {
+.nr-blue > * {
   background-color: var(--is-blue) ;
   color: var(--is-text-color-inverted) ;
 }
-.inner-red > * {
+.nr-red > * {
   background-color: var(--is-red) ;
   color: var(--is-text-color-inverted) ;
 }
-.inner-green > * {
+.nr-green > * {
   background-color: var(--is-green) ;
   color: var(--is-text-color) ;
 }
-.inner-orange > * {
+.nr-orange > * {
   background-color: var(--is-orange) ;
   color: var(--is-text-color-inverted) ;
 }
-.inner-purple > * {
+.nr-purple > * {
   background-color: var(--is-purple) ;
   color: var(--is-text-color-inverted) ;
 }
-.inner-pink > * {
+.nr-pink > * {
   background-color: var(--is-pink) ;
   color: var(--is-text-color-inverted) ;
 }
-.inner-black > * {
+.nr-black > * {
   background-color: var(--is-black) ;
   color: var(--is-text-color-inverted) ;
 }
-.inner-gray > * {
+.nr-gray > * {
   background-color: var(--is-gray) ;
   color: var(--is-text-color-inverted) ;
 }
-.inner-dark-gray > * {
+.nr-dark-gray > * {
   background-color: var(--is-dark-gray) ;
   color: var(--is-text-color-inverted) ;
 }
-.inner-yellow > * {
+.nr-yellow > * {
   background-color: var(--is-yellow) ;
   color: var(--is-text-color) ;
 }
-.inner-white > * {
+.nr-white > * {
   background-color: var(--is-white) ;
   color: var(--is-text-color) ;
 }
@@ -259,25 +258,25 @@
 
 /* Cascade Brightness */
 
-.inner-brighten-1 > * {
+.nr-brighten-1 > * {
   box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.1);
 }
-.inner-brighten-2 > * {
+.nr-brighten-2 > * {
   box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.2);
 }
-.inner-brighten-3 > * {
+.nr-brighten-3 > * {
   box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.3);
 }
-.inner-brighten-4 > * {
+.nr-brighten-4 > * {
   box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.4);
 }
-.inner-brighten-5 > * {
+.nr-brighten-5 > * {
   box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.5);
 }
-.inner-brighten-6 > * {
+.nr-brighten-6 > * {
   box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.6);
 }
-.inner-brighten-7 > * {
+.nr-brighten-7 > * {
   box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.7);
 }
 
@@ -307,24 +306,24 @@
 
 /* Cascade Darkeness */
 
-.inner-darken-1 > * {
+.nr-darken-1 > * {
   box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.1);
 }
-.inner-darken-2 > * {
+.nr-darken-2 > * {
   box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.2);
 }
-.inner-darken-3 > * {
+.nr-darken-3 > * {
   box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.3);
 }
-.inner-darken-4 > * {
+.nr-darken-4 > * {
   box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.4);
 }
-.inner-darken-5 > * {
+.nr-darken-5 > * {
   box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.5);
 }
-.inner-darken-6 > * {
+.nr-darken-6 > * {
   box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.6);
 }
-.inner-darken-7 > * {
+.nr-darken-7 > * {
   box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.7);
 }

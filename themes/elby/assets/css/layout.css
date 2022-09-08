@@ -124,51 +124,51 @@
     flex-grow: 0;
 }
 
-.inner-full > * {
+.nr-full > * {
     flex-basis: 100%;
 }
 
-.inner-half > * {
+.nr-half > * {
     flex-basis:  50%;
     flex-grow: 0;
 }
 
-.inner-one-third > * {
+.nr-one-third > * {
     flex-basis: 33.33333%;
     flex-grow: 0;
 }
 
-.inner-two-thirds > * {
+.nr-two-thirds > * {
     flex-basis: 66.66667%;
     flex-grow: 0;
 }
 
-.inner-one-fourth > * {
+.nr-one-fourth > * {
     flex-basis: 25%;
     flex-grow: 0;
 }
 
-.inner-three-fourths > * {
+.nr-three-fourths > * {
     flex-basis: 75%;
     flex-grow: 0;
 }
 
-.inner-one-fifth > * {
+.nr-one-fifth > * {
     flex-basis: 20%;
     flex-grow: 0;
 }
 
-.inner-two-fifths > * {
+.nr-two-fifths > * {
     flex-basis: 40%;
     flex-grow: 0;
 }
 
-.inner-three-fifths > * {
+.nr-three-fifths > * {
     flex-basis: 60%;
     flex-grow: 0;
 }
 
-.inner-four-fifths > * {
+.nr-four-fifths > * {
     flex-basis: 80%;
     flex-grow: 0;
 }
