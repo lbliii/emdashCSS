@@ -1,80 +1,83 @@
 {{ define "before" }}
+<div class="inner-mt-6 inner-mx-4 inner-s-1">
+    <section class="stack-center inner-s-1 text-center">
+        <h1>Another CSS framework <br> you probably don't need.</h1> 
+        <p class="subtitle-1 m">With cascading, trait-based atomic utilities for content-driven layouts. </p>
+        <div class="inner-m-1 inner-p-2 inner-rounded-1 s">
+            <a class="button brighten-1" href="/spreads"> Get Started</a>
+            <a class="button gradient-lr-cold shadow-u-1" href="css/emdash-v0.1.0.css" download> v0.1.0 </a>
+        </div>
+    </section>
+    <section class="stack-left">
+        <h2>Use <b class="shadow-u-1">Stacks</b>  <br> for vertical layouts.</h2> 
+        <p class="subtitle-1 m"> Stack 'em left, right, and center. It's a breeze.</p>
+    </section>
+    <section class="stack-right text-right">
+        <h2>Use <b class="shadow-u-1">Spreads</b> <br>for horizontal layouts.</h2> 
+        <p class="subtitle-1 m"> Like butter, but digital.</p>
+    </section>
+    <section class="stack-center text-center">
+        <h2>It's called <br> <b class="shadow-u-1">Emdash</b></h2>
+        <p class="subtitle-1 m"> It's simple and responsive (unlike me). </p>
+    </section>
+</div>
 
-<section class="stack-center mt-3 mx-4 inner-p-1 inner-m-1 text-center">
-    <h1>Another CSS framework <br> you probably don't need.</h1> 
-    <p class="subtitle-1 m"> With cascading, trait-based atomic utilities for standardizable flexilbity. </p>
-    <div class="inner-m-1 inner-p-2 inner-rounded-1 s">
-        <a class="button brighten-1" href="/spreads"> Get Started</a>
-        <a class="button gradient-lr-cold shadow-u-1" href="css/emdash-v0.1.0.css" download> v0.1.0 </a>
-    </div>
-</section>
-<section class="stack-left mt-6 mx-4 inner-p-1 inner-m-1">
-    <h2>Use <b class="shadow-u-1">Stacks</b>  <br> for vertical layouts.</h2> 
-    <p class="subtitle-1 m"> Stack 'em left, right, and center. It's a breeze.</p>
-</section>
-<section class="stack-right mt-6 mx-4 inner-p-1 inner-m-1 text-right">
-    <h2>Use <b class="shadow-u-1">Spreads</b> <br>for horizontal layouts.</h2> 
-    <p class="subtitle-1 m"> Like butter, but digital.</p>
-</section>
-<section class="stack-center mt-6 mx-4 inner-p-1 inner-m-1 text-center">
-    <h2>It's called <br> <b class="shadow-u-1">Emdash</b></h2>
-    <p class="subtitle-1 m"> It's simple and responsive (unlike me). </p>
-</section>
-<section class="spread inner-pinned-bottom  mt-3  inner-fullsize-mobile inner-m-2 inner-p-2 inner-rounded-2 text-center inner-move-l">
-     <div class="display-pattern">
+<section class="spread mt-3 text-center inner-pinned-bottom inner-fullsize-mobile inner-s-2 inner-rounded-2 inner-move-l inner-display-pattern">
+     <div class="">
         <div class="white m-1 p-2 rounded-1"> 
             <h3>C is for <code> > * {<b>cascading</b>} </code></h3>
             <p class="text-left"> Use <code>inner-</code> helpers to cascade margin, padding, outlines, shadows, and other traits. I mean, why keep repeating yourself?</p>
         </div>
      </div>
-     <div class="display-pattern grayscale">
+     <div class="grayscale">
         <div class="white m-1 p-2 rounded-1"> 
             <h3>Flexbox who?</h3>
             <p class="text-left"> Flexbox is powerful, but confusing. If you're tired of looking up the various ways a flexbox container orients its items, this framework was made for you. </p>
         </div>
      </div>
-     <div class="display-pattern grayscale">
+     <div class="grayscale">
         <div class="white m-1 p-2 rounded-1">
         <h3>Built-in legibility</h3>
         <p class="text-left">Color classes consider legibility by default -- meaning you'll rarely need to define text-colors. Even for darkmode. 
         </div>
      </div>
-
 </section>
-<section class="spread-center  inner-pinned-top inner-fullsize-mobile inner-m-2 inner-p-2 inner-rounded-2 text-center inner-move-r">
-    <div class="is-two-fifths is-fullsize-tablet display-pattern grayscale">
+<section class="spread-center text-center inner-pinned-top inner-fullsize-mobile inner-s-2 inner-rounded-2 inner-move-r inner-display-pattern">
+    <div class="is-two-fifths is-fullsize-tablet grayscale">
         <div class="white m-1 p-2 rounded-1"> 
             <h3>Style-less</h3>
             <p class="text-left"> There's no opinionated set style for labels, links, buttons, breadcrumbs -- or anything else. Instead, layer on global traits to get the look you want. All padding and margins are defaulted to 0. </p>
         </div>
      </div>
-     <div class="is-two-fifths is-fullsize-tablet display-pattern">
+     <div class="is-two-fifths is-fullsize-tablet">
         <div class=" white m-1 p-2 rounded-2">
         <h3>Customizable at its <b>:root</b></h3>
         <p class="text-left"> Don't like the spacing values? Have an opinion on <code>em</code>, <code>rem</code>,<code>vh</code>,<code>vw</code>, or <code>px</code>? Want to define your own color pallete? Cool. Just change the root variables -- the rest takes care of itself. 
         </div>
      </div>
 </section>
-<section class="spread inner-pinned-top inner-fullsize-mobile inner-m-2 inner-p-2 inner-rounded-2 text-center inner-move-l">
-     <div class="display-pattern grayscale">
+<section class="spread text-center inner-pinned-top inner-fullsize-mobile inner-s-2 inner-rounded-2 inner-move-l inner-display-pattern">
+     <div class="grayscale">
         <div class="white m-1 p-2 rounded-3"> 
             <h3>40kb, <br> Soaking Wet</h3>
             <p class="text-left"> Today, Emdash CSS is <strong>31kb minified</strong> and <strong>40kb uncompressed</strong>. That's almost 6x smaller than alternatives hovering around 235kb</strong>. </p>
         </div>
      </div>
-     <div class="display-pattern">
+     <div class="">
         <div class="white m-1 p-2 rounded-4"> 
             <h3><b>Bold</b> redefined</h3>
             <p class="text-left"> If <strong>strong</strong> is the new Bold, where does that leave Bold? Our answer: Bold is the fun and easy way to apply gradients to your text. You can even pass in other gradient classes to override the default. </p>
         </div>
      </div>
-     <div class="display-pattern grayscale">
+     <div class="grayscale">
         <div class="white m-1 p-2 rounded-5"> 
             <h3>Free</h3>
             <p class="text-left"> Emdash is open source. Like and follow us  on <strong><a href="https://github.com/lbliii/emdashCSS">GitHub</a></strong>. </p>
         </div>
      </div>
 </section>
+
+
 
 {{ end }}
 

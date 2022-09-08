@@ -336,6 +336,13 @@
     background: var(--pattern-2);
 }
 
+.inner-display-pattern > * {
+    background: var(--pattern-1);
+}
+.inner-display-pattern2 > * {
+    background: var(--pattern-2);
+}
+
 /* Z Index */
 .level-top {
     z-index: 9999;

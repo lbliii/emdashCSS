@@ -183,7 +183,7 @@ You can use a generic stack and apply **fits**.
             <a href="" class="button white s is-fit">  Link 4 </a>
         </div>
  
-    <div class="is-four-fifths white inner-m-1 inner-p-1 text-center">
+    <div class="is-four-fifths white inner-s-1 text-center">
         <h1>Hello, world!</h1>
         <p> Lots of SEO Content here.</p>
         <p> Lots of SEO Content here.</p>

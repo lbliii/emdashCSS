@@ -27,7 +27,7 @@ A generic spread fills its container's width; if child elements are present, the
 Spreads utilize cascades to push standardized styles to child elements. This makes it quick and easy to whip up a series of buttons or cards.
 
 ```html
-    <section class="spread purple inner-m-1 inner-p-1"> 
+    <section class="spread purple inner-s-1"> 
         <div class="white"> one </div>
         <div class="white"> two </div>
         <div class="white"> three </div>

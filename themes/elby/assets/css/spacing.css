@@ -8,6 +8,78 @@
   --spacing-7: 20vh;
 }
 
+/* Spacing */
+
+.s-1 {
+  padding: var(--spacing-1) !important;
+  margin: var(--spacing-1) !important;
+}
+
+.s-2 {
+  padding: var(--spacing-2) !important;
+  margin: var(--spacing-2) !important;
+}
+
+.s-3 {
+  padding: var(--spacing-4) !important;
+  margin: var(--spacing-4) !important;
+}
+
+.s-4 {
+  padding: var(--spacing-3) !important;
+  margin: var(--spacing-3) !important;
+}
+
+.s-5 {
+  padding: var(--spacing-5) !important;
+  margin: var(--spacing-5) !important;
+}
+
+.s-6 {
+  padding: var(--spacing-6) !important;
+  margin: var(--spacing-6) !important;
+}
+
+.s-7 {
+  padding: var(--spacing-7) !important;
+  margin: var(--spacing-7) !important;
+}
+
+.inner-s-1 > * {
+  padding: var(--spacing-1);
+  margin: var(--spacing-1);
+}
+
+.inner-s-2 > * {
+  padding: var(--spacing-2);
+  margin: var(--spacing-2);
+}
+
+.inner-s-3 > * {
+  padding: var(--spacing-4);
+  margin: var(--spacing-4) ;
+}
+
+.inner-s-4 > * {
+  padding: var(--spacing-3);
+  margin: var(--spacing-3);
+}
+
+.inner-s-5 > * {
+  padding: var(--spacing-5);
+  margin: var(--spacing-5);
+}
+
+.inner-s-6 > * {
+  padding: var(--spacing-6);
+  margin: var(--spacing-6);
+}
+
+.inner-s-7 > * {
+  padding: var(--spacing-7);
+  margin: var(--spacing-7);
+}
+
 /*Global Padding*/
 
 .p-1 {
