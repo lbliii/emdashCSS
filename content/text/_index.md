@@ -21,6 +21,8 @@ weight: 4
 
 ---
 
+{{< docs/text-sizes >}}
+
 ## Standard
 
 |Sizes|Weights|Transforms|Alignments|

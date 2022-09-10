@@ -59,7 +59,7 @@ hr {
     margin-bottom: var(--large-text);
 }
 p {
-    font-size:  var(--xsmall-text);
+    font-size:  var(--small-text);
 }
 
 ::selection {

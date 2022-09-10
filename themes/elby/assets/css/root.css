@@ -2,21 +2,22 @@
 :root {
     --is-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     --is-header-line-height: 80%;
-    --xsmall-text: 2vh;
-    --small-text: 3vh;
-    --medium-text: 4vh;
-    --large-text: 4.5vh;
-    --xlarge-text: 5vh;
-    --xxlarge-text: 6.5vh;
-    --xxxlarge-text: 8vh;  
+    --xxsmall-text: calc(8px); 
+    --xsmall-text: calc(12px);
+    --small-text: calc(16px + 0vw);
+    --medium-text: calc(16px + 1vw);
+    --large-text: calc(16px + 2vw);
+    --xlarge-text: calc(16px + 3vw);
+    --xxlarge-text: calc(16px + 4vw);
+    --xxxlarge-text: calc(16px + 6vw);  
 
-    --spacing-1: 0.5vh;
-    --spacing-2: 1vh;
-    --spacing-3: 2vh;
-    --spacing-4: 5vh;
-    --spacing-5: 10vh;
-    --spacing-6: 15vh;
-    --spacing-7: 20vh;
+    --spacing-1: 90;
+    --spacing-2: 60;
+    --spacing-3: 40;
+    --spacing-4: 20;
+    --spacing-5: 8;
+    --spacing-6: 4;
+    --spacing-7: 2;
 
     --is-text-color: #000000;
     --is-text-color-inverted: #ffffff;

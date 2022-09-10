@@ -1,4 +1,7 @@
 /* Text Size */
+.xxs  {
+    font-size: var(--xxsmall-text);
+}
 .xs {
     font-size: var(--xsmall-text);
 }
@@ -32,56 +35,56 @@
 }
 
 /* Text Transformations */
-.uppercase {
+.uppercase, .c-uppercase > * {
     text-transform: uppercase;
 }
-.lowercase {
+.lowercase, .c-lowercase > * {
     text-transform: lowercase;
 }
-.capitalize {
+.capitalize, .c-capitalize > * {
     text-transform: capitalize;
 }
 
 /* Text Weights */
-.extra-thin {
+.extra-thin, .c-extra-thin > * {
     font-weight: 100;
 }
-.thin {
+.thin, .c-thin > * {
     font-weight: 200;
 }
-.light {
+.light, .c-light > * {
     font-weight: 300;
 }
-.normal {
+.normal, .c-normal > * {
     font-weight: 400;
 }
-.medium {
+.medium, .c-medium > * {
     font-weight: 500;
 }
-.semi-bold {
+.semi-bold, .c-semi-bold > * {
     font-weight: 600;
 }
-.bold {
+.bold, .c-bold > * {
     font-weight: 700;
 }
-.extra-bold {
+.extra-bold, .c-extra-bold > * {
     font-weight: 800;
 }
-.hefty {
+.hefty, .c-hefty > * {
     font-weight: 900;
 }
 
 /* Text Alignment */
-.text-center {
+.text-center, .c-text-center > * {
     text-align: center;
 }
-.text-right {
+.text-right, .c-text-right > * {
     text-align: right;
 }
-.text-left {
+.text-left, .c-text-left > * {
     text-align: left;
 }
-.text-justify {
+.text-justify, .c-text-justify > * {
     text-align: justify;
 }
 
@@ -97,21 +100,4 @@
 }
 .strikethrough {
     text-decoration: line-through;
-}
-
-/* Inner Text Cascades */
-.c-text-center > * {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.c-text-right > * {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-.c-text-left > * {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
 }

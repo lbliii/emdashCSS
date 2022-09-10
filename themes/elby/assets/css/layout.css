@@ -2,7 +2,7 @@
 
 /* Spread things horizontally */
 
-.spread {
+.spread, .c-spread > * {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -33,142 +33,64 @@
     justify-content: space-around;
 }
 
+.spread-between {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
 .spread  > * , .spread-left  > * , .spread-right  > * , .spread-around  > * , .spread-center  > * , .spread-stretch > * {
     flex: 1;
 }
 
-/* Spread Items Ordering*/
-
-.item {
-    order: 0;
-}
-
-.item-1 {
-    order: 1;
-}
-
-.item-2 {
-    order: 2;
-}
-
-.item-3 {
-    order: 3;
-}
-
-.item-4 {
-    order: 4;
-}
-
-.item-5 {
-    order: 5;
-}
-
-.item-6 {
-    order: 6;
-}
-
-.item-7 {
-    order: 7;
-}
-
+ 
 /*  Spread  Item Sizes */
 
-
-.is-full {
+.is-full, .c-full  > * {
     flex-basis: 100%;
 }
 
-.is-half {
+.is-half, .c-half  > * {
     flex-basis: 50%;
     flex-grow: 0;
 }
 
-.is-one-third {
+.is-one-third, .c-one-third  > * {
     flex-basis: 33.33333%;
     flex-grow: 0;
 }
 
-
-.is-two-thirds {
+.is-two-thirds, .c-two-thirds  > * {
     flex-basis: 66.66667%;
     flex-grow: 0;
 }
 
-.is-one-fourth {
+.is-one-fourth, .c-one-fourth  > * {
     flex-basis: 25%;
     flex-grow: 0;
 }
 
-.is-three-fourths {
+.is-three-fourths, .c-three-fourths  > * {
     flex-basis: 75%;
     flex-grow: 0;
 }
 
-.is-one-fifth {
+.is-one-fifth, .c-one-fifth  > * {
     flex-basis: 20%;
     flex-grow: 0;
 }
 
-.is-two-fifths {
+.is-two-fifths, .c-two-fifths  > * {
     flex-basis: 40%;
     flex-grow: 0;
 }
 
-.is-three-fifths {
+.is-three-fifths, .c-three-fifths  > * {
     flex-basis: 60%;
     flex-grow: 0;
 }
 
-.is-four-fifths {
-    flex-basis: 80%;
-    flex-grow: 0;
-}
-
-.c-full > * {
-    flex-basis: 100%;
-}
-
-.c-half > * {
-    flex-basis:  50%;
-    flex-grow: 0;
-}
-
-.c-one-third > * {
-    flex-basis: 33.33333%;
-    flex-grow: 0;
-}
-
-.c-two-thirds > * {
-    flex-basis: 66.66667%;
-    flex-grow: 0;
-}
-
-.c-one-fourth > * {
-    flex-basis: 25%;
-    flex-grow: 0;
-}
-
-.c-three-fourths > * {
-    flex-basis: 75%;
-    flex-grow: 0;
-}
-
-.c-one-fifth > * {
-    flex-basis: 20%;
-    flex-grow: 0;
-}
-
-.c-two-fifths > * {
-    flex-basis: 40%;
-    flex-grow: 0;
-}
-
-.c-three-fifths > * {
-    flex-basis: 60%;
-    flex-grow: 0;
-}
-
-.c-four-fifths > * {
+.is-four-fifths, .c-four-fifths  > * {
     flex-basis: 80%;
     flex-grow: 0;
 }
@@ -176,7 +98,7 @@
 
 /* Stack things vertically */
 
-.stack {
+.stack, .c-stack > * {
     display:flex;
     flex-direction: column;
     margin:0;
@@ -203,8 +125,6 @@
     
 }
 
-
 .stack > *, .stack-top > *, .stack-center > *, .stack-bottom > *, .stack-stretch > * {
     flex: 1;
 }
-

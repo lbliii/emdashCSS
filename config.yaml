@@ -5,6 +5,9 @@ title: 'ELBY css'
 theme: elby 
 staticDir: "/themes/elby/static"
 
+params:
+  version: 0.1.2
+
 outputs: 
   home: [ "HTML"]
   page: [ "HTML"]
