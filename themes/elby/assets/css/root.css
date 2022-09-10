@@ -1,0 +1,65 @@
+/* EmdashCSS by @lbliii - https://emdash.dev; https://github.com/lbliii/emdashCSS */
+:root {
+    --is-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --is-header-line-height: 80%;
+    --xsmall-text: 2vh;
+    --small-text: 3vh;
+    --medium-text: 4vh;
+    --large-text: 4.5vh;
+    --xlarge-text: 5vh;
+    --xxlarge-text: 6.5vh;
+    --xxxlarge-text: 8vh;  
+
+    --spacing-1: 0.5vh;
+    --spacing-2: 1vh;
+    --spacing-3: 2vh;
+    --spacing-4: 5vh;
+    --spacing-5: 10vh;
+    --spacing-6: 15vh;
+    --spacing-7: 20vh;
+
+    --is-text-color: #000000;
+    --is-text-color-inverted: #ffffff;
+    --is-header-text-color: #000000;
+    --is-header-text-color-inverted: #ffffff;
+    --is-shadow-color: var(--is-dark-gray);
+    --is-highlight-color: var(--is-purple);
+    --is-red: #ff0000;
+    --is-green: #00ff00;
+    --is-blue: #0000ff;
+    --is-yellow: #ffff00;
+    --is-orange: #ff8000;
+    --is-purple: #8000ff;
+    --is-pink: #ff0080;
+    --is-white: #ffffff;
+    --is-black: #000000;
+    --is-gray: #808080;
+    --is-dark-gray: #404040;
+    --is-graident-warm-pt-1: #ff0000;
+    --is-graident-warm-pt-2: #ff4000;
+    --is-graident-warm-pt-3: #ff8000;
+    --is-graident-warm-pt-4: #ffbf00;
+    --is-graident-warm-pt-5: #ffff00;
+    --is-gradient-cold-pt-1: #0033ff;
+    --is-gradient-cold-pt-2: #2200ff;
+    --is-gradient-cold-pt-3: #5d00ff;
+    --is-gradient-cold-pt-4: #8c00ff;
+    --is-gradient-cold-pt-5: #f700ff;
+
+    --rounded-1: 5px;
+    --rounded-2: 10px; 
+    --rounded-3: 15px;
+    --rounded-4: 20px;
+    --rounded-5: 25px;
+    --rounded-6: 30px;
+    --rounded-7: 100%;
+    --pattern-1: url(/images/patty.svg) repeat;
+    --pattern-2: url(/images/patty.svg2) repeat;
+    --ghoul-1: 10px;
+    --ghoul-2: 20px;
+    --ghoul-3: 30px;
+    --ghoul-4: 40px;
+    --ghoul-5: 50px;
+    --ghoul-6: 100px;
+    --ghoul-7: 200px;
+}

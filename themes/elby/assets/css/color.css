@@ -1,33 +1,3 @@
-:root {
-  --is-text-color: #000000;
-  --is-text-color-inverted: #ffffff;
-  --is-header-text-color: #000000;
-  --is-header-text-color-inverted: #ffffff;
-  --is-shadow-color: var(--is-dark-gray);
-  --is-highlight-color: var(--is-purple);
-  --is-red: #ff0000;
-  --is-green: #00ff00;
-  --is-blue: #0000ff;
-  --is-yellow: #ffff00;
-  --is-orange: #ff8000;
-  --is-purple: #8000ff;
-  --is-pink: #ff0080;
-  --is-white: #ffffff;
-  --is-black: #000000;
-  --is-gray: #808080;
-  --is-dark-gray: #404040;
-  --is-graident-warm-pt-1: #ff0000;
-  --is-graident-warm-pt-2: #ff4000;
-  --is-graident-warm-pt-3: #ff8000;
-  --is-graident-warm-pt-4: #ffbf00;
-  --is-graident-warm-pt-5: #ffff00;
-  --is-gradient-cold-pt-1: #0033ff;
-  --is-gradient-cold-pt-2: #2200ff;
-  --is-gradient-cold-pt-3: #5d00ff;
-  --is-gradient-cold-pt-4: #8c00ff;
-  --is-gradient-cold-pt-5: #f700ff;
-}
-
 /* Generic Colors */
 
 .red {

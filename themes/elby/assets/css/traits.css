@@ -1,22 +1,3 @@
-:root{
-  --rounded-1: 5px;
-  --rounded-2: 10px; 
-  --rounded-3: 15px;
-  --rounded-4: 20px;
-  --rounded-5: 25px;
-  --rounded-6: 30px;
-  --rounded-7: 100%;
-  --pattern-1: url(/images/patty.svg) repeat;
-  --pattern-2: url(/images/patty.svg2) repeat;
-  --ghoul-1: 10px;
-  --ghoul-2: 20px;
-  --ghoul-3: 30px;
-  --ghoul-4: 40px;
-  --ghoul-5: 50px;
-  --ghoul-6: 100px;
-  --ghoul-7: 200px;
-}
-
 
 /* Animations */
 .move-l:hover {

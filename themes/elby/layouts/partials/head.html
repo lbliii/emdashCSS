@@ -9,6 +9,7 @@
     
     {{ template "_internal/twitter_cards.html" . }}
     
+    {{ $root := resources.Get "css/root.css" }}
     {{ $core := resources.Get "css/core.css" }}
     {{ $layout := resources.Get "css/layout.css" }}
     {{ $objects := resources.Get "css/objects.css"  }}
@@ -17,7 +18,7 @@
     {{ $text := resources.Get "css/text.css"  }}
     {{ $color := resources.Get "css/color.css"  }}
 
-    {{ $css := slice $core $layout $objects $traits $spacing $text $color | resources.Concat "css/emdash-v0.1.1.css"}}
+    {{ $css := slice $root $core $layout $objects $traits $spacing $text $color | resources.Concat "css/emdash-v0.1.1.css"}}
     {{$cssPublic := $css}}
     {{ $cssMin := $css | resources.Minify }}
     {{ $secureCSS := $cssMin | resources.Fingerprint "sha512"}}
