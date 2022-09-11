@@ -102,6 +102,18 @@ Directional spreads have child elements with defined sizes that **do not equal**
 {{<  docs/spread-around >}}
 
 
+### Spread-Between
+
+```html
+<div class="spread-between purple c-fit c-sp-1 c-white c-rounded-1 uppercase extra-bold">
+    <a href=""> 👈  </a>
+    <a href=""> 👉 </a>
+</div>
+```
+
+{{<  docs/spread-between >}}
+
+
 ###  Sizes
 
 Sizes are only used for top-level child elements in a directional spread.
