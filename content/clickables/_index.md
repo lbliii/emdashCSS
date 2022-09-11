@@ -10,7 +10,7 @@ A `button` can be used in a Spread or a Stack. They automatically align text to 
 
 ```html
 <section class="spread"> 
-    <div class="spread-center c-s-1 c-rounded-4">
+    <div class="spread-center c-sp-1 c-rounded-4">
         <button class=" black xs"> Get Started</button>
         <button class=" white xs"> Get Started</button>
         <button class=" red xs"> Get Started</button>
@@ -18,7 +18,7 @@ A `button` can be used in a Spread or a Stack. They automatically align text to 
         <button class=" green xs"> Get Started</button>
         <button class=" yellow xs"> Get Started</button>
     </div>
-    <div class="stack-center c-s-1 c-rounded-4">
+    <div class="stack-center c-sp-1 c-rounded-4">
         <button class=" black xs"> Get Started</button>
         <button class=" white xs"> Get Started</button>
         <button class=" red xs"> Get Started</button>
@@ -39,7 +39,7 @@ A `label` can be used in a Spread or a Stack. They automatically align text to t
 
 ```html
 <section class="spread c-pinned-top"> 
-    <div class="spread-left c-s-1">
+    <div class="spread-left c-sp-1">
         <div class="label black xs"> Dog</div>
         <div class="label white xs"> Cat</div>
         <div class="label red xs"> Pamplemousse</div>
@@ -47,7 +47,7 @@ A `label` can be used in a Spread or a Stack. They automatically align text to t
         <div class="label green xs"> Wildlding</div>
         <div class="label yellow xs"> Unknown</div>
     </div>
-    <div class="stack-center c-s-1">
+    <div class="stack-center c-sp-1">
         <div class="label black xs"> Dog</div>
         <div class="label white xs"> Cat</div>
         <div class="label red xs"> Pamplemousse</div>
@@ -64,13 +64,13 @@ Links can either use their default styling or have their styling overriden by `c
 
 ```html
 <section class="spread c-pinned-top"> 
-    <div class="spread-left c-s-1">
+    <div class="spread-left c-sp-1">
         <a class="xs" href="google.com"> default link</a>
         <a class="black xs" href="google.com"> colored link</a>
         <a class="white xs text-right" href="google.com"> link right </a>
         <a class="red xs text-center" href="google.com"> link center </a>
     </div>
-    <div class="stack c-s-1">
+    <div class="stack c-sp-1">
        <a class="black xs" href="google.com"> link</a>
         <a class="white xs text-right" href="google.com"> link</a>
         <a class="red xs text-center" href="google.com"> link</a>

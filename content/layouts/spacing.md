@@ -34,9 +34,9 @@ Use direct margins to set the margin on a specific element.  Direct margins util
 |`m-7`|`ml-7`|`mr-7`|`mt-7`|`mb-7`|
 
 
-### Inner Margin 
+### Cascade Margin 
 
-Use inner  margins to set the margin for all direct child elements.
+Cascade margins to set the margin for all direct child elements.
 
 |Full|Left|Right|Top|Bottom|
 |-|-|-|-|-|
@@ -65,9 +65,9 @@ Use direct padding to set the padding on a specific element.  Direct padding uti
 |`p-7`|`pl-7`|`pr-7`|`pt-7`|`pb-7`|
 
 
-### Inner Padding 
+### Cascade Padding 
 
-Use inner padding to set the padding for all direct child elements.
+Cascade padding to set the padding for all direct child elements.
 
 |Full|Left|Right|Top|Bottom|
 |-|-|-|-|-|
@@ -79,3 +79,30 @@ Use inner padding to set the padding for all direct child elements.
 |`c-p-6`|`c-pl-6`|`c-pr-6`|`c-pt-6`|`c-pb-6`|
 |`c-p-7`|`c-pl-7`|`c-pr-7`|`c-pt-7`|`c-pb-7`|
  
+## Spacing (Combined)
+
+Use direct spacing to add both `m-N` and `p-N` together.
+
+|Full|
+|-|
+|`sp-1`|
+|`sp-2`|
+|`sp-3`|
+|`sp-4`|
+|`sp-5`|
+|`sp-6`|
+|`sp-7`|
+
+### Cascade Spacing 
+
+Cascade combined spacing to set the padding for all direct child elements.
+
+|Full|
+|-|
+|`c-sp-1`|
+|`c-sp-2`|
+|`c-sp-3`|
+|`c-sp-4`|
+|`c-sp-5`|
+|`c-sp-6`|
+|`c-sp-7`|

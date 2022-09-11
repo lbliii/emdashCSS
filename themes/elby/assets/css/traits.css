@@ -103,9 +103,11 @@
 .pinned-bottom {
     align-self: flex-end;
 }
-.stretch {
-    align-self: stretch;
+.stretched {
+  display: flex;
+  align-self: stretch;
 }
+
 .pinned-baseline {
     align-self: baseline;
 }
@@ -119,7 +121,7 @@
 .c-pinned-bottom {
     align-items: flex-end;
 }
-.c-stretch {
+.c-stretched {
     align-items: stretch;
 }
 .c-pinned-baseline {

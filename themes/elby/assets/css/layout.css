@@ -8,7 +8,7 @@
     overflow-x: scroll;
 }
 
-.layer-right::-webkit-scrollbar, .layer-center::-webkit-scrollbar { display: none; }
+.layer-right::-webkit-scrollbar, .layer-center::-webkit-scrollbar, .slide::-webkit-scrollbar { display: none; }
 
 .layer-right  { justify-content: flex-end; }
 
@@ -90,55 +90,47 @@
 .is-half, .c-half  > * {
     flex-basis: 50%;
     flex-grow: 0;
-    flex-shrink: 0;
 }
 
 .is-one-third, .c-one-third  > * {
     flex-basis: 33.33333%;
     flex-grow: 0;
-    flex-shrink: 0;
 }
 
 .is-two-thirds, .c-two-thirds  > * {
     flex-basis: 66.66667%;
     flex-grow: 0;
-    flex-shrink: 0;
 }
 
 .is-one-fourth, .c-one-fourth  > * {
     flex-basis: 25%;
     flex-grow: 0;
-    flex-shrink: 0;
 }
 
 .is-three-fourths, .c-three-fourths  > * {
     flex-basis: 75%;
     flex-grow: 0;
-    flex-shrink: 0;
 }
 
 .is-one-fifth, .c-one-fifth  > * {
     flex-basis: 20%;
     flex-grow: 0;
-    flex-shrink: 0;
 }
 
 .is-two-fifths, .c-two-fifths  > * {
     flex-basis: 40%;
     flex-grow: 0;
-    flex-shrink: 0;
+
 }
 
 .is-three-fifths, .c-three-fifths  > * {
     flex-basis: 60%;
     flex-grow: 0;
-    flex-shrink: 0;
 }
 
 .is-four-fifths, .c-four-fifths  > * {
     flex-basis: 80%;
     flex-grow: 0;
-    flex-shrink: 0;
 }
 
 /* Stack things vertically */
@@ -156,3 +148,18 @@
 .stack-right { align-items: flex-end; }
 
 :is(.stack, .stack-left, .stack-right, .stack-center ) > * { flex: 1; }
+
+
+/* Slide */
+
+.slide {
+    display: flex;
+    flex-flow: row nowrap;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+}
+
+.slide > * {
+    flex-shrink: 0;
+    scroll-snap-align: center;
+}

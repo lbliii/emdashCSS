@@ -1,6 +1,6 @@
 /* Spacing */
 
-.s-1, .c-s-1 > * {
+.sp-1, .c-sp-1 > * {
   padding-top: calc(100vh / var(--spacing-1));
   padding-bottom: calc(100vh / var(--spacing-1));
   padding-left: calc(100vw / var(--spacing-1));
@@ -11,7 +11,7 @@
   margin-right: calc(100vw / var(--spacing-1));
 }
 
-.s-2, .c-s-2 > * {
+.sp-2, .c-sp-2 > * {
   padding-top: calc(100vh / var(--spacing-2));
   padding-bottom: calc(100vh / var(--spacing-2));
   padding-left: calc(100vw / var(--spacing-2));
@@ -22,7 +22,7 @@
   margin-right: calc(100vw / var(--spacing-2));
 }
 
-.s-3, .c-s-3 > * {
+.sp-3, .c-sp-3 > * {
   padding-top: calc(100vh / var(--spacing-3));
   padding-bottom: calc(100vh / var(--spacing-3));
   padding-left: calc(100vw / var(--spacing-3));
@@ -33,7 +33,7 @@
   margin-right: calc(100vw / var(--spacing-3));
 }
 
-.s-4, .c-s-4 > * {
+.sp-4, .c-sp-4 > * {
   padding-top: calc(100vh / var(--spacing-4));
   padding-bottom: calc(100vh / var(--spacing-4));
   padding-left: calc(100vw / var(--spacing-4));
@@ -44,7 +44,7 @@
   margin-right: calc(100vw / var(--spacing-4));
 }
 
-.s-5, .c-s-5 > * {
+.sp-5, .c-sp-5 > * {
   padding-top: calc(100vh / var(--spacing-5));
   padding-bottom: calc(100vh / var(--spacing-5));
   padding-left: calc(100vw / var(--spacing-5));
@@ -55,7 +55,7 @@
   margin-right: calc(100vw / var(--spacing-5)) ;
 }
 
-.s-6, .c-s-6 > * {
+.sp-6, .c-sp-6 > * {
   padding-top: calc(100vh / var(--spacing-6)) ;
   padding-bottom: calc(100vh / var(--spacing-6)) ;
   padding-left: calc(100vw / var(--spacing-6)) ;
@@ -66,7 +66,7 @@
   margin-right: calc(100vw / var(--spacing-6)) ;
 }
 
-.s-7, .c-s-7 > * {
+.sp-7, .c-sp-7 > * {
   padding-top: calc(100vh / var(--spacing-7)) ;
   padding-bottom: calc(100vh / var(--spacing-7)) ;
   padding-left: calc(100vw / var(--spacing-7)) ;
