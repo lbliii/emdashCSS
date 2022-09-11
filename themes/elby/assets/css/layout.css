@@ -2,26 +2,25 @@
 
 /* Layer things horizontally */
 
-:is(.layer, .layer-reverse, .layer-right, .layer-reverse-right, .layer-center, .layer-reverse-center) {
+:is(.layer, .layer-right, .layer-center) {
     display: flex;
     flex-flow: row nowrap;
     overflow-x: scroll;
 }
 
-.layer::-webkit-scrollbar {
+.layer::-webkit-scrollbar, .layer-right::-webkit-scrollbar, .layer-center::-webkit-scrollbar {
     display: none;
 }
 
-.layer, .layer-reverse {
-
+.layer{
     justify-content: flex-start;
 }
 
-.layer-right, .layer-reverse-right {
+.layer-right  {
     justify-content: flex-end;
 }
 
-.layer-center, .layer-reverse-center {
+.layer-center {
     justify-content: center;
 }
 
@@ -29,35 +28,63 @@
     margin-left: inherit;
 }
 
-.layer-reverse-right  > div:last-child {
+.layer-right  > div:last-child {
     margin-right: inherit;
 }
 
 :is(.layer, .layer-right, .layer-center) > div:not(first-child) {
     margin-left: calc(-20vh);
-    transform: rotate(1deg)
+    transform: rotate(var(--layer-angle-1))
 }
-
 
 :is(.layer, .layer-right, .layer-center) > div:hover {
     transform: rotate(0deg);
     z-index: 999;
 }
 
-:is( .layer-reverse-center) > div:first-child {
+/* Reverse Layers */
+
+:is(.layer-reverse, .layer-right-reverse, .layer-center-reverse) {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    overflow-x: scroll;
+    overflow-block: scroll;
+}
+
+.layer-reverse::-webkit-scrollbar, .layer-right-reverse::-webkit-scrollbar, .layer-center-reverse::-webkit-scrollbar {
+    display: none;
+}
+
+.layer-reverse{
+    justify-content: flex-end;
+
+}
+
+.layer-right-reverse  {
+    justify-content: flex-start;
+}
+
+.layer-center-reverse {
+    justify-content: center;
+}
+
+:is(.layer-reverse, .layer-right-reverse, .layer-center-reverse) > div:last-child {
+    margin-left: inherit;
+}
+
+.layer-right-reverse  > div:first-child {
     margin-right: inherit;
 }
 
-:is(.layer-reverse, .layer-reverse-right, .layer-reverse-center) > div:not(first-child) {
-    margin-right: calc(-20vh);
-    transform: rotate(-1deg)
+:is(.layer-reverse, .layer-right-reverse, .layer-center-reverse) > div:not(first-child) {
+    margin-left: calc(-20vh);
+    transform: rotate(1deg)
 }
 
-:is(.layer-reverse, .layer-reverse-right, .layer-reverse-center) > div:hover {
+:is(.layer-reverse, .layer-right-reverse, .layer-center-reverse) > div:hover {
     transform: rotate(0deg);
     z-index: 999;
 }
-
 
 /* Spread things horizontally */
 
