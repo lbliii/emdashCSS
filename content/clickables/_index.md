@@ -4,6 +4,18 @@ title: Clickables
 
 Clickables with Emdash are largely interchangeable with only minor differences, namely: labels do not wrap and links can optionally use their default link styling or be paired with buttons/labels.
 
+## Breadcrumbs 
+
+```html
+<nav id="breadcrumbs" class="breadcrumbs mb-6" aria-label="breadcrumbs">
+  <div class="breadcrumb"> <a href="//localhost:1313/" class="purple xs uppercase">Emdash CSS</a> </div>
+  <div class="breadcrumb"> <a href="//localhost:1313/layouts/" class="purple xs uppercase">Layouts</a> </div>
+  <div class="breadcrumb"> <a href="//localhost:1313/layouts/spreads/" class="purple xs uppercase">Spreads</a> </div>
+</nav>
+```
+
+{{< docs/breadcrumbs >}}
+
 ## Buttons
 
 A `button` can be used in a Spread or a Stack. They automatically align text to their `x-` and `y-`  center. Buttons inherit their `color` and `background-color` -- this makes it easy to use **color classes** that will always be legible. 
