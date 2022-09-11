@@ -1,6 +1,5 @@
 ---
 title: Text
-weight: 4
 ---
 
 ## Root 

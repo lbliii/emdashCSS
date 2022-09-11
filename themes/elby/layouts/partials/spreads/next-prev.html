@@ -1,0 +1,7 @@
+<div class="spread-between c-fit c-s-1 c-white">
+    {{with .NextInSection }}<a href="{{.RelPermalink}}"> < {{.Title}} </a>
+    {{else}}
+        <div class="is-invisible"></div>
+    {{end}}
+    {{with .PrevInSection }}<a href="{{.RelPermalink}}"> {{.Title}} > </a>{{end}}
+</div>

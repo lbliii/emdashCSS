@@ -372,3 +372,7 @@
 .ghost-4 {
     height: 100px;
 }
+
+.is-invisible {
+    opacity: 0;
+}

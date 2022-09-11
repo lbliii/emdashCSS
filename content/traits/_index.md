@@ -1,6 +1,5 @@
 ---
 title: Traits
-weight: 6
 ---
 
 ## Global Traits 

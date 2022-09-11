@@ -1,6 +1,5 @@
 ---
 title: Colors 
-weight: 5
 ---
 
 

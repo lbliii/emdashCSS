@@ -1,0 +1,12 @@
+<div class="spread mt-1">
+    {{range .Pages}}
+    <div class="@card is-half is-fullsize-mobile">
+        <a href="{{ .RelPermalink }}" class="c-s-1">
+            <section class="outlined-white">
+                <h2 class="text-center">{{.Title}}</h2>
+                <p class="text-justify">{{.Summary | truncate 200}}</p>
+            </section>
+        </a>
+    </div>
+    {{end}}
+</div>
