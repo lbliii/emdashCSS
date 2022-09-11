@@ -155,4 +155,4 @@
 
 .stack-right { align-items: flex-end; }
 
-:is(.stack, .stack-left, .stack-right, .stack-center ) > * { flex: 0; }
+:is(.stack, .stack-left, .stack-right, .stack-center ) > * { flex: 1; }
