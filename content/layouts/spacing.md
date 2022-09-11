@@ -1,6 +1,7 @@
 ---
 title: Spacing
 weight: 4
+description: Space your elements, spreads, stacks, and layers with  margin and padding utilities. 
 ---
 
 ## Root 

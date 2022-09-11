@@ -1,5 +1,6 @@
 ---
 title: Colors 
+description:  Explore color utilities that have paired-font colors for legibility; includes gradients and filters.
 ---
 
 

@@ -1,6 +1,5 @@
-html, body {
-    font-family: var(--is-font-family)
-}
+html, body { font-family: var(--is-font-family) }
+
 body, div, section, button, h1, h2, h3, h4, h5, h6  {
     margin: 0;
     padding: 0;
@@ -10,9 +9,8 @@ a {
     text-decoration: none;
     color: var(--is-link-color);
 }
-a:hover, button:hover, .label:hover {
-    opacity: 0.7;
-}
+a:hover, button:hover, .label:hover { opacity: 0.7; }
+
 b {
     background: linear-gradient(0.25turn, var(--is-gradient-cold-pt-1), var(--is-gradient-cold-pt-2),var(--is-gradient-cold-pt-3),var(--is-gradient-cold-pt-4),var(--is-gradient-cold-pt-5)); 
     -webkit-background-clip: text;
@@ -21,9 +19,9 @@ b {
 
 /* Code */ 
 
-code, pre > * {
-    white-space: pre-wrap;
+code, pre > * { white-space: pre-wrap;
 }
+
 pre, pre > code {
     padding: .7em;
     margin: .7em;
@@ -33,35 +31,21 @@ pre, pre > code {
 
 /* Headers */
 
-h1, h2, h3, h4, h5, h6 {
-    line-height: var(--is-header-line-height)
-}
+h1, h2, h3, h4, h5, h6 { line-height: var(--is-header-line-height) }
 
-h1 {
-    font-size: var(--xxxlarge-text);
-}
-h2 {
-    font-size: var(--xxlarge-text);
-}
-h3 {
-    font-size: var(--xlarge-text);
-}
-h4 {
-    font-size: var(--large-text);
-}
-h5 {
-    font-size: var(--medium-text);
-}
-h6 {
-    font-size: var(--small-text);
-}
+h1 { font-size: var(--xxxlarge-text); }
+h2 { font-size: var(--xxlarge-text); }
+h3 { font-size: var(--xlarge-text); }
+h4 { font-size: var(--large-text); }
+h5 { font-size: var(--medium-text); }
+h6 { font-size: var(--small-text); }
+
 hr {
     margin-top: var(--large-text);
     margin-bottom: var(--large-text);
 }
-p {
-    font-size:  var(--small-text);
-}
+
+p { font-size:  var(--small-text); }
 
 ::selection {
     background: var(--is-highlight-color);
@@ -77,21 +61,21 @@ table {
     margin-top: 1em;
     margin-bottom: 2em;
 }
-table * {
-    padding: 0px;
-}
+
+table * { padding: 0px; }
+
 table > thead > tr {
     display: flex;
     flex-direction: row;
     border-bottom: 1px dotted var(--is-gray);
 }
+
 table > thead > tr > th {
     flex: 1;
     text-align: left;
 }
-table > tbody * {
-    width: 100%;
-}
+table > tbody * { width: 100%; }
+
 table > tbody > tr {
     display: flex;
     flex: 1;        
@@ -99,15 +83,8 @@ table > tbody > tr {
 
 /* Nested Lists */
 
-:is(.directory, nav) ul > li {
-    list-style: none;
-}
+:is(.directory, nav) ul > li { list-style: none; }
 
-ul, ol {
-    padding-inline-start: 1vw;
-}
+ul, ol { padding-inline-start: 1vw; }
 
-ol > li {
-    list-style: decimal inside;
-}
-
+ol > li { list-style: decimal inside; }

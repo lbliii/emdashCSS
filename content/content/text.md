@@ -1,5 +1,6 @@
 ---
 title: Text
+description: Explore text sizes, weights, alignments, and transformations.
 ---
 
 ## Root 

@@ -2,86 +2,58 @@
 
 /* Layer things horizontally */
 
-:is(.layer, .layer-right, .layer-center) {
+:is(.layer-right, .layer-center) {
     display: flex;
     flex-flow: row nowrap;
     overflow-x: scroll;
 }
 
-.layer::-webkit-scrollbar, .layer-right::-webkit-scrollbar, .layer-center::-webkit-scrollbar {
-    display: none;
-}
+.layer-right::-webkit-scrollbar, .layer-center::-webkit-scrollbar { display: none; }
 
-.layer{
-    justify-content: flex-start;
-}
+.layer-right  { justify-content: flex-end; }
 
-.layer-right  {
-    justify-content: flex-end;
-}
+.layer-center { justify-content: center; }
 
-.layer-center {
-    justify-content: center;
-}
+:is(.layer-right, .layer-center) > div:first-child { margin-left: inherit; }
 
-:is(.layer, .layer-right, .layer-center) > div:first-child {
-    margin-left: inherit;
-}
+.layer-right  > div:last-child { margin-right: inherit; }
 
-.layer-right  > div:last-child {
-    margin-right: inherit;
-}
-
-:is(.layer, .layer-right, .layer-center) > div:not(first-child) {
+:is(.layer-right, .layer-center) > div:not(first-child) {
     margin-left: calc(-20vh);
     transform: rotate(var(--layer-angle-1))
 }
 
-:is(.layer, .layer-right, .layer-center) > div:hover {
+:is(.layer-right, .layer-center) > div:hover {
     transform: rotate(0deg);
     z-index: 999;
 }
 
 /* Reverse Layers */
 
-:is(.layer-reverse, .layer-right-reverse, .layer-center-reverse) {
+:is(.layer, .layer-left, .layer-right-reverse, .layer-center-reverse) {
     display: flex;
     flex-flow: row-reverse nowrap;
     overflow-x: scroll;
-    overflow-block: scroll;
 }
 
-.layer-reverse::-webkit-scrollbar, .layer-right-reverse::-webkit-scrollbar, .layer-center-reverse::-webkit-scrollbar {
-    display: none;
-}
+.layer::-webkit-scrollbar, .layer-left::-webkit-scrollbar, .layer-right::-webkit-scrollbar, .layer-center::-webkit-scrollbar { display: none; }
 
-.layer-reverse{
-    justify-content: flex-end;
+.layer, .layer-left{ justify-content: flex-end; }
 
-}
+.layer-right-reverse  { justify-content: flex-start; }
 
-.layer-right-reverse  {
-    justify-content: flex-start;
-}
+.layer-center-reverse { justify-content: center; }
 
-.layer-center-reverse {
-    justify-content: center;
-}
+:is(.layer, .layer-left, .layer-right-reverse, .layer-center-reverse) > div:last-child { margin-left: inherit; }
 
-:is(.layer-reverse, .layer-right-reverse, .layer-center-reverse) > div:last-child {
-    margin-left: inherit;
-}
+.layer-right-reverse  > div:first-child { margin-right: inherit; }
 
-.layer-right-reverse  > div:first-child {
-    margin-right: inherit;
-}
-
-:is(.layer-reverse, .layer-right-reverse, .layer-center-reverse) > div:not(first-child) {
+:is(.layer, .layer-left, .layer-right-reverse, .layer-center-reverse) > div:not(first-child) {
     margin-left: calc(-20vh);
     transform: rotate(1deg)
 }
 
-:is(.layer-reverse, .layer-right-reverse, .layer-center-reverse) > div:hover {
+:is( .layer, .layer-left, .layer-right-reverse, .layer-center-reverse) > div:hover {
     transform: rotate(0deg);
     z-index: 999;
 }
@@ -91,42 +63,29 @@
 :is(.spread, .spread-left, .spread-right, .spread-around, .spread-center, .spread-stretch, .spread-between, .c-spread > *) {
     display: flex;
     flex-flow: row wrap;
+    scroll-snap-type: y mandatory;
 }
 
-:is(.spread, .spread-left, .spread-right, .spread-around, .spread-center, .spread-stretch, .spread-between) > * {
-    flex: 1;
-}
+:is(.spread, .spread-left, .spread-right, .spread-around, .spread-center, .spread-stretch, .spread-between) > * { flex: 1; }
 
-.spread, .c-spread > * {
-    justify-content: space-between;
-}
+.spread, .c-spread > * { justify-content: space-between; }
 
-.spread-left {
-    justify-content: flex-start;
-}
+.spread-left { justify-content: flex-start; }
 
-.spread-right {
-    justify-content: flex-end;
-}
+.spread-right { justify-content: flex-end; }
 
 .spread-center {
     justify-content: center;
     align-items: center;
 }
 
-.spread-around {
-    justify-content: space-around;
-}
+.spread-around { justify-content: space-around; }
 
-.spread-between {
-    justify-content: space-between;
-}
+.spread-between { justify-content: space-between; }
 
 /*  Spread  Item Sizes */
 
-.is-full, .c-full  > * {
-    flex-basis: 100%;
-}
+.is-full, .c-full  > * { flex-basis: 100%; }
 
 .is-half, .c-half  > * {
     flex-basis: 50%;
@@ -182,27 +141,18 @@
     flex-shrink: 0;
 }
 
-
 /* Stack things vertically */
 
 :is(.stack, .stack-left, .stack-center, .stack-right, .c-stack > *) {
     display:flex;
     flex-direction: column;
+    scroll-snap-type: y mandatory;
 }
 
-.stack-left {
-    align-items: baseline;
-}
+.stack-left { align-items: baseline; }
 
-.stack-center {
-    align-items: center;
-}
+.stack-center { align-items: center; }
 
-.stack-right {
-    align-items: flex-end;
-    
-}
+.stack-right { align-items: flex-end; }
 
-:is(.stack, .stack-left, .stack-right, .stack-center ) > * {
-    flex: 0;
-}
+:is(.stack, .stack-left, .stack-right, .stack-center ) > * { flex: 0; }

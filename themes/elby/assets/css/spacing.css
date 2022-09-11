@@ -131,7 +131,7 @@
 /* Top Padding */
 
 .pt-1, .c-pt-1 > *, .py-1, .c-py-1 > * {
-  padding-top: calc(100vh / var(--spacing-1)) ;
+padding-top: calc(100vh / var(--spacing-1)) ;
 }
 
 .pt-2, .c-pt-2 > *, .py-2, .c-py-2 > * {

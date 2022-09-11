@@ -1,10 +1,6 @@
 /* Content */
 
- 
-:is(.content) > :is(h1, h2, h3, h4, h5, h6) {
-    margin-top: var(--xxxlarge-text);
-}
-
+:is(.content) > :is(h1, h2, h3, h4, h5, h6) { margin-top: var(--xxxlarge-text); }
 
 /* breadcrumb */
 
@@ -25,9 +21,7 @@
     color: var(--is-grey);
 }
 
-.breadcrumb:last-child::after {
-    content: "";
-}
+.breadcrumb:last-child::after { content: ""; }
 
 /* buttons */
 
@@ -41,7 +35,6 @@ button, .button {
     cursor: pointer;
 }
 
-
 /* Labels  */ 
  
 .label {
@@ -52,7 +45,6 @@ button, .button {
     background-color: inherit;
     color: inherit;
 }
-
 
 /* Images */
 
@@ -97,4 +89,7 @@ button, .button {
     color: var(--is-purple) !important;
     font-size: .5em;
     font-weight: 900;
+    float: left;
+    margin-left: -1ch;
+
 }

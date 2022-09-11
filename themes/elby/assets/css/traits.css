@@ -373,6 +373,10 @@
     height: 100px;
 }
 
-.is-invisible {
+.is-invisible, .is-invisible:hover {
     opacity: 0;
+}
+
+.fill-h {
+    height: max-content;
 }

@@ -130,7 +130,7 @@
 }
 
 .gradient-lr-bw {
-  background: linear-gradient(to right,#fff,#fff,#efefef,#d3d3d3);
+background: linear-gradient(to right,#fff,#fff,#efefef,#d3d3d3);
 }
 .gradient-rl-bw {
   background: linear-gradient(to left,#fff,#fff,#efefef,#d3d3d3);
@@ -144,23 +144,15 @@
 
 /* Photo Filters */
 
-.grayscale, .c-grayscale > * {
-  filter: grayscale(100%);
-}
-.contrast, .c-contrast > * {
-  filter: contrast(200%);
-}
-.hue-rotate, .c-hue-rotate > * {
-  filter: hue-rotate(90deg);
-}
-.blur, .c-blur > * {
-  filter: blur(5px);
-}
+.grayscale, .c-grayscale > * { filter: grayscale(100%); }
+.contrast, .c-contrast > * { filter: contrast(200%); }
+.hue-rotate, .c-hue-rotate > * { filter: hue-rotate(90deg); }
+.blur, .c-blur > * { filter: blur(5px); }
 
 /* Brighten Colors */
 
 .brighten-1, .c-brighten-1 > * {
-  box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.1);
+box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.1);
 }
 .brighten-2, .c-brighten-2 > * {
   box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.2);
@@ -181,27 +173,12 @@
   box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.7);
 }
 
-
 /* Darken Colors*/
 
-.darken-1, .c-darken-1 > * {
-  box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.1);
-}
-.darken-2, .c-darken-2 > * {
-  box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.2);
-}
-.darken-3, .c-darken-3 > * {
-  box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.3);
-}
-.darken-4, .c-darken-4 > * {
-  box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.4);
-}
-.darken-5, .c-darken-5 > * {
-  box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.5);
-}
-.darken-6, .c-darken-6 > * {
-  box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.6);
-}
-.darken-7, .c-darken-7 > * {
-  box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.7);
-}
+.darken-1, .c-darken-1 > * { box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.1); }
+.darken-2, .c-darken-2 > * { box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.2); }
+.darken-3, .c-darken-3 > * { box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.3); }
+.darken-4, .c-darken-4 > * { box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.4); }
+.darken-5, .c-darken-5 > * { box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.5); }
+.darken-6, .c-darken-6 > * { box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.6); }
+.darken-7, .c-darken-7 > * { box-shadow: inset 0 9000px 0px rgba(0, 0, 0, 0.7); }

@@ -1,5 +1,6 @@
 ---
 title: Stacks
+description: Stack elements vertically and shift your stacks center, left, or right.
 weight: 2
 ---
 

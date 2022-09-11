@@ -1,6 +1,6 @@
 ---
 title: Spreads
-description: The powerhouse of this framework. 
+description: Spread elements horizontally and shift them center, left, or right.
 weight: 1
 ---
 

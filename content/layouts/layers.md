@@ -1,6 +1,8 @@
 ---
 title: Layers
 weight: 3
+beta: true 
+description: Layer elements horizontally and shift them center, left, or right.
 ---
 
 ## Generic Layers 
@@ -25,6 +27,31 @@ Layers overlap. Each layered item will rise to the top if hovered. You can apply
 {{< docs/layer-simple-left >}}
 
 ## Directional Layers 
+
+### Layer-Left 
+
+```html
+<div class="layer-left p-1 c-one-third c-shadow-dr-1 text-center "> 
+        <div class="white s-2 gradient-lr-bw">
+            <h2 class="m">Layer One</h2>
+            <p class="subtitle-1">Layer One</p>
+            <img class="image-1x1 black"> 
+        </div>
+        <div class="white s-2 gradient-lr-bw">
+            <h2 class="m">Layer Two</h2>
+            <p class="subtitle-1">Layer Two</p>
+            <img class="image-1x1 black"> 
+        </div>
+        <div class="white s-2 gradient-lr-bw">
+            <h2 class="m">Layer Three</h2>
+            <p class="subtitle-1">Layer Three</p>
+            <img class="image-1x1 black"> 
+        </div>
+</div>
+```
+
+{{< docs/layer-left >}}
+
 
 ### Layer-Center 
 
@@ -71,33 +98,3 @@ Layers overlap. Each layered item will rise to the top if hovered. You can apply
 ```
 
 {{< docs/layer-right >}}
-
-
-## Reversals 
-
-You can reverse the angle of the layering effect using `-reverse`.
-
-### Layer-Reverse
-
-```html
-<div class="layer-reverse p-1 c-fullsize-mobile c-shadow-dr-1 text-center "> 
-        <div class="white s-2 gradient-lr-bw">
-            <h2 class="m">Layer One</h2>
-            <p class="subtitle-1">Layer One</p>
-            <img class="image-1x1 black"> 
-        </div>
-        <div class="white s-2 gradient-lr-bw">
-            <h2 class="m">Layer Two</h2>
-            <p class="subtitle-1">Layer Two</p>
-            <img class="image-1x1 black"> 
-        </div>
-        <div class="white s-2 gradient-lr-bw">
-            <h2 class="m">Layer Three</h2>
-            <p class="subtitle-1">Layer Three</p>
-            <img class="image-1x1 black"> 
-        </div>
-</div>
-```
-
-{{< docs/layer-reverse >}}
-
