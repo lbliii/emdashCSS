@@ -130,16 +130,16 @@
 }
 
 .gradient-lr-bw {
-  background-image: linear-gradient(to right, #000000, #ffffff);
+  background: linear-gradient(to right,#fff,#fff,#efefef,#d3d3d3);
 }
 .gradient-rl-bw {
-  background-image: linear-gradient(to left, #000000, #ffffff);
+  background: linear-gradient(to left,#fff,#fff,#efefef,#d3d3d3);
 }
 .gradient-tb-bw {
-  background-image: linear-gradient(to top, #000000, #ffffff);
+  background: linear-gradient(to top,#fff,#fff,#efefef,#d3d3d3);
 }
 .gradient-bt-bw {
-  background-image: linear-gradient(to bottom, #000000, #ffffff);
+  background: linear-gradient(to bottom,#fff,#fff,#efefef,#d3d3d3);
 }
 
 /* Photo Filters */
@@ -180,6 +180,7 @@
 .brighten-7, .c-brighten-7 > * {
   box-shadow: inset 0 9000px 0px rgba(255, 255, 255, 0.7);
 }
+
 
 /* Darken Colors*/
 

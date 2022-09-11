@@ -89,15 +89,20 @@
 }
 
 /* MISC */
-.text-nowrap {
-    white-space: nowrap;
+.text-nowrap { white-space: nowrap; }
+.italic { font-style: italic; }
+.underline { text-decoration: underline; }
+.strikethrough { text-decoration: line-through; }
+
+.word-spacing-1, .c-word-spacing-1 > * { word-spacing: 1vw; }
+.word-spacing-2, .c-word-spacing-2 > * { word-spacing: 2vw; }
+.word-spacing-3, .c-word-spacing-3 > * { word-spacing: 3vw; }
+.word-spacing-4, .c-word-spacing-4 > * { word-spacing: 4vw; }
+
+.break {
+    word-break: break-all;
+    width: .5ch;
 }
-.italic {
-    font-style: italic;
-}
-.underline {
-    text-decoration: underline;
-}
-.strikethrough {
-    text-decoration: line-through;
-}
+
+.text-v-rl, .c-text-v-rl > * { writing-mode: vertical-rl; }
+.text-v-lr, .c-text-v-lr > * { writing-mode: vertical-lr; }

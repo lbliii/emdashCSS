@@ -8,6 +8,7 @@ body, div, section, button, h1, h2, h3, h4, h5, h6  {
 
 a {
     text-decoration: none;
+    color: var(--is-link-color);
 }
 a:hover, button:hover, .label:hover {
     opacity: 0.7;
@@ -95,3 +96,18 @@ table > tbody > tr {
     display: flex;
     flex: 1;        
 }
+
+/* Nested Lists */
+
+:is(.directory, nav) ul > li {
+    list-style: none;
+}
+
+ul, ol {
+    padding-inline-start: 1vw;
+}
+
+ol > li {
+    list-style: decimal inside;
+}
+

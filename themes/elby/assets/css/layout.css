@@ -1,49 +1,100 @@
 /* Flexbox Layout System */
 
+/* Layer things horizontally */
+
+:is(.layer, .layer-reverse, .layer-right, .layer-reverse-right, .layer-center, .layer-reverse-center) {
+    display: flex;
+    flex-flow: row nowrap;
+    overflow-x: scroll;
+}
+
+.layer::-webkit-scrollbar {
+    display: none;
+}
+
+.layer, .layer-reverse {
+
+    justify-content: flex-start;
+}
+
+.layer-right, .layer-reverse-right {
+    justify-content: flex-end;
+}
+
+.layer-center, .layer-reverse-center {
+    justify-content: center;
+}
+
+:is(.layer, .layer-right, .layer-center) > div:first-child {
+    margin-left: inherit;
+}
+
+.layer-reverse-right  > div:last-child {
+    margin-right: inherit;
+}
+
+:is(.layer, .layer-right, .layer-center) > div:not(first-child) {
+    margin-left: calc(-20vh);
+    transform: rotate(1deg)
+}
+
+
+:is(.layer, .layer-right, .layer-center) > div:hover {
+    transform: rotate(0deg);
+    z-index: 999;
+}
+
+:is( .layer-reverse-center) > div:first-child {
+    margin-right: inherit;
+}
+
+:is(.layer-reverse, .layer-reverse-right, .layer-reverse-center) > div:not(first-child) {
+    margin-right: calc(-20vh);
+    transform: rotate(-1deg)
+}
+
+:is(.layer-reverse, .layer-reverse-right, .layer-reverse-center) > div:hover {
+    transform: rotate(0deg);
+    z-index: 999;
+}
+
+
 /* Spread things horizontally */
 
-.spread, .c-spread > * {
+:is(.spread, .spread-left, .spread-right, .spread-around, .spread-center, .spread-stretch, .spread-between, .c-spread > *) {
     display: flex;
     flex-flow: row wrap;
+}
+
+:is(.spread, .spread-left, .spread-right, .spread-around, .spread-center, .spread-stretch, .spread-between) > * {
+    flex: 1;
+}
+
+.spread, .c-spread > * {
     justify-content: space-between;
 }
 
 .spread-left {
-    display: flex;
-    flex-flow: row wrap;
     justify-content: flex-start;
 }
 
 .spread-right {
-    display: flex;
-    flex-flow: row wrap;
     justify-content: flex-end;
 }
 
 .spread-center {
-    display: flex;
-    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
 }
 
 .spread-around {
-    display: flex;
-    flex-flow: row wrap;
     justify-content: space-around;
 }
 
 .spread-between {
-    display: flex;
-    flex-flow: row wrap;
     justify-content: space-between;
 }
 
-.spread  > * , .spread-left  > * , .spread-right  > * , .spread-around  > * , .spread-center  > * , .spread-stretch > * {
-    flex: 1;
-}
-
- 
 /*  Spread  Item Sizes */
 
 .is-full, .c-full  > * {
@@ -53,78 +104,78 @@
 .is-half, .c-half  > * {
     flex-basis: 50%;
     flex-grow: 0;
+    flex-shrink: 0;
 }
 
 .is-one-third, .c-one-third  > * {
     flex-basis: 33.33333%;
     flex-grow: 0;
+    flex-shrink: 0;
 }
 
 .is-two-thirds, .c-two-thirds  > * {
     flex-basis: 66.66667%;
     flex-grow: 0;
+    flex-shrink: 0;
 }
 
 .is-one-fourth, .c-one-fourth  > * {
     flex-basis: 25%;
     flex-grow: 0;
+    flex-shrink: 0;
 }
 
 .is-three-fourths, .c-three-fourths  > * {
     flex-basis: 75%;
     flex-grow: 0;
+    flex-shrink: 0;
 }
 
 .is-one-fifth, .c-one-fifth  > * {
     flex-basis: 20%;
     flex-grow: 0;
+    flex-shrink: 0;
 }
 
 .is-two-fifths, .c-two-fifths  > * {
     flex-basis: 40%;
     flex-grow: 0;
+    flex-shrink: 0;
 }
 
 .is-three-fifths, .c-three-fifths  > * {
     flex-basis: 60%;
     flex-grow: 0;
+    flex-shrink: 0;
 }
 
 .is-four-fifths, .c-four-fifths  > * {
     flex-basis: 80%;
     flex-grow: 0;
+    flex-shrink: 0;
 }
 
 
 /* Stack things vertically */
 
-.stack, .c-stack > * {
+:is(.stack, .stack-left, .stack-center, .stack-right, .c-stack > *) {
     display:flex;
     flex-direction: column;
-    margin:0;
-    padding:0;
-    
 }
 
 .stack-left {
-    display:flex;
-    flex-direction: column;
     align-items: baseline;
 }
 
 .stack-center {
-    display:flex;
-    flex-direction: column;
     align-items: center;
 }
 
 .stack-right {
-    display:flex;
-    flex-direction: column;
     align-items: flex-end;
     
 }
 
-.stack > *, .stack-top > *, .stack-center > *, .stack-bottom > *, .stack-stretch > * {
-    flex: 1;
+:is(.stack, .stack-left, .stack-right, .stack-center ) > * {
+    flex: 0;
 }
