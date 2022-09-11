@@ -1,5 +1,5 @@
 {{ define "main"}}
+    {{partial "breadcrumbs/full-breadcrumbs.html" .}}
     {{ .Content}}
-
     {{ partial "spreads/next-prev.html" . }}
 {{end}}
