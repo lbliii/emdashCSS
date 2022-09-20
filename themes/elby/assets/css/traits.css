@@ -103,6 +103,15 @@
 .pinned-bottom {
     align-self: flex-end;
 }
+
+.pinned-end {
+  float: right;
+}
+
+.pinned-start {
+  float: left;
+}
+
 .stretched {
   display: flex;
   align-self: stretch;
@@ -381,4 +390,17 @@
 
 .fill-h {
     height: max-content;
+}
+
+/* horizontal scroll */
+
+.h-scroll {
+  height: 600px;
+  overflow-y: scroll;
+}
+
+/* absolute */
+
+.absolute {
+  position: absolute;
 }

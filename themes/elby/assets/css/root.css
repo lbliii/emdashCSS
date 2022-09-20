@@ -10,6 +10,7 @@
     --xlarge-text: calc(16px + 3vw);
     --xxlarge-text: calc(16px + 4vw);
     --xxxlarge-text: calc(16px + 6vw);  
+    --code-text: var(--small-text);
 
     --spacing-1: 90;
     --spacing-2: 60;
@@ -23,6 +24,24 @@
     --is-text-color-inverted: #ffffff;
     --is-header-text-color: #000000;
     --is-header-text-color-inverted: #ffffff;
+    --is-code-color: var(--is-text-color-inverted);
+
+    --is-attention-color: var(--is-pink);
+    --is-attention-text: var(--is-text-color-inverted);
+    --is-info-color: var(--is-blue);
+    --is-info-text: var(--is-text-color-inverted);
+    --is-note-color: var(--is-yellow);
+    --is-note-text: var(--is-text-color-inverted);
+    --is-success-color: var(--is-green);
+    --is-success-text: var(--is-text-color-inverted);
+    --is-warning-color: var(--is-orange);
+    --is-warning-text: var(--is-text-color-inverted);
+    --is-tip-color: var(--is-purple);
+    --is-tip-text: var(--is-text-color-inverted);
+    --is-danger-color: var(--is-red);
+    --is-danger-text: var(--is-text-color-inverted);
+
+
     --is-shadow-color: var(--is-dark-gray);
     --is-highlight-color: var(--is-purple);
     --is-red: #ff0000;
@@ -60,6 +79,11 @@
 
     --layer-angle-1: 1deg;
     --layer-angle-2: -1deg;
+
+    --modal-top: 0;
+    --modal-bottom: 0;
+    --modal-left: 0;
+    --modal-right: 0;
 
     --ghoul-1: 10px;
     --ghoul-2: 20px;

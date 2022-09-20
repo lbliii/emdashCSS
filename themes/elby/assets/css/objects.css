@@ -2,6 +2,21 @@
 
 :is(.content) > :is(h1, h2, h3, h4, h5, h6) { margin-top: var(--xxxlarge-text); }
 
+.content {
+overflow-x: hidden;
+}
+
+.content  img {
+max-width: 100%;
+}
+
+.content  pre { 
+max-width: 100%;
+white-space: pre-wrap;
+padding: 1ch;
+overflow-x: scroll;
+}
+
 /* breadcrumb */
 
 .breadcrumbs {
@@ -44,6 +59,20 @@ button, .button {
     align-items: center; 
     background-color: inherit;
     color: inherit;
+}
+
+/* Modals */
+
+.modal { 
+  position: fixed; 
+  z-index: 1; 
+  top: var(--modal-top);
+  bottom: var(--modal-bottom);
+  right: var(--modal-right);
+  left: var(--modal-left);
+  width: 100%; 
+  height: 100%; 
+  overflow-y: scroll; 
 }
 
 /* Images */
@@ -92,4 +121,67 @@ button, .button {
     float: left;
     margin-left: -1ch;
 
+}
+
+/* Notice Utilities */
+
+
+.attention {
+    background-color: var(--is-attention-color);
+    color: var(--is-attention-text);
+}
+
+.danger {
+  background-color: var(--is-danger-color);
+  color: var(--is-danger-text);
+}
+
+.info {
+  background-color: var(--is-info-color);
+  color: var(--is-info-text);
+}
+
+.note {
+  background-color: var(--is-note-color);
+  color: var(--is-note-text);
+}
+
+.success {
+  background-color: var(--is-success-color);
+  color: var(--is-success-text);
+}
+
+.tip {
+  background-color: var(--is-tip-color);
+  color: var(--is-tip-text);
+}
+
+.warning { 
+  background-color: var(--is-warning-color);
+  color: var(--is-warning-text);
+}
+
+/* Dropdowns */
+
+.dropdown {
+  display: inline-flex;
+  position: relative;
+  vertical-align: top;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Tables */
+
+.tableWrapper {
+  overflow-x: auto;
+  max-width: 100%;
 }

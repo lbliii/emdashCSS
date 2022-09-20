@@ -19,13 +19,13 @@ b {
 
 /* Code */ 
 
-code, pre > * { white-space: pre-wrap;
-}
 
-pre, pre > code {
-    padding: .7em;
-    margin: .7em;
-    letter-spacing: -.07rem;
+code {
+  color: var(--is-code-color);
+  white-space: pre;
+  padding: 2px;
+  margin: 2px;
+  font-weight:  var(--code-text);
 }
 
 
@@ -87,4 +87,4 @@ table > tbody > tr {
 
 ul, ol { padding-inline-start: 1vw; }
 
-ol > li { list-style: decimal inside; }
+:is(ol,ul) > li { margin-left: 1vw; } /* Flexbox Layout System */
