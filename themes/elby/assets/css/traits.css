@@ -70,10 +70,31 @@
   }
 }
 
+.wiggle {
+  animation: wiggle 2s ease-in-out infinite;
+}
 
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(.5deg);
+  }
+  40% {
+    transform: rotate(-.5deg);
+  }
+  60% {
+    transform: rotate(.5deg);
+  }
+  80% {
+    transform: rotate(-.5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
  
-
-
 /* Stick to Top  */
 .sticky {
   position: sticky;
@@ -172,6 +193,16 @@
     border: 1px solid #fff;
 }
 
+/* Scroll */
+
+.h-scroll {
+  height: 600px;
+  overflow-y: scroll;
+}
+
+.noscrollbar::-webkit-scrollbar {
+  display: none;
+}
 
 /* Device Settings */
 

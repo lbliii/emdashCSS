@@ -1,16 +1,21 @@
 /* EmdashCSS by @lbliii - https://emdash.dev; https://github.com/lbliii/emdashCSS */
 :root {
     --is-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    --is-header-line-height: 80%;
-    --xxsmall-text: calc(8px); 
-    --xsmall-text: calc(12px);
-    --small-text: calc(16px + 0vw);
-    --medium-text: calc(16px + 1vw);
-    --large-text: calc(16px + 2vw);
-    --xlarge-text: calc(16px + 3vw);
-    --xxlarge-text: calc(16px + 4vw);
-    --xxxlarge-text: calc(16px + 6vw);  
-    --code-text: var(--small-text);
+    --custom-font-1: "none";
+    --custom-font-2: "none";
+    
+    --is-header-line-height: 100%;
+    --is-line-height: 1.56vmin;
+
+
+    --xxsmall-text: calc((1rem) + (.1vmax));   
+    --xsmall-text: calc((1rem) + (.2vmax));  
+    --small-text: calc((1rem) + (.3vmax));  
+    --medium-text: calc((1rem) + (1vmax));
+    --large-text: calc((1rem) + (2vmax));
+    --xlarge-text: calc((1rem) + (3vmax));
+    --xxlarge-text: calc((1rem) + (4vmax));
+    --xxxlarge-text: calc((1rem) + (5vmax));
 
     --spacing-1: 90;
     --spacing-2: 60;
@@ -24,7 +29,8 @@
     --is-text-color-inverted: #ffffff;
     --is-header-text-color: #000000;
     --is-header-text-color-inverted: #ffffff;
-    --is-code-color: var(--is-text-color-inverted);
+
+    --is-code-color: inherit;
 
     --is-attention-color: var(--is-pink);
     --is-attention-text: var(--is-text-color-inverted);

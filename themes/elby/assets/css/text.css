@@ -88,6 +88,17 @@
     text-align: justify;
 }
 
+/* Custom Fonts */
+
+.custom-font-1 {
+ font-family: var(--custom-font-1);   
+}
+.custom-font-2 {
+ font-family: var(--custom-font-2);   
+}
+
+
+
 /* MISC */
 .text-nowrap { white-space: nowrap; }
 .italic { font-style: italic; }
