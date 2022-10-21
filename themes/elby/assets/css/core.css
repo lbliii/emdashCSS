@@ -11,10 +11,10 @@ html, body {
         -webkit-text-size-adjust: 100%;
 }
 
-body, div, section, button, h1, h2, h3, h4, h5, h6  {
+body, div, section, aside, article, link, button, h1, h2, h3, h4, h5, h6  {
     margin: 0;
     padding: 0;
-    max-width: 100%;
+    min-width: 0;
 }
 
 a {
@@ -47,7 +47,7 @@ code {
 }
 
 pre {
-
+width: 100%;
  white-space: pre-wrap;
  overflow-x: scroll;
  overflow-y: hidden;
