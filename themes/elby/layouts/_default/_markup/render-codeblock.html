@@ -1,0 +1,12 @@
+
+{{if eq .Type "mermaid"}}
+<div class="stack brighten-3 my-1 rounded-1">
+    {{- transform.Highlight .Inner .Type -}}
+</div>
+{{else}}
+
+<div class="stack my-2 black rounded-1 outlined">
+    {{/*  transform.Highlight wraps code in a div with a highlight class for you. See: https://gohugo.io/functions/highlight/  */}}
+    {{- transform.Highlight .Inner .Type -}}
+</div>
+{{end}}

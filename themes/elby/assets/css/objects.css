@@ -118,9 +118,13 @@ button, .button {
     color: var(--is-purple) !important;
     font-size: .5em;
     font-weight: 900;
-    float: left;
     margin-left: -1ch;
+    visibility: hidden;
 
+}
+
+h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5:hover .anchor, h6:hover .anchor {
+  visibility: visible;
 }
 
 /* Notice Utilities */

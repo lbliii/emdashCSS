@@ -5,12 +5,15 @@
         {{ partial "header.html" . }}
         {{ partial "navs/left-clear.html" . }}
         {{ block "before" . }}{{ end }}
-        <section class="spread">
+        <section class="spread-around c-pinned-stretch">
             {{if .IsHome}}
             {{else}}
+          <div class="is-one-fifth"> 
             {{ partial "directories/directory-left.html" . }}
+          </div>
+
             {{end}}
-            <div class="is-four-fifths">
+            <div class="is-four-fifths is-fullsize-mobile">
                 {{ block "main" . }}{{ end }}
             </div>
         </section>
