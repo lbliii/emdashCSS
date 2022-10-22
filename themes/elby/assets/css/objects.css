@@ -191,3 +191,14 @@ h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5:hover .anchor, h6:hover
   overflow-x: auto;
   max-width: 100%;
 }
+
+/* Search Inputs */
+
+.is-search-input-1 {
+    border: none;
+    background: transparent;
+}
+
+.is-search-input-1:focus {
+    outline: 0;
+}
