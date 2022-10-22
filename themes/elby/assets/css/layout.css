@@ -65,6 +65,7 @@
     flex-flow: row wrap;
     scroll-snap-type: y mandatory;
     min-width: 0;
+    max-width: 100%;
 }
 
 :is(.spread, .spread-left, .spread-right, .spread-around, .spread-center, .spread-stretch, .spread-between) > * { flex: 1; }
@@ -141,6 +142,7 @@
     flex-direction: column;
     scroll-snap-type: y mandatory;
     min-width: 0;
+    max-width: 100%;
 }
 
 .stack-left { align-items: baseline; }

@@ -18,7 +18,7 @@
     {{ $text := resources.Get "css/text.css"  }}
     {{ $color := resources.Get "css/color.css"  }}
 
-    {{ $css := slice $root $core $layout $objects $traits $spacing $text $color | resources.Concat "css/emdash-v0.1.2.css"}}
+    {{ $css := slice $root $core $layout $objects $traits $spacing $text $color | resources.Concat "css/emdash-v0.1.3.css"}}
     {{$cssPublic := $css}}
     {{ $cssMin := $css | resources.Minify }}
     {{ $secureCSS := $cssMin | resources.Fingerprint "sha512"}}

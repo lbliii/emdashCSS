@@ -8,8 +8,8 @@
     --is-line-height: 1.56vmin;
 
 
-    --xxsmall-text: calc((1rem) + (.1vmax));   
-    --xsmall-text: calc((1rem) + (.2vmax));  
+    --xxsmall-text: calc((.5rem) + (.3vmax));   
+    --xsmall-text: calc((.75rem) + (.3vmax));  
     --small-text: calc((1rem) + (.3vmax));  
     --medium-text: calc((1rem) + (1vmax));
     --large-text: calc((1rem) + (2vmax));
