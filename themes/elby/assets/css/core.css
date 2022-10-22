@@ -11,7 +11,7 @@ html, body {
         -webkit-text-size-adjust: 100%;
 }
 
-a, aside, article, body, button, code, div, h1, h2, h3, h4, h5, h6,img, li, ol, p, pre, section, table, ul {
+a, aside, article, body, button, code, div, h1, h2, h3, h4, h5, h6, img, pre, section, table {
     margin: 0;
     padding: 0;
     min-width: 0;
@@ -72,7 +72,7 @@ hr {
     margin-bottom: var(--large-text);
 }
 
-p { font-size:  var(--small-text); }
+p { font-size:  var(--small-text); line-height: var(--is-text-line-height); }
 
 ::selection {
     background: var(--is-highlight-color);

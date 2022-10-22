@@ -4,8 +4,8 @@
     --custom-font-1: "none";
     --custom-font-2: "none";
     
-    --is-header-line-height: 100%;
-    --is-line-height: 1.56vw;
+    --is-header-line-height: 110%;
+    --is-text-ine-height: 150%;
 
 
     --xxsmall-text: calc((.5rem) + (.2vw));   
