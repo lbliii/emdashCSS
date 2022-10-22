@@ -2,7 +2,6 @@
 
 :is(.content) > :is(h1, h2, h3, h4, h5, h6) { margin-top: var(--xxxlarge-text); }
 
-
 /* breadcrumb */
 
 .breadcrumbs {
@@ -105,7 +104,6 @@ button, .button {
     font-weight: 900;
     margin-left: -1ch;
     visibility: hidden;
-
 }
 
 h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5:hover .anchor, h6:hover .anchor {
@@ -113,7 +111,6 @@ h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5:hover .anchor, h6:hover
 }
 
 /* Notice Utilities */
-
 
 .attention {
     background-color: var(--is-attention-color);
@@ -165,6 +162,26 @@ h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5:hover .anchor, h6:hover
 }
 
 .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-alt {
+  position: relative;
+  display: inline-block;
+  display: inline-flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+.dropdown-options {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  white-space: nowrap;
+  top: -1px;
+}
+
+.dropdown-alt:hover .dropdown-options, .dropdown-alt:focus .dropdown-options, .dropdown-alt:active .dropdown-options, .dropdown-alt:target .dropdown-options {
   display: block;
 }
 

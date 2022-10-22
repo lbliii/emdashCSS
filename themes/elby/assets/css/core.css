@@ -11,12 +11,11 @@ html, body {
         -webkit-text-size-adjust: 100%;
 }
 
-body, div, section, aside, article, link, button, table, p, ol, li, ul, h1, h2, h3, h4, h5, h6  {
+a, aside, article, body, button, code, div, h1, h2, h3, h4, h5, h6, li, ol, p, pre, section, table, ul {
     margin: 0;
     padding: 0;
     min-width: 0;
     max-width: 100%;
-
 }
 
 a {
@@ -36,7 +35,6 @@ b {
 }
 
 /* Code */ 
-
 
 code {
   color: var(--is-code-color);

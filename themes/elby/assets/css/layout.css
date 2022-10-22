@@ -122,7 +122,6 @@
 .is-two-fifths, .c-two-fifths  > * {
     flex-basis: 40%;
     flex-grow: 0;
-
 }
 
 .is-three-fifths, .c-three-fifths  > * {
