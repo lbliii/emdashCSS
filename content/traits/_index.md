@@ -100,7 +100,11 @@ title: Traits
 
 |Options|Description|
 |-|-|
-|`sticky`|` position: sticky; top:0;`|
+|`sticky-0`|` position: sticky; top:0;`|
+|`sticky-1`|` position: sticky; top:1vh;`|
+|`sticky-2`|` position: sticky; top:2vh;`|
+|`sticky-3`|` position: sticky; top:3vh;`|
+|`sticky-4`|` position: sticky; top:4vh;`|
 
 
 ### Level
