@@ -180,10 +180,10 @@ You can use a generic stack and apply **fits**.
 ```html
 <section class="spread purple">
         <div class="stack c-p-1 c-m-2 ">
-            <a href="" class="button white s text-center">  Link 1 </a>
-            <a href="" class="button white s is-fit-y">  Link 2 </a>
-            <a href="" class="button white s is-fit-x">  Link 3 </a>
-            <a href="" class="button white s is-fit">  Link 4 </a>
+            <a href="" class="button white text-s text-center">  Link 1 </a>
+            <a href="" class="button white text-s is-fit-y">  Link 2 </a>
+            <a href="" class="button white text-s is-fit-x">  Link 3 </a>
+            <a href="" class="button white text-s is-fit">  Link 4 </a>
         </div>
  
     <div class="is-four-fifths white c-sp-1 text-center">

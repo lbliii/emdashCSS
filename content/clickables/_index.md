@@ -8,9 +8,9 @@ Clickables with Emdash are largely interchangeable with only minor differences, 
 
 ```html
 <nav id="breadcrumbs" class="breadcrumbs mb-6" aria-label="breadcrumbs">
-  <div class="breadcrumb"> <a href="//localhost:1313/" class="purple xs uppercase">Emdash CSS</a> </div>
-  <div class="breadcrumb"> <a href="//localhost:1313/layouts/" class="purple xs uppercase">Layouts</a> </div>
-  <div class="breadcrumb"> <a href="//localhost:1313/layouts/spreads/" class="purple xs uppercase">Spreads</a> </div>
+  <div class="breadcrumb"> <a href="//localhost:1313/" class="purple text-xs uppercase">Emdash CSS</a> </div>
+  <div class="breadcrumb"> <a href="//localhost:1313/layouts/" class="purple text-xs uppercase">Layouts</a> </div>
+  <div class="breadcrumb"> <a href="//localhost:1313/layouts/spreads/" class="purple text-xs uppercase">Spreads</a> </div>
 </nav>
 ```
 
@@ -23,20 +23,20 @@ A `button` can be used in a Spread or a Stack. They automatically align text to 
 ```html
 <section class="spread"> 
     <div class="spread-center c-sp-1 c-rounded-4">
-        <button class=" black xs"> Get Started</button>
-        <button class=" white xs"> Get Started</button>
-        <button class=" red xs"> Get Started</button>
-        <button class=" blue xs"> Get Started</button>
-        <button class=" green xs"> Get Started</button>
-        <button class=" yellow xs"> Get Started</button>
+        <button class=" black text-xs"> Get Started</button>
+        <button class=" white text-xs"> Get Started</button>
+        <button class=" red text-xs"> Get Started</button>
+        <button class=" blue text-xs"> Get Started</button>
+        <button class=" green text-xs"> Get Started</button>
+        <button class=" yellow text-xs"> Get Started</button>
     </div>
     <div class="stack-center c-sp-1 c-rounded-4">
-        <button class=" black xs"> Get Started</button>
-        <button class=" white xs"> Get Started</button>
-        <button class=" red xs"> Get Started</button>
-        <button class=" blue xs"> Get Started</button>
-        <button class=" green xs"> Get Started</button>
-        <button class=" yellow xs"> Get Started</button>
+        <button class=" black text-xs"> Get Started</button>
+        <button class=" white text-xs"> Get Started</button>
+        <button class=" red text-xs"> Get Started</button>
+        <button class=" blue text-xs"> Get Started</button>
+        <button class=" green text-xs"> Get Started</button>
+        <button class=" yellow text-xs"> Get Started</button>
     </div>
 </section>
 ```
@@ -52,20 +52,20 @@ A `label` can be used in a Spread or a Stack. They automatically align text to t
 ```html
 <section class="spread c-pinned-top"> 
     <div class="spread-left c-sp-1">
-        <div class="label black xs"> Dog</div>
-        <div class="label white xs"> Cat</div>
-        <div class="label red xs"> Pamplemousse</div>
-        <div class="label blue xs"> Pokemon</div>
-        <div class="label green xs"> Wildlding</div>
-        <div class="label yellow xs"> Unknown</div>
+        <div class="label black text-xs"> Dog</div>
+        <div class="label white text-xs"> Cat</div>
+        <div class="label red text-xs"> Pamplemousse</div>
+        <div class="label blue text-xs"> Pokemon</div>
+        <div class="label green text-xs"> Wildlding</div>
+        <div class="label yellow text-xs"> Unknown</div>
     </div>
     <div class="stack-center c-sp-1">
-        <div class="label black xs"> Dog</div>
-        <div class="label white xs"> Cat</div>
-        <div class="label red xs"> Pamplemousse</div>
-        <div class="label blue xs"> Pokemon</div>
-        <div class="label green xs"> Wildling</div>
-        <div class="label yellow xs"> Unknown</div>
+        <div class="label black text-xs"> Dog</div>
+        <div class="label white text-xs"> Cat</div>
+        <div class="label red text-xs"> Pamplemousse</div>
+        <div class="label blue text-xs"> Pokemon</div>
+        <div class="label green text-xs"> Wildling</div>
+        <div class="label yellow text-xs"> Unknown</div>
     </div>
 </section> 
 ```
@@ -77,15 +77,15 @@ Links can either use their default styling or have their styling overriden by `c
 ```html
 <section class="spread c-pinned-top"> 
     <div class="spread-left c-sp-1">
-        <a class="xs" href="google.com"> default link</a>
+        <a class="text-xs" href="google.com"> default link</a>
         <a class="black xs" href="google.com"> colored link</a>
-        <a class="white xs text-right" href="google.com"> link right </a>
-        <a class="red xs text-center" href="google.com"> link center </a>
+        <a class="white text-xs text-right" href="google.com"> link right </a>
+        <a class="red text-xs text-center" href="google.com"> link center </a>
     </div>
     <div class="stack c-sp-1">
        <a class="black xs" href="google.com"> link</a>
-        <a class="white xs text-right" href="google.com"> link</a>
-        <a class="red xs text-center" href="google.com"> link</a>
+        <a class="white text-xs text-right" href="google.com"> link</a>
+        <a class="red text-xs text-center" href="google.com"> link</a>
     </div>
 </section>
 ```

@@ -5,9 +5,9 @@
 
                 <h2>{{.Title}}</h2>
                 {{if .Params.beta}}
-                    <div class="label xxs purple uppercase ">Experimental</div>
+                    <div class="label text-xxs purple uppercase ">Experimental</div>
                     {{else}}
-                    <div class="label xxs is-invisible uppercase">Placeholder</div>
+                    <div class="label text-xxs is-invisible uppercase">Placeholder</div>
                 {{end}}
                 <p class="text-justify"> {{if .Description}} {{.Description}} {{else}}{{.Summary | truncate 200}} {{end}}</p>
 

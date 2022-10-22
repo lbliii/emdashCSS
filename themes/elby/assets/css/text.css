@@ -1,26 +1,26 @@
 /* Text Size */
-.xxs  {
+.text-xxs  {
     font-size: var(--xxsmall-text);
 }
-.xs {
+.text-xs {
     font-size: var(--xsmall-text);
 }
-.s {
+.text-s {
     font-size: var(--small-text);
 }
-.m {
+.text-m {
     font-size: var(--medium-text);
 }
-.l {
+.text-l {
     font-size: var(--large-text);
 }
-.xl {
+. text-xxl {
     font-size: var(--xlarge-text);
 }
-.xxl {
+.text-xxl {
     font-size: var(--xxlarge-text);
 }
-.xxxl {
+.text-xxxl {
     font-size: var(--xxxlarge-text);
 }
 

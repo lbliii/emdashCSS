@@ -37,22 +37,12 @@ b {
 /* Code */ 
 
 code {
-  color: var(--is-code-color);
-  white-space: pre;
-  padding: 2px;
-  margin: 2px;
-  font-weight:  var(--code-text);
-  overflow-y: hidden;
-  display: inline;
+  overflow-x: scroll;
 }
 
 pre {
-width: 100%;
- white-space: pre-wrap;
- overflow-x: scroll;
- overflow-y: hidden;
- margin: 0 auto;
- display: inline-block;
+  overflow-x: scroll;
+  padding: var(--small-text);
 }
 
 
@@ -82,8 +72,6 @@ p { font-size:  var(--small-text); line-height: var(--is-text-line-height); }
 /* Tables */
 
 table {
-    display: flex;
-    flex-direction: column;
     max-width: 100%;
     margin-top: 1em;
     margin-bottom: 2em;
@@ -92,21 +80,15 @@ table {
 
 table * { padding: 0px; }
 
-table > thead > tr {
-    display: flex;
-    flex-direction: row;
-    border-bottom: 1px dotted var(--is-gray);
-}
-
 table > thead > tr > th {
-    flex: 1;
     text-align: left;
+    padding-left: 1em;
+    border-bottom:  1px dotted var(--is-gray);
 }
-table > tbody * { width: 100%; }
 
-table > tbody > tr {
-    display: flex;
-    flex: 1;        
+table > tbody > tr > td {
+    padding-left: 1em;
+    padding-bottom: 1em;
 }
 
 /* Nested Lists */
@@ -114,5 +96,3 @@ table > tbody > tr {
 :is(.directory, nav) ul > li { list-style: none; }
 
 ul, ol { padding-inline-start: 1vw; }
-
-:is(ol,ul) > li { margin-left: 1vw; } /* Flexbox Layout System */
