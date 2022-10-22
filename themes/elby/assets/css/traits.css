@@ -198,6 +198,18 @@
 .rounded-7, .c-rounded-7 > * {
     border-radius: var(--rounded-7) !important;
 }
+.rounded-8, .c-rounded-8 > * {
+    border-radius: var(--rounded-8) !important;
+}
+.rounded-9, .c-rounded-9 > * {
+    border-radius: var(--rounded-9) !important;
+}
+.rounded-10, .c-rounded-10 > * {
+    border-radius: var(--rounded-10) !important;
+}
+.rounded-11, .c-rounded-11 > * {
+    border-radius: var(--rounded-11) !important;
+}
 
 
 /* Outline the Object */
