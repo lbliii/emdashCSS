@@ -400,3 +400,7 @@
 .is-hidden {
   display: none;
 }
+
+.listless {
+  list-style: none;
+}
