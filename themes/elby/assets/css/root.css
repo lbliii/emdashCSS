@@ -8,9 +8,9 @@
     --is-line-height: 1.56vw;
 
 
-    --xxsmall-text: calc((.5rem) + (.3vw));   
-    --xsmall-text: calc((.75rem) + (.3vw));  
-    --small-text: calc((1rem) + (.3vw));  
+    --xxsmall-text: calc((.5rem) + (.2vw));   
+    --xsmall-text: calc((.75rem) + (.2vw));  
+    --small-text: calc((1rem) + (.2vw));  
     --medium-text: calc((1rem) + (1vw));
     --large-text: calc((1rem) + (2vw));
     --xlarge-text: calc((1rem) + (3vw));
@@ -30,15 +30,15 @@
     --padding-11: 1.5;
 
     --margin-1: 100;
-    --margin-2: 90;
-    --margin-3: 80;
-    --margin-4: 70;
-    --margin-5: 60;
-    --margin-6: 50;
-    --margin-7: 40;
-    --margin-8: 30;
-    --margin-9: 20;
-    --margin-10: 10;
+    --margin-2: 70;
+    --margin-3: 50;
+    --margin-4: 30;
+    --margin-5: 20;
+    --margin-6: 10;
+    --margin-7: 5;
+    --margin-8: 4;
+    --margin-9: 3;
+    --margin-10: 2;
     --margin-11: 1.5;
 
     --is-text-color: #000000;
@@ -88,13 +88,17 @@
     --is-gradient-cold-pt-4: #8c00ff;
     --is-gradient-cold-pt-5: #f700ff;
 
-    --rounded-1: 5px;
-    --rounded-2: 10px; 
-    --rounded-3: 15px;
-    --rounded-4: 20px;
-    --rounded-5: 25px;
-    --rounded-6: 30px;
-    --rounded-7: 100%;
+    --rounded-1: calc(.1vw);
+    --rounded-2: calc(.2vw); 
+    --rounded-3: calc(.3vw);
+    --rounded-4: calc(.4vw);
+    --rounded-5: calc(.5vw);
+    --rounded-6: calc(.6vw);
+    --rounded-7: calc(.7vw);
+    --rounded-8: calc(.8vw);
+    --rounded-9: calc(.9vw);
+    --rounded-10: calc(1vw);
+    --rounded-11: calc(1.5vw);
 
     --pattern-1: url(/images/patty.svg) repeat;
     --pattern-2: url(/images/patty.svg2) repeat;

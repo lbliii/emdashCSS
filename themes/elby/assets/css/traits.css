@@ -204,115 +204,6 @@
   display: none;
 }
 
-/* Device Settings */
-
-/* Mobile */
-@media screen and (max-width: 768px) {
-    .is-hidden-mobile, .c-hidden-mobile > * {
-        display: none;
-    }
-    .is-invisible-mobile, .c-invisible-mobile > * {
-        visibility: hidden;
-    }
-    .is-fullsize-mobile, .c-fullsize-mobile > * {
-        flex-basis: 100%;
-        flex-grow: 1;
-    }
-}
-
-/* Tablet */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .is-hidden-tablet, .c-hidden-tablet > * {
-        display: none;
-    }
-    .is-invisible-tablet, .c-invisible-tablet > * {
-        visibility: hidden;
-    }
-    .is-fullsize-tablet, .c-fullsize-tablet > * {
-        flex-basis: 100%;
-        flex-grow: 1;
-    }
-}
-
-/* Touch */
-
-@media screen and (max-width: 1024px) {
-    .is-hidden-touch, .c-hidden-touch > * {
-        display: none;
-    }
-    .is-invisible-touch, .c-invisible-touch > * {
-        visibility: hidden;
-    }
-    .is-fullsize-touch, .c-fullsize-touch > * {
-        flex-basis: 100%;
-        flex-grow: 1;
-    }
-}
-
-/* Desktop */
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
-    .is-hidden-desktop, .c-hidden-desktop > * {
-        display: none;
-    }
-    .is-invisible-desktop, .c-invisible-desktop > * {
-        visibility: hidden;
-    }
-    .is-fullsize-desktop, .c-fullsize-desktop > * {
-        flex-basis: 100%;
-        flex-grow: 1;
-    }
-
-}
-
-/* Narrow */
-
-@media screen and (max-width: 1440px) {
-    .is-hidden-narrow, .c-hidden-narrow > * {
-        display: none;
-    }
-    .is-invisible-narrow, .c-invisible-narrow > * {
-        visibility: hidden;
-    }
-    .is-fullsize-narrow, .c-fullsize-narrow > * {
-        flex-basis: 100%;
-        flex-grow: 1;
-    }
-}
-
-/* Wide Screen */
-
-@media screen and (min-width: 1441px) {
-    .is-hidden-widescreen, .c-hidden-widescreen > * {
-        display: none;
-    }
-    .is-invisible-widescreen, .c-invisible-widescreen > * {
-        visibility: hidden;
-    }
-    .is-fullsize-widescreen, .c-fullsize-widescreen > * {
-        flex-basis: 100%;
-        flex-grow: 1;
-    }
-
-    .h-scroll {
-        height: max-content !important;
-    }
-
-    .one-sixth-widescreen {
-        flex-basis: 16.666666666666664%;
-        flex-grow: 0;
-    }
-    .one-half-widescreen {
-        flex-basis: 50%;
-        flex-grow: 0;
-    }
-
-    .two-thirds-widescreen {
-        flex-basis: 66.66666666666666%;
-        flex-grow: 0;
-    }
-}
- 
-
 /* Miscellaneous */
 .wrapless, .c-wrapless > * {
     white-space: nowrap;
@@ -477,3 +368,5 @@
 .absolute {
   position: absolute;
 }
+
+

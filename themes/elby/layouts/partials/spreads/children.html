@@ -1,16 +1,16 @@
 <div class="spread-left">
     {{range .Pages}}
-    <div class="@card is-half is-fullsize-mobile">
-            <a href="{{ .RelPermalink }}" class="sp-1 c-sp-1 text-center">
-            <section class="outlined-white">
+    <div class="stack is-half is-fullsize-mobile">
+            <a href="{{ .RelPermalink }}" class="outlined-white text-center m-1 p-1 c-mt-1">
+
                 <h2>{{.Title}}</h2>
                 {{if .Params.beta}}
-                    <div class="label xxs purple uppercase mt-3 p-1">Experimental</div>
+                    <div class="label xxs purple uppercase ">Experimental</div>
                     {{else}}
-                    <div class="label xxs is-invisible uppercase mt-3 p-1">Placeholder</div>
+                    <div class="label xxs is-invisible uppercase">Placeholder</div>
                 {{end}}
                 <p class="text-justify"> {{if .Description}} {{.Description}} {{else}}{{.Summary | truncate 200}} {{end}}</p>
-            </section>
+
         </a>
     </div>
     {{end}}

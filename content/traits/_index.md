@@ -135,18 +135,18 @@ title: Traits
 |Mobile  |Tablet|Touch|Desktop|
 |---|----|---|---|
 |(<768px)|(>768px <1024px)|(<1024px)|(>1024px)|
-|`is-fullsize-mobile`|`is-fullsize-tablet` |`is-fullsize-touch`|`is-fullsize-desktop`|
-|`is-hidden-mobile`|`is-hidden-tablet` |`is-hidden-touch`|`is-hidden-desktop`|
-|`is-invisible-mobile`|`is-invisible-tablet` |`is-invisible-touch`|`is-invisible-desktop`|
+|`is-fullsize-mobile`|`is-fullsize-tablet` |`is-fullsize-touch`|`is-fullsize-laptop`|
+|`is-hidden-mobile`|`is-hidden-tablet` |`is-hidden-touch`|`is-hidden-laptop`|
+|`is-invisible-mobile`|`is-invisible-tablet` |`is-invisible-touch`|`is-invisible-laptop`|
 
 #### Inner 
 
 |Mobile|Tablet|Touch|Desktop|
 |---|----|---|---|
 |(<768px)|(>768px <1024px)|(<1024px)|(>1024px)|
-|`c-fullsize-mobile`|`c-fullsize-tablet` |`c-fullsize-touch`|`c-fullsize-desktop`|
-|`c-hidden-mobile`|`c-hidden-tablet` |`c-hidden-touch`|`c-hidden-desktop`|
-|`c-invisible-mobile`|`c-invisible-tablet` |`c-invisible-touch`|`c-invisible-desktop`|
+|`c-fullsize-mobile`|`c-fullsize-tablet` |`c-fullsize-touch`|`c-fullsize-laptop`|
+|`c-hidden-mobile`|`c-hidden-tablet` |`c-hidden-touch`|`c-hidden-laptop`|
+|`c-invisible-mobile`|`c-invisible-tablet` |`c-invisible-touch`|`c-invisible-laptop`|
 
 
 

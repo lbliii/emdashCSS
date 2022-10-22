@@ -43,7 +43,7 @@ code {
   margin: 2px;
   font-weight:  var(--code-text);
   overflow-y: hidden;
-  display: inline-block;
+  display: inline;
 }
 
 pre {

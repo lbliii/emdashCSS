@@ -1,0 +1,140 @@
+/* Device Settings */
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .is-hidden-mobile, .c-hidden-mobile > * {
+        display: none;
+    }
+    .is-invisible-mobile, .c-invisible-mobile > * {
+        visibility: hidden;
+    }
+    .is-fullsize-mobile, .c-fullsize-mobile > * {
+        flex-basis: 100%;
+        flex-grow: 1;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .is-hidden-tablet, .c-hidden-tablet > * {
+        display: none;
+    }
+    .is-invisible-tablet, .c-invisible-tablet > * {
+        visibility: hidden;
+    }
+    .is-fullsize-tablet, .c-fullsize-tablet > * {
+        flex-basis: 100%;
+        flex-grow: 1;
+    }
+}
+
+/* Touch (Mobile, Tablet) */
+
+@media screen and (max-width: 1024px) {
+    .is-hidden-touch, .c-hidden-touch > * {
+        display: none;
+    }
+    .is-invisible-touch, .c-invisible-touch > * {
+        visibility: hidden;
+    }
+    .is-fullsize-touch, .c-fullsize-touch > * {
+        flex-basis: 100%;
+        flex-grow: 1;
+    }
+}
+
+/* Laptop */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .is-hidden-laptop, .c-hidden-laptop > * {
+        display: none;
+    }
+    .is-invisible-laptop, .c-invisible-laptop > * {
+        visibility: hidden;
+    }
+    .is-fullsize-laptop, .c-fullsize-laptop > * {
+        flex-basis: 100%;
+        flex-grow: 1;
+    }
+
+}
+
+/* Portable (Mobile, Tablet, Laptop) */
+
+@media screen and (max-width: 1440px) {
+    .is-hidden-portable, .c-hidden-portable > * {
+        display: none;
+    }
+    .is-invisible-portable, .c-invisible-portable > * {
+        visibility: hidden;
+    }
+    .is-fullsize-portable, .c-fullsize-portable > * {
+        flex-basis: 100%;
+        flex-grow: 1;
+    }
+}
+
+/* Desktop  */
+
+@media screen and (min-width: 1441px) {
+    .is-hidden-desktop, .c-hidden-desktop > * {
+        display: none;
+    }
+    .is-invisible-desktop, .c-invisible-desktop > * {
+        visibility: hidden;
+    }
+    .is-fullsize-desktop, .c-fullsize-desktop > * {
+        flex-basis: 100%;
+        flex-grow: 1;
+    }
+
+    .h-scroll {
+        height: max-content !important;
+    }
+
+    .one-sixth-desktop {
+        flex-basis: 16.666666666666664%;
+        flex-grow: 0;
+    }
+    .one-half-desktop {
+        flex-basis: 50%;
+        flex-grow: 0;
+    }
+
+    .two-thirds-desktop {
+        flex-basis: 66.66666666666666%;
+        flex-grow: 0;
+    }
+}
+
+/* Computers (Laptop, Desktop) */
+
+@media screen and (min-width: 1024px) {
+    .is-hidden-computer, .c-hidden-computer > * {
+        display: none;
+    }
+    .is-invisible-computer, .c-invisible-computer > * {
+        visibility: hidden;
+    }
+    .is-fullsize-computer, .c-fullsize-computer > * {
+        flex-basis: 100%;
+        flex-grow: 1;
+    }
+
+    .h-scroll {
+        height: max-content !important;
+    }
+
+    .one-sixth-computer {
+        flex-basis: 16.666666666666664%;
+        flex-grow: 0;
+    }
+    .one-half-computer {
+        flex-basis: 50%;
+        flex-grow: 0;
+    }
+
+    .two-thirds-computer {
+        flex-basis: 66.66666666666666%;
+        flex-grow: 0;
+    }
+}

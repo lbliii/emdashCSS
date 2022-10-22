@@ -1,14 +1,14 @@
-<nav  class="spread-left sticky level-top c-pinned-center c-sp-1 brighten-1">
-    <div class="is-one-fifth is-hidden-widescreen">
+<nav  class="spread-left sticky level-top c-pinned-center brighten-1">
+    <div class="is-one-fifth is-hidden-computer">
         <a href="/"><img src="/images/logo.svg" class="grayscale" style="height:40px"></a>
     </div>
-    <div class="is-one-fifth is-hidden-narrow">
-        <a href="/"><img src="/images/logo.svg" class="grayscale" style="height:100px"></a>
+    <div class="is-one-fifth is-hidden-touch">
+        <a href="/"><img src="/images/logo.svg" class="grayscale"></a>
     </div>
 
    
-    <section class="spread-left is-hidden-narrow">
-        <div class="buttons c-brighten-2 thin c-ml-1 c-p-1 c-rounded-1">
+    <section class="is-hidden-computer">
+        <div class="spread-left c-pinned-center c-brighten-2 c-ml-1 c-p-1 c-rounded-4 c-fit thin">
             {{range .Site.Sections}}
             <a class="button xxs" href="{{.Permalink}}">{{.Title}}</a>
             {{end}}
