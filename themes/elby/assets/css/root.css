@@ -17,17 +17,17 @@
     --xxlarge-text: calc((1rem) + (4vw));
     --xxxlarge-text: calc((1rem) + (5vw));
 
-    --padding-1: 100;
-    --padding-2: 90;
-    --padding-3: 80;
-    --padding-4: 70;
-    --padding-5: 60;
-    --padding-6: 50;
-    --padding-7: 40;
-    --padding-8: 30;
-    --padding-9: 20;
-    --padding-10: 10;
-    --padding-11: 1.5;
+    --padding-1: 300;
+    --padding-2: 250;
+    --padding-3: 200;
+    --padding-4: 150;
+    --padding-5: 100;
+    --padding-6: 90;
+    --padding-7: 80;
+    --padding-8: 70;
+    --padding-9: 60;
+    --padding-10: 50;
+    --padding-11: 40;
 
     --margin-1: 100;
     --margin-2: 70;
