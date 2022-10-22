@@ -5,25 +5,25 @@
     --custom-font-2: "none";
     
     --is-header-line-height: 100%;
-    --is-line-height: 1.56vmin;
+    --is-line-height: 1.56vw;
 
 
-    --xxsmall-text: calc((.5rem) + (.3vmax));   
-    --xsmall-text: calc((.75rem) + (.3vmax));  
-    --small-text: calc((1rem) + (.3vmax));  
-    --medium-text: calc((1rem) + (1vmax));
-    --large-text: calc((1rem) + (2vmax));
-    --xlarge-text: calc((1rem) + (3vmax));
-    --xxlarge-text: calc((1rem) + (4vmax));
-    --xxxlarge-text: calc((1rem) + (5vmax));
+    --xxsmall-text: calc((.5rem) + (.3vw));   
+    --xsmall-text: calc((.75rem) + (.3vw));  
+    --small-text: calc((1rem) + (.3vw));  
+    --medium-text: calc((1rem) + (1vw));
+    --large-text: calc((1rem) + (2vw));
+    --xlarge-text: calc((1rem) + (3vw));
+    --xxlarge-text: calc((1rem) + (4vw));
+    --xxxlarge-text: calc((1rem) + (5vw));
 
-    --spacing-1: 90;
-    --spacing-2: 60;
-    --spacing-3: 40;
-    --spacing-4: 20;
-    --spacing-5: 8;
-    --spacing-6: 4;
-    --spacing-7: 2;
+    --spacing-1: 300;
+    --spacing-2: 200;
+    --spacing-3: 150;
+    --spacing-4: 100;
+    --spacing-5: 50;
+    --spacing-6: 25;
+    --spacing-7: 10;
 
     --is-text-color: #000000;
     --is-text-color-inverted: #ffffff;
