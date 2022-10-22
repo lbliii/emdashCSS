@@ -1,24 +1,40 @@
-html, body { font-family: var(--is-font-family) }
+/* * {
+    outline: solid 1px red;
+} */
 
-body, div, section, button, h1, h2, h3, h4, h5, h6  {
+html, body { 
+    font-family: var(--is-font-family); 
+    font-size: var(--small-text);
+    text-size-adjust: 100%; 
+        -ms-text-size-adjust: 100%; 
+        -moz-text-size-adjust: 100%; 
+        -webkit-text-size-adjust: 100%;
+}
+
+a, aside, article, body, button, code, div, h1, h2, h3, h4, h5, h6, li, ol, p, pre, section, table, ul {
     margin: 0;
     padding: 0;
+    min-width: 0;
+    max-width: 100%;
 }
 
 a {
     text-decoration: none;
     color: var(--is-link-color);
+    display: inline-block;
 }
+
 a:hover, button:hover, .label:hover { opacity: 0.7; }
 
+ 
 b {
     background: linear-gradient(0.25turn, var(--is-gradient-cold-pt-1), var(--is-gradient-cold-pt-2),var(--is-gradient-cold-pt-3),var(--is-gradient-cold-pt-4),var(--is-gradient-cold-pt-5)); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    display: inline-block;
 }
 
 /* Code */ 
-
 
 code {
   color: var(--is-code-color);
@@ -26,6 +42,17 @@ code {
   padding: 2px;
   margin: 2px;
   font-weight:  var(--code-text);
+  overflow-y: hidden;
+  display: inline;
+}
+
+pre {
+width: 100%;
+ white-space: pre-wrap;
+ overflow-x: scroll;
+ overflow-y: hidden;
+ margin: 0 auto;
+ display: inline-block;
 }
 
 
@@ -57,9 +84,10 @@ p { font-size:  var(--small-text); }
 table {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    max-width: 100%;
     margin-top: 1em;
     margin-bottom: 2em;
+    overflow-x: scroll;
 }
 
 table * { padding: 0px; }

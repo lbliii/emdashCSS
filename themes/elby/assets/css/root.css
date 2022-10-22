@@ -1,30 +1,52 @@
 /* EmdashCSS by @lbliii - https://emdash.dev; https://github.com/lbliii/emdashCSS */
 :root {
     --is-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    --is-header-line-height: 80%;
-    --xxsmall-text: calc(8px); 
-    --xsmall-text: calc(12px);
-    --small-text: calc(16px + 0vw);
-    --medium-text: calc(16px + 1vw);
-    --large-text: calc(16px + 2vw);
-    --xlarge-text: calc(16px + 3vw);
-    --xxlarge-text: calc(16px + 4vw);
-    --xxxlarge-text: calc(16px + 6vw);  
-    --code-text: var(--small-text);
+    --custom-font-1: "none";
+    --custom-font-2: "none";
+    
+    --is-header-line-height: 100%;
+    --is-line-height: 1.56vw;
 
-    --spacing-1: 90;
-    --spacing-2: 60;
-    --spacing-3: 40;
-    --spacing-4: 20;
-    --spacing-5: 8;
-    --spacing-6: 4;
-    --spacing-7: 2;
+
+    --xxsmall-text: calc((.5rem) + (.2vw));   
+    --xsmall-text: calc((.75rem) + (.2vw));  
+    --small-text: calc((1rem) + (.2vw));  
+    --medium-text: calc((1rem) + (1vw));
+    --large-text: calc((1rem) + (2vw));
+    --xlarge-text: calc((1rem) + (3vw));
+    --xxlarge-text: calc((1rem) + (4vw));
+    --xxxlarge-text: calc((1rem) + (5vw));
+
+    --padding-1: 100;
+    --padding-2: 90;
+    --padding-3: 80;
+    --padding-4: 70;
+    --padding-5: 60;
+    --padding-6: 50;
+    --padding-7: 40;
+    --padding-8: 30;
+    --padding-9: 20;
+    --padding-10: 10;
+    --padding-11: 1.5;
+
+    --margin-1: 100;
+    --margin-2: 70;
+    --margin-3: 50;
+    --margin-4: 30;
+    --margin-5: 20;
+    --margin-6: 10;
+    --margin-7: 5;
+    --margin-8: 4;
+    --margin-9: 3;
+    --margin-10: 2;
+    --margin-11: 1.5;
 
     --is-text-color: #000000;
     --is-text-color-inverted: #ffffff;
     --is-header-text-color: #000000;
     --is-header-text-color-inverted: #ffffff;
-    --is-code-color: var(--is-text-color-inverted);
+
+    --is-code-color: inherit;
 
     --is-attention-color: var(--is-pink);
     --is-attention-text: var(--is-text-color-inverted);
@@ -66,13 +88,17 @@
     --is-gradient-cold-pt-4: #8c00ff;
     --is-gradient-cold-pt-5: #f700ff;
 
-    --rounded-1: 5px;
-    --rounded-2: 10px; 
-    --rounded-3: 15px;
-    --rounded-4: 20px;
-    --rounded-5: 25px;
-    --rounded-6: 30px;
-    --rounded-7: 100%;
+    --rounded-1: calc(.1vw);
+    --rounded-2: calc(.2vw); 
+    --rounded-3: calc(.3vw);
+    --rounded-4: calc(.4vw);
+    --rounded-5: calc(.5vw);
+    --rounded-6: calc(.6vw);
+    --rounded-7: calc(.7vw);
+    --rounded-8: calc(.8vw);
+    --rounded-9: calc(.9vw);
+    --rounded-10: calc(1vw);
+    --rounded-11: calc(1.5vw);
 
     --pattern-1: url(/images/patty.svg) repeat;
     --pattern-2: url(/images/patty.svg2) repeat;

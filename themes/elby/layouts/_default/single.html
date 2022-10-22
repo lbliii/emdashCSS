@@ -1,5 +1,7 @@
 {{ define "main"}}
-    {{partial "breadcrumbs/full-breadcrumbs.html" .}}
-    {{ .Content}}
-    {{ partial "spreads/next-prev.html" . }}
+    {{- partial "breadcrumbs/full-breadcrumbs.html" . -}}
+    <article class="c-m-1">
+        {{ .Content}}
+        {{ partial "spreads/next-prev.html" . }}
+    </article>
 {{end}}

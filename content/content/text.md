@@ -7,15 +7,22 @@ description: Explore text sizes, weights, alignments, and transformations.
 
 ```css
 :root {
-     --is-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    --is-header-line-height: 80%;
-    --xsmall-text: 0.6rem;
-    --small-text: 0.8rem;
-    --medium-text: 1rem;
-    --large-text: 1.2rem;
-    --xlarge-text: 1.5rem;
-    --xxlarge-text: 2rem;
-    --xxxlarge-text: 3rem;
+    --is-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --custom-font-1: "none";
+    --custom-font-2: "none";
+    
+    --is-header-line-height: 100%;
+    --is-line-height: 1.56vw;
+
+
+    --xxsmall-text: calc((.5rem) + (.3vw));   
+    --xsmall-text: calc((.75rem) + (.3vw));  
+    --small-text: calc((1rem) + (.3vw));  
+    --medium-text: calc((1rem) + (1vw));
+    --large-text: calc((1rem) + (2vw));
+    --xlarge-text: calc((1rem) + (3vw));
+    --xxlarge-text: calc((1rem) + (4vw));
+    --xxxlarge-text: calc((1rem) + (5vw));
 }
 ```
 

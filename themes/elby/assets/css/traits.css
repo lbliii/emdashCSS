@@ -70,14 +70,53 @@
   }
 }
 
+.wiggle {
+  animation: wiggle 2s ease-in-out infinite;
+}
 
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(.5deg);
+  }
+  40% {
+    transform: rotate(-.5deg);
+  }
+  60% {
+    transform: rotate(.5deg);
+  }
+  80% {
+    transform: rotate(-.5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
  
-
-
 /* Stick to Top  */
-.sticky {
+.sticky-0 {
   position: sticky;
-  top:0;
+  top: 0;
+}
+.sticky-1 {
+  position: sticky;
+  top: 1vh;
+}
+.sticky-2 {
+  position: sticky;
+  top: 2vh;
+}
+
+.sticky-3 {
+  position: sticky;
+  top: 3vh;
+}
+
+.sticky-4 {
+  position: sticky;
+  top: 4vh;
 }
 
 /* Fit */
@@ -172,65 +211,15 @@
     border: 1px solid #fff;
 }
 
+/* Scroll */
 
-/* Device Settings */
-
-/* Mobile */
-@media screen and (max-width: 768px) {
-    .is-hidden-mobile, .c-hidden-mobile > * {
-        display: none;
-    }
-    .is-invisible-mobile, .c-invisible-mobile > * {
-        visibility: hidden;
-    }
-    .is-fullsize-mobile, .c-fullsize-mobile > * {
-        flex-basis: 100%;
-        flex-grow: 1;
-    }
+.h-scroll {
+  height: 600px;
+  overflow-y: scroll;
 }
 
-/* Tablet */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .is-hidden-tablet, .c-hidden-tablet > * {
-        display: none;
-    }
-    .is-invisible-tablet, .c-invisible-tablet > * {
-        visibility: hidden;
-    }
-    .is-fullsize-tablet, .c-fullsize-tablet > * {
-        flex-basis: 100%;
-        flex-grow: 1;
-    }
-}
-
-/* Touch */
-
-@media screen and (max-width: 1024px) {
-    .is-hidden-touch, .c-hidden-touch > * {
-        display: none;
-    }
-    .is-invisible-touch, .c-invisible-touch > * {
-        visibility: hidden;
-    }
-    .is-fullsize-touch, .c-fullsize-touch > * {
-        flex-basis: 100%;
-        flex-grow: 1;
-    }
-}
-
-/* Desktop */
-@media screen and (min-width: 1024px) {
-    .is-hidden-desktop, .c-hidden-desktop > * {
-        display: none;
-    }
-    .is-invisible-desktop, .c-invisible-desktop > * {
-        visibility: hidden;
-    }
-    .is-fullsize-desktop, .c-fullsize-desktop > * {
-        flex-basis: 100%;
-        flex-grow: 1;
-    }
-
+.noscrollbar::-webkit-scrollbar {
+  display: none;
 }
 
 /* Miscellaneous */
@@ -392,15 +381,10 @@
     height: max-content;
 }
 
-/* horizontal scroll */
-
-.h-scroll {
-  height: 600px;
-  overflow-y: scroll;
-}
-
 /* absolute */
 
 .absolute {
   position: absolute;
 }
+
+

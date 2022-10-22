@@ -5,22 +5,18 @@
         {{ partial "header.html" . }}
         {{ partial "navs/left-clear.html" . }}
         {{ block "before" . }}{{ end }}
-        <section class="spread">
-            {{if .IsHome }}
+        <section class="spread-around c-pinned-stretch">
+            {{if .IsHome}}
             {{else}}
-                {{ partial "directories/directory-left.html" . }}
+          <div class="is-one-fifth"> 
+            {{ partial "directories/directory-left.html" . }}
+          </div>
+
             {{end}}
-            <div class="is-four-fifths is-fullsize-mobile">
-                <article class="content p-4 mt-5">
-                    {{if .IsHome }}
-                    {{else}}
-                    {{ block "main" . }}{{ end }}
-                    {{end}}
-                </article>
+            <div class="is-four-fifths is-fullsize-mobile c-mx-3">
+                {{ block "main" . }}{{ end }}
             </div>
         </section>
         {{ partial "footer.html" . }}
     </body>
 </html>
-
-
