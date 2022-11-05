@@ -180,3 +180,13 @@
   max-width: 1600px;
   margin: 0 auto;
 }
+
+/* Aspect Ratios */
+
+.ar-1 {
+    aspect-ratio: 1/5;
+}
+
+.ar-2 {
+    aspect-ratio: 1/2;
+}

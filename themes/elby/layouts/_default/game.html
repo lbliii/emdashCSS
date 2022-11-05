@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    {{ $game := resources.Get "css/game.css"  }}
+    <link rel="stylesheet" href="{{ $game.Permalink }}" media="screen" />
+</head>
+<body class="black">
+    <div class="modal mt-5 is-hidden" id="game-over"> 
+        <div class="stack-center red mx-5 rounded-11">
+            <h2>Game Over</h2>
+            <h3>Score: <span id="score"></span></h3>
+            <h3>Time: <span id="time"></span></h3>
+        </div>
+    </div>
+
+    <div id="grid" class="stack sp-3"></div>
+
+    {{ $game := resources.Get "js/game.js"  | resources.Minify }}
+    <script src="{{$game.Permalink}}"></script>
+
+</body>
+</html>

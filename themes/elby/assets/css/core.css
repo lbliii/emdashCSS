@@ -11,7 +11,7 @@ html, body {
         -webkit-text-size-adjust: 100%;
 }
 
-a, aside, article, body, button, code, div, h1, h2, h3, h4, h5, h6, img, pre, section, table {
+a, aside, article, body, button, code, div, h1, h2, h3, h4, h5, h6, img, p, pre, section, table {
     margin: 0;
     padding: 0;
     min-width: 0;
